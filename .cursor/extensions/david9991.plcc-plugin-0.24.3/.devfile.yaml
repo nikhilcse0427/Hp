@@ -1,0 +1,10 @@
+schemaVersion: 2.2.0
+components:
+  - name: tooling-container
+    attributes:
+      gl/inject-editor: true
+    container:
+      image: david9991/nix-workspace
+      endpoints:
+      - name: http-3000
+        targetPort: 3000

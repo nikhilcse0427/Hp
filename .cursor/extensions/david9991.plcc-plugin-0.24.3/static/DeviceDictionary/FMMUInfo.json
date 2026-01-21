@@ -1,0 +1,41 @@
+[
+    {
+        "type": "output",
+        "LogStartAddress": 16777216,
+        "length": 21,
+        "LogStartBit": 0,
+        "LogEndBit": 7,
+        "phyStartAddress": 6144,
+        "phyEndbit": 0,
+        "flags": "WR",
+        "enable": "true",
+        "SM": 0,
+        "SU": 0
+    },
+    {
+        "type": "input",
+        "LogStartAddress": 16777216,
+        "length": 25,
+        "LogStartBit": 0,
+        "LogEndBit": 7,
+        "phyStartAddress": 7168,
+        "phyEndbit": 0,
+        "flags": "RE",
+        "enable": "true",
+        "SM": 0,
+        "SU": 0
+    },
+    {
+        "type": "mailboxState",
+        "LogStartAddress": 150994944,
+        "length": 1,
+        "LogStartBit": 0,
+        "LogEndBit": 0,
+        "phyStartAddress": 2061,
+        "phyEndbit": 0,
+        "flags": "RE",
+        "enable": "true",
+        "SM": 0,
+        "SU": 0
+    }
+]

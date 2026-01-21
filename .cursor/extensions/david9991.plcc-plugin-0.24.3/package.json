@@ -1,0 +1,625 @@
+{
+	"name": "plcc-plugin",
+	"displayName": "Cloud-based IEC 61131-3 Development Environment",
+	"description": "Cloud-based IEC 61131-3 Development Environment.",
+	"version": "0.24.3",
+	"preview": true,
+	"publisher": "david9991",
+	"repository": "https://github.com/david9991/plcc-plugin",
+	"icon": "images/Logo.png",
+	"engines": {
+		"vscode": "^1.64.0"
+	},
+	"categories": [
+		"Programming Languages",
+		"Linters",
+		"Debuggers",
+		"Formatters"
+	],
+	"activationEvents": [
+		"onStartupFinished"
+	],
+	"main": "./out/main.js",
+	"contributes": {
+		"snippets": [
+			{
+				"when": "plcc:isIEC61131Proj",
+				"language": "json",
+				"path": "./snippets/project-snippets.json"
+			}
+		],
+		"configuration": [
+			{
+				"title": "PLCC",
+				"properties": {
+					"plcc.TestingMode": {
+						"scope": "resource",
+						"type": "boolean",
+						"default": false,
+						"description": "Testing Mode (Restart required)"
+					},
+					"plcc.CompilerVersion": {
+						"scope": "resource",
+						"type": "string",
+						"default": "Remote (Latest)",
+						"enum": [
+							"Remote (Latest)"
+						],
+						"enumDescriptions": [
+							"Latest remote compiler"
+						],
+						"description": "Compiler Version"
+					},
+					"plcc.HelperAddress": {
+						"scope": "resource",
+						"type": "string",
+						"default": "ws://127.0.0.1",
+						"description": "Helper address (Restart required)"
+					},
+					"plcc.PlccKey": {
+						"scope": "resource",
+						"type": "string",
+						"default": "",
+						"description": "Plcc Key (Restart required)"
+					},
+					"plcc.PinataApiKey": {
+						"scope": "resource",
+						"type": "string",
+						"default": "",
+						"description": "Pinata Api Key (Restart required)"
+					},
+					"plcc.PinataSecretApiKey": {
+						"scope": "resource",
+						"type": "string",
+						"default": "",
+						"description": "Pinata Secret Api Key (Restart required)"
+					},
+					"plcc.HelperDownloadAddress": {
+						"scope": "resource",
+						"type": "string",
+						"default": "http://le-124.t.pocograph.com",
+						"description": "Helper Download Address (Restart required)"
+					},
+					"plcc.RepositoryAddresses": {
+						"scope": "resource",
+						"type": "string",
+						"default": "http://le-140.t.pocograph.com,http://le-197.t.pocograph.com",
+						"description": "Repository Addresses (comma seperated) (Restart required)"
+					},
+					"plcc.CompilerAddress": {
+						"scope": "resource",
+						"type": "string",
+						"default": "le-132.g.pocograph.com:443",
+						"description": "Remote Compiler Address (Restart required)"
+					},
+					"plcc.Parachain": {
+						"scope": "resource",
+						"type": "string",
+						"default": "wss://plcc-parachain.g.pocograph.com",
+						"description": "PLCC Parachain RPC server (Restart required)"
+					}
+				}
+			}
+		],
+		"customEditors": [
+			{
+				"viewType": "LadderEditor",
+				"displayName": "LadderEditor",
+				"selector": [
+					{
+						"filenamePattern": "*.graph"
+					}
+				],
+				"priority": "default"
+			},
+			{
+				"viewType": "MonitorEditor",
+				"displayName": "MonitorEditor",
+				"selector": [
+					{
+						"filenamePattern": "*.monitor"
+					}
+				],
+				"priority": "default"
+			},
+			{
+				"viewType": "MappingEditor",
+				"displayName": "MappingEditor",
+				"selector": [
+					{
+						"filenamePattern": "vars.yaml"
+					}
+				],
+				"when": "plcc:isIEC61131Proj",
+				"priority": "default"
+			},
+			{
+				"viewType": "EtherCattopology",
+				"displayName": "EtherCattopology",
+				"selector": [
+					{
+						"filenamePattern": "*.eni"
+					}
+				],
+				"priority": "default"
+			},
+			{
+				"viewType": "EtherCatConfigEditor",
+				"displayName": "EtherCatConfigEditor",
+				"selector": [
+					{
+						"filenamePattern": "*.eccfg"
+					}
+				],
+				"priority": "default"
+			}
+		],
+		"languages": [
+			{
+				"id": "plcdia",
+				"extensions": [
+					".graph"
+				],
+				"aliases": [
+					"PLC Diagram"
+				]
+			},
+			{
+				"id": "st",
+				"extensions": [
+					".st"
+				],
+				"aliases": [
+					"Structured Text"
+				]
+			},
+			{
+				"id": "datamon",
+				"extensions": [
+					".monitor"
+				],
+				"aliases": [
+					"PLC Data Visualization"
+				]
+			}
+		],
+		"commands": [
+			{
+				"when": "plcc:isIEC61131Proj",
+				"command": "plcc.CompileProject",
+				"title": "PLCC: Compile Project",
+				"icon": {
+					"light": "images/build-light.svg",
+					"dark": "images/build-dark.svg"
+				}
+			},
+			{
+				"when": "plcc:isIEC61131Proj",
+				"command": "plcc.FlashBinary",
+				"title": "PLCC: PLC Programming",
+				"icon": {
+					"light": "images/down-light.svg",
+					"dark": "images/down-dark.svg"
+				}
+			},
+			{
+				"when": "plcc:isIEC61131Proj",
+				"command": "plcc.StartLoging",
+				"title": "PLCC: Start Logging",
+				"icon": {
+					"light": "images/log-start-light.svg",
+					"dark": "images/log-start-dark.svg"
+				}
+			},
+			{
+				"when": "plcc:isIEC61131Proj",
+				"command": "plcc.StopLoging",
+				"title": "PLCC: Stop Logging",
+				"icon": {
+					"light": "images/log-end-light.svg",
+					"dark": "images/log-end-dark.svg"
+				}
+			},
+			{
+				"when": "plcc:isIEC61131Proj",
+				"command": "plcc.Logout",
+				"title": "PLCC: Logout"
+			},
+			{
+				"when": "plcc:isIEC61131Proj",
+				"command": "plcc.OpenSimulator",
+				"title": "PLCC: Open Simulator",
+				"icon": {
+					"light": "images/play-light.svg",
+					"dark": "images/play-dark.svg"
+				}
+			},
+			{
+				"command": "plcc.NewAppProject",
+				"title": "PLCC: New App Project"
+			},
+			{
+				"command": "plcc.NewLibProject",
+				"title": "PLCC: New Lib Project"
+			},
+			{
+				"when": "plcc:isIEC61131Proj",
+				"command": "plcc.OpenFBList",
+				"title": "PLCC: Open FBList"
+			},
+			{
+				"when": "plcc:isIEC61131Proj",
+				"command": "plcc.blockinsertup",
+				"title": "PLCC: Block Insert Above"
+			},
+			{
+				"when": "plcc:isIEC61131Proj",
+				"command": "plcc.block",
+				"title": "PLCC: Insert Below"
+			},
+			{
+				"when": "plcc:isIEC61131Proj",
+				"command": "plcc.ld",
+				"title": "PLCC: LD"
+			},
+			{
+				"when": "plcc:isIEC61131Proj",
+				"command": "plcc.ldn",
+				"title": "PLCC: LDN"
+			},
+			{
+				"when": "plcc:isIEC61131Proj",
+				"command": "plcc.orbove",
+				"title": "PLCC: Orbove"
+			},
+			{
+				"when": "plcc:isIEC61131Proj",
+				"command": "plcc.or",
+				"title": "PLCC: OR"
+			},
+			{
+				"when": "plcc:isIEC61131Proj",
+				"command": "plcc.orn",
+				"title": "PLCC: ORN"
+			},
+			{
+				"when": "plcc:isIEC61131Proj",
+				"command": "plcc.ldr",
+				"title": "PLCC: LDR"
+			},
+			{
+				"when": "plcc:isIEC61131Proj",
+				"command": "plcc.coil",
+				"title": "PLCC: Coil"
+			},
+			{
+				"when": "plcc:isIEC61131Proj",
+				"command": "plcc.coilr",
+				"title": "PLCC: Coilr"
+			},
+			{
+				"when": "plcc:isIEC61131Proj",
+				"command": "plcc.coils",
+				"title": "PLCC: Coils"
+			},
+			{
+				"when": "plcc:isIEC61131Proj",
+				"command": "plcc.fb",
+				"title": "PLCC: FB"
+			},
+			{
+				"when": "plcc:isIEC61131Proj",
+				"command": "plcc.newbranch",
+				"title": "PLCC: New Branch"
+			},
+			{
+				"when": "plcc:isIEC61131Proj",
+				"command": "plcc.branchup",
+				"title": "PLCC: Branch Above"
+			},
+			{
+				"when": "plcc:isIEC61131Proj",
+				"command": "plcc.branchdown",
+				"title": "PLCC: Branch Below"
+			},
+			{
+				"when": "plcc:isIEC61131Proj",
+				"command": "plcc.canpenconfig",
+				"title": "PLCC: CanOpen Configuration"
+			},
+			{
+				"when": "plcc:isIEC61131Proj",
+				"command": "plcc.esc",
+				"title": "PLCC: Esc"
+			},
+			{
+				"when": "plcc:isIEC61131Proj",
+				"command": "plcc.etherCatConfig",
+				"title": "PLCC: EtherCat Configuration"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "plcc.blockinsertup",
+				"key": "ctrl+l ctrl+t",
+				"mac": "cmd+l cmd+t"
+			},
+			{
+				"command": "plcc.block",
+				"key": "ctrl+l ctrl+v",
+				"mac": "cmd+l cmd+v"
+			},
+			{
+				"command": "plcc.ld",
+				"key": "ctrl+l ctrl+/",
+				"mac": "cmd+l cmd+l"
+			},
+			{
+				"command": "plcc.ldn",
+				"key": "ctrl+l ctrl+n",
+				"mac": "cmd+l cmd+n"
+			},
+			{
+				"command": "plcc.orbove",
+				"key": "ctrl+l ctrl+e",
+				"mac": "cmd+l cmd+e"
+			},
+			{
+				"command": "plcc.or",
+				"key": "ctrl+l ctrl+w",
+				"mac": "cmd+l cmd+w"
+			},
+			{
+				"command": "plcc.orn",
+				"key": "ctrl+l ctrl+h",
+				"mac": "cmd+l cmd+h"
+			},
+			{
+				"command": "plcc.ldr",
+				"key": "ctrl+l ctrl+g",
+				"mac": "cmd+l cmd+g"
+			},
+			{
+				"command": "plcc.coil",
+				"key": "ctrl+l ctrl+o",
+				"mac": "cmd+l cmd+o"
+			},
+			{
+				"command": "plcc.coils",
+				"key": "ctrl+l ctrl+s",
+				"mac": "cmd+l cmd+s"
+			},
+			{
+				"command": "plcc.coilr",
+				"key": "ctrl+l ctrl+r",
+				"mac": "cmd+l cmd+r"
+			},
+			{
+				"command": "plcc.fb",
+				"key": "ctrl+l ctrl+f",
+				"mac": "cmd+l cmd+f"
+			},
+			{
+				"command": "plcc.newbranch",
+				"key": "ctrl+l ctrl+b",
+				"mac": "cmd+l cmd+b"
+			},
+			{
+				"command": "plcc.branchup",
+				"key": "ctrl+l ctrl+u",
+				"mac": "cmd+l cmd+u"
+			},
+			{
+				"command": "plcc.branchdown",
+				"key": "ctrl+l ctrl+d",
+				"mac": "cmd+l cmd+d"
+			},
+			{
+				"command": "plcc.delete",
+				"key": "delete",
+				"mac": "cmd+backspace"
+			},
+			{
+				"command": "plcc.esc",
+				"key": "escape"
+			},
+			{
+				"command": "plcc.canpenconfig",
+				"key": "ctrl+l ctrl+c",
+				"mac": "cmd+l cmd+c"
+			}
+		],
+		"menus": {
+			"explorer/context": [
+				{
+					"when": "plcc:isIEC61131Proj",
+					"command": "plcc.CompileProject",
+					"group": "commands"
+				},
+				{
+					"when": "plcc:isIEC61131Proj",
+					"command": "plcc.FlashBinary",
+					"group": "commands"
+				}
+			],
+			"editor/title": [
+				{
+					"when": "plcc:isIEC61131Proj",
+					"command": "plcc.OpenSimulator",
+					"group": "navigation"
+				},
+				{
+					"when": "plcc:isIEC61131Proj",
+					"command": "plcc.CompileProject",
+					"group": "navigation"
+				},
+				{
+					"when": "plcc:isIEC61131Proj",
+					"command": "plcc.FlashBinary",
+					"group": "navigation"
+				},
+				{
+					"when": "plcc:isIEC61131Proj",
+					"command": "plcc.StartLoging",
+					"group": "navigation"
+				},
+				{
+					"when": "plcc:isIEC61131Proj",
+					"command": "plcc.StopLoging",
+					"group": "navigation"
+				}
+			],
+			"editor/context": [
+				{
+					"when": "plcc:isIEC61131Proj",
+					"command": "plcc.CompileProject",
+					"group": "commands"
+				},
+				{
+					"when": "plcc:isIEC61131Proj",
+					"command": "plcc.FlashBinary",
+					"group": "commands"
+				}
+			]
+		},
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "prj-templatebar",
+					"title": "PLCC",
+					"icon": "images/project2-dark.svg"
+				},
+				{
+					"id": "etherCatConfigView",
+					"title": "EtherCat",
+					"icon": "images/ethercat.svg"
+				}
+			]
+		},
+		"views": {
+			"prj-templatebar": [
+				{
+					"id": "prj-template",
+					"name": "New Project"
+				},
+				{
+					"type": "webview",
+					"when": "plcc:isIEC61131Proj",
+					"name": "Library",
+					"id": "fblistView"
+				},
+				{
+					"when": "plcc:isIEC61131Proj",
+					"id": "projView",
+					"name": "IEC 61131-3 Project View"
+				},
+				{
+					"type": "webview",
+					"when": "plcc:isIEC61131Proj",
+					"name": "POU Editor",
+					"id": "ladderConfigView"
+				}
+			]
+		},
+		"viewsWelcome": [
+			{
+				"view": "prj-template",
+				"contents": "You can create a application project that using templete files by selecting your work path.\n[New App Project ](command:plcc.NewAppProject)\n"
+			},
+			{
+				"view": "prj-template",
+				"contents": "You can create a library project that using templete files by selecting your work path.\n[New Lib Project ](command:plcc.NewLibProject)\n"
+			}
+		],
+		"breakpoints": [
+			{
+				"language": "Structured Text"
+			},
+			{
+				"language": "IL"
+			}
+		],
+		"debuggers": [
+			{
+				"type": "st",
+				"label": "ST",
+				"program": "./out/debugAdapter.js",
+				"runtime": "node",
+				"languages": [
+					"Structured Test"
+				]
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run esbuild-base -- --minify --sourcemap",
+		"esbuild-base": "esbuild ./src/extension.ts --bundle --outfile=out/main.js --external:vscode --format=cjs --platform=node",
+		"esbuild": "npm run esbuild-base -- --sourcemap",
+		"esbuild-watch": "npm run esbuild-base -- --sourcemap --watch",
+		"test-compile": "tsc -p ./",
+		"publish": "npm update && npm run vscode:prepublish && vsce publish",
+		"prerelease": "npm update && npm run vscode:prepublish && vsce publish --pre-release",
+		"package": "npm update && npm run vscode:prepublish && vsce package"
+	},
+	"devDependencies": {
+		"@polkadot/types": "",
+		"@types/bootstrap": "^5.2.6",
+		"@types/glob": "8.1.0",
+		"@types/google-protobuf": "",
+		"@types/i18n": "",
+		"@types/node": "",
+		"@types/tar": "6.1.3",
+		"@types/vscode": "1.64.0",
+		"@types/ws": "",
+		"@types/yaml": "",
+		"bootstrap": "^5.3.0-alpha1",
+		"esbuild": "",
+		"grpc_tools_node_protoc_ts": "^5.3.2",
+		"grpc-tools": "^1.11.3",
+		"tslint": "",
+		"typescript": "",
+		"vsce": ""
+	},
+	"dependencies": {
+		"@grpc/grpc-js": "^1.7.3",
+		"@pinata/sdk": "",
+		"@polkadot/api": "",
+		"@vscode/webview-ui-toolkit": "^1.2.2",
+		"eciesjs": "",
+		"fs": "",
+		"get-port": "^5.1.1",
+		"glob": "8.1.0",
+		"google-protobuf": "",
+		"i18n": "",
+		"js2xmlparser": "^5.0.0",
+		"json2xml": "^0.1.3",
+		"md5-file": "",
+		"tar": "^6.1.15",
+		"update": "^0.7.4",
+		"utf-8-validate": "",
+		"vscode-languageclient": "7.0.0",
+		"ws": "",
+		"xml-js": "^1.6.11",
+		"xml2js": "^0.5.0",
+		"xmldoc": "^1.3.0",
+		"xmldom": "^0.6.0",
+		"xmlreader": "^0.2.3",
+		"xpath": "^0.0.32",
+		"yaml": "^2.3.1"
+	},
+	"extensionDependencies": [],
+	"__metadata": {
+		"id": "7388e2ea-7d0c-4dd3-9850-4536d6e3e24e",
+		"publisherId": "890bdca7-35f4-4f1e-bec8-5c779a1d1c82",
+		"publisherDisplayName": "david9991",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1719459374692,
+		"pinned": false,
+		"preRelease": false,
+		"source": "gallery",
+		"size": 5394031
+	}
+}

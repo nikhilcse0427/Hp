@@ -1,0 +1,38 @@
+[
+    {
+        "Type": "outputs",
+        "StartAddress": 3840,
+        "length": 1,
+        "Enable": "True",
+        "Buffer": 3,
+        "Access": "Write",
+        "Watchdog": "True"
+    },
+    {
+        "Type": "outputs",
+        "StartAddress": 3841,
+        "length": 1,
+        "Enable": "True",
+        "Buffer": 3,
+        "Access": "Write",
+        "Watchdog": "True"
+    },
+    {
+        "Type": "outputs",
+        "StartAddress": 3842,
+        "length": 1,
+        "Enable": "True",
+        "Buffer": 3,
+        "Access": "Write",
+        "Watchdog": "True"
+    },
+    {
+        "Type": "outputs",
+        "StartAddress": 3843,
+        "length": 1,
+        "Enable": "True",
+        "Buffer": 3,
+        "Access": "Write",
+        "Watchdog": "True"
+    }
+]

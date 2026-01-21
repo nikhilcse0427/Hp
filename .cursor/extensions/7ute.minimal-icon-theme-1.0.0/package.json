@@ -1,0 +1,42 @@
+{
+	"name": "minimal-icon-theme",
+	"displayName": "Minimal Icon Theme",
+	"description": "Minimal icon pack with file types only, to reduce distraction.",
+	"icon": "thumb.png",
+	"version": "1.0.0",
+	"publisher": "7ute",
+	"author": {
+		"email": "contact@7ute.fr",
+		"name": "7ute"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/7ute/minimal-icon-theme"
+	},
+	"engines": {
+		"vscode": "^1.30.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "minimal-icon-theme",
+				"label": "Minimal Icons",
+				"path": "./fileicons/minimal-icon-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "a990a1e0-8557-491d-b17c-0c7e22bc5cc6",
+		"publisherId": "961d0aad-ae0f-4600-a433-0a393ae12b56",
+		"publisherDisplayName": "7ute",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1694888496949,
+		"preRelease": false,
+		"size": 49327
+	}
+}

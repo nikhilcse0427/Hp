@@ -1,0 +1,1 @@
+nix-shell -p nodejs_20 --run 'npx ovsx publish -p 31732d36-cd98-4eb9-a137-cca6aa4fb28b'

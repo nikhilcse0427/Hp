@@ -1,0 +1,56 @@
+{
+	"name": "rapid-live-serverr",
+	"displayName": "Rapid LiveServer",
+	"version": "0.0.3",
+	"publisher": "ahsansaeed",
+	"description": "This VS Code extension allows you to run HTML and PHP files on a local server with auto-refresh functionality. When activated, it starts a server on port 3001 and serves the currently active HTML or PHP file from the VS Code editor.",
+	"engines": {
+		"vscode": "^1.85.0"
+	},
+	"icon": "image/liveserver.png",
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.runHtmlOnServer",
+				"title": "Rapid-LIve-Server-Activate"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p .",
+		"watch": "tsc -watch -p ."
+	},
+	"devDependencies": {
+		"@types/express": "^4.17.21",
+		"@types/mocha": "^10.0.6",
+		"@types/opn": "^5.5.0",
+		"@types/vscode": "^1.85.0",
+		"open": "^10.0.3",
+		"opener": "^1.5.2",
+		"typescript": "^4.4.4"
+	},
+	"dependencies": {
+		"browser-sync": "^3.0.2",
+		"cors": "^2.8.5",
+		"express": "^4.18.2",
+		"opn": "^6.0.0"
+	},
+	"__metadata": {
+		"id": "d0433a9d-1a92-49f9-b6fe-48232670f855",
+		"publisherId": "567afe4f-4f6c-43ae-9b39-5457573860bb",
+		"publisherDisplayName": "Ahsan Saeed",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1708795173832,
+		"pinned": false,
+		"size": 15273951
+	}
+}

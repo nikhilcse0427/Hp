@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128"
+   height="128"
+   viewBox="0 0 128 128"
+   version="1.1"
+   id="svg1872"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="play-light.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1874"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="2.9433782"
+     inkscape:cx="83.237689"
+     inkscape:cy="82.897944"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="65.91066,96"
+       orientation="0,1"
+       id="guide1960"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="80.179978,32"
+       orientation="0,1"
+       id="guide1962"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1869" />
+  <g
+     inkscape:label="图层 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="m 63.747967,12.439638 c -28.993115,0 -52.499987,23.506871 -52.499987,52.499989 0,28.993122 23.506872,52.500003 52.499987,52.500003 28.993122,0 52.499993,-23.506881 52.499993,-52.500003 0,-28.993118 -23.506871,-52.499989 -52.499993,-52.499989 z M 84.253594,66.339634 54.367973,91.767125 a 2.2093747,2.2093747 0 0 1 -1.47,0.55125 c -1.106875,0 -2.156873,-0.778743 -2.156873,-1.951247 V 39.503384 c 0,-1.172499 1.049998,-1.955625 2.156873,-1.955625 0.516252,0 1.036875,0.166261 1.47,0.555624 l 29.885621,25.427501 c 0.874996,0.769997 0.874996,2.034375 0,2.804372 z"
+       fill="#dddddd"
+       opacity="0.65"
+       p-id="7386"
+       data-spm-anchor-id="a313x.search_index.0.i0.71da3a81meK8S9"
+       class="selected"
+       id="path1804"
+       style="stroke-width:0.03125;fill:#ececec;fill-opacity:1;opacity:1" />
+  </g>
+</svg>

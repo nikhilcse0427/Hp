@@ -1,0 +1,4611 @@
+[
+    {
+        "Index": "1400",
+        "Object": "Record",
+        "Name": "RPDO 1 communication parameter",
+        "Datatype": "PDO communication parameter record",
+        "Access": "ro",
+        "Category": "Mandatory",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "02h"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "COB-ID",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "0000 0200 h + node-ID"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Transmission type",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "255 d"
+            }
+        ]
+    },
+    {
+        "Index": "1600",
+        "Object": "Record",
+        "Name": "RPDO 1 mapping parameter",
+        "Datatype": "PDO mapping parameter record",
+        "Access": "rw",
+        "Category": "Mandatory",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "01 h to 08h"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "1 st application object",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "6200 01 08 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "2 nd application object",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "255 d"
+            },
+            {
+                "SubIndex": "08",
+                "Description": "8 th application object",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "REAL32",
+                "DefaultValue": "6200 08 08 h"
+            }
+        ]
+    },
+    {
+        "Index": "1800",
+        "Object": "Record",
+        "Name": "TPDO 1 communication parameter",
+        "Datatype": "PDO communication parameter record",
+        "Access": "ro",
+        "Category": "Mandatory",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "Manufacturer-specific"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "COB-ID used by PDO",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "0000 0200 h + node-ID"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Transmission type",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "255 d"
+            },
+            {
+                "SubIndex": "03",
+                "Description": "Inhibit time",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED16",
+                "DefaultValue": "00 h"
+            },
+            {
+                "SubIndex": "05",
+                "Description": "Event timer",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED16",
+                "DefaultValue": "00 h"
+            }
+        ]
+    },
+    {
+        "Index": "1A00",
+        "Object": "Record",
+        "Name": "TPDO 1 mapping parameter",
+        "Datatype": "PDO mapping parameter record",
+        "Access": "rw",
+        "Category": "Mandatory",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "01 h to 08 h"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "1 st application object",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "6200 01 08 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "2 nd application object",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "6000 02 08 h"
+            },
+            {
+                "SubIndex": "03",
+                "Description": "Inhibit time",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED16",
+                "DefaultValue": "00 h"
+            },
+            {
+                "SubIndex": "08",
+                "Description": "8 th application object",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "REAL32",
+                "DefaultValue": "6200 08 08 h"
+            }
+        ]
+    },
+    {
+        "Index": "1401",
+        "Object": "Record",
+        "Name": "RPDO 2 communication parameter",
+        "Datatype": "PDO communication parameter record",
+        "Access": "ro",
+        "Category": "Mandatory",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "02h"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "COB-ID",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "0000 0200 h + node-ID"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Transmission type",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "255 d"
+            }
+        ]
+    },
+    {
+        "Index": "1601",
+        "Object": "Record",
+        "Name": "RPDO 2mapping parameter",
+        "Datatype": "PDO mapping parameter record",
+        "Access": "rw",
+        "Category": "Mandatory",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "01 h to 04h"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "1 st application object",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "6411 01 10 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "2 nd application object",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "6411 02 10 h"
+            },
+            {
+                "SubIndex": "04",
+                "Description": "4 th application object",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "INTEGER32",
+                "DefaultValue": "6411 04 10 h"
+            }
+        ]
+    },
+    {
+        "Index": "1801",
+        "Object": "Record",
+        "Name": "TPDO 2 communication parameter",
+        "Datatype": "PDO communication parameter record",
+        "Access": "ro",
+        "Category": "Mandatory",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "Manufacturer-specific"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "COB-ID",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "{0000 0280 h, 4000 0280 h } + node-ID"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Transmission type",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "255 d"
+            },
+            {
+                "SubIndex": "03",
+                "Description": "Inhibit time",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED16",
+                "DefaultValue": "00 h"
+            },
+            {
+                "SubIndex": "05",
+                "Description": "Event timer",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED16",
+                "DefaultValue": "00 h"
+            }
+        ]
+    },
+    {
+        "Index": "1A01",
+        "Object": "Record",
+        "Name": "TPDO 2 mapping parameter",
+        "Datatype": "PDO mapping parameter record",
+        "Access": "rw",
+        "Category": "Mandatory",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "01 h to 04 h"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "1 st application object",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "6401 01 10 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "2 nd application object",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "6401 02 10 h"
+            },
+            {
+                "SubIndex": "04",
+                "Description": "4 th application object",
+                "EntryCategory": "Mandatory,",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "INTEGER32",
+                "DefaultValue": "6401 04 10 h"
+            }
+        ]
+    },
+    {
+        "Index": "1402",
+        "Object": "Record",
+        "Name": "RPDO 3 communication parameter",
+        "Datatype": "PDO communication parameter record",
+        "Access": "ro",
+        "Category": "Mandatory",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "02h"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "COB-ID",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "0000 0400 h + node-ID"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Transmission type",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "255 d"
+            }
+        ]
+    },
+    {
+        "Index": "1602",
+        "Object": "Record",
+        "Name": "RPDO 3 mapping parameter",
+        "Datatype": "PDO mapping parameter record",
+        "Access": "rw",
+        "Category": "Mandatory",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "01 h to 04h"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "1 st application object",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "6411 05 10 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "2 nd application object",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "6411 02 10 h"
+            },
+            {
+                "SubIndex": "04",
+                "Description": "4 th application object",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "INTEGER32",
+                "DefaultValue": "6411 08 10 h"
+            }
+        ]
+    },
+    {
+        "Index": "1802",
+        "Object": "Record",
+        "Name": "TPDO 3 communication parameter",
+        "Datatype": "PDO communication parameter record",
+        "Access": "ro",
+        "Category": "Mandatory",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "Manufacturer-specific"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "COB-ID",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "{0000 0280 h, 4000 0280 h } + node-ID"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Transmission type",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "255 d"
+            },
+            {
+                "SubIndex": "03",
+                "Description": "Inhibit time",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED16",
+                "DefaultValue": "00 h"
+            },
+            {
+                "SubIndex": "05",
+                "Description": "Event timer",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED16",
+                "DefaultValue": "00 h"
+            }
+        ]
+    },
+    {
+        "Index": "1A02",
+        "Object": "Record",
+        "Name": "TPDO 3 mapping parameter",
+        "Datatype": "PDO mapping parameter record",
+        "Access": "rw",
+        "Category": "Mandatory",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "01 h to 04 h"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "1 st application object",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "6401 01 10 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "2 nd application object",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "6401 06 10 h"
+            },
+            {
+                "SubIndex": "04",
+                "Description": "4 th application object",
+                "EntryCategory": "Mandatory,",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "INTEGER32",
+                "DefaultValue": "6401 08 10 h"
+            }
+        ]
+    },
+    {
+        "Index": "1403",
+        "Object": "Record",
+        "Name": "RPDO 4 communication parameter",
+        "Datatype": "PDO communication parameter record",
+        "Access": "ro",
+        "Category": "Mandatory",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "02h"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "COB-ID",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "0000 0500 h + node-ID"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Transmission type",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "255 d"
+            }
+        ]
+    },
+    {
+        "Index": "1603",
+        "Object": "Record",
+        "Name": "RPDO 34 mapping parameter",
+        "Datatype": "PDO mapping parameter record",
+        "Access": "rw",
+        "Category": "Mandatory",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "01 h to 04h"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "1 st application object",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "6411 09 10 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "2 nd application object",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "6411 02 10 h"
+            },
+            {
+                "SubIndex": "04",
+                "Description": "4 th application object",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "INTEGER32",
+                "DefaultValue": "6411 0C 10 h"
+            }
+        ]
+    },
+    {
+        "Index": "1803",
+        "Object": "Record",
+        "Name": "TPDO 4 communication parameter",
+        "Datatype": "PDO communication parameter record",
+        "Access": "ro",
+        "Category": "Mandatory",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "Manufacturer-specific"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "COB-ID",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "{0000 0480 h, 4000 0480 h } + node-ID"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Transmission type",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "255 d"
+            },
+            {
+                "SubIndex": "03",
+                "Description": "Inhibit time",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED16",
+                "DefaultValue": "00 h"
+            },
+            {
+                "SubIndex": "05",
+                "Description": "Event timer",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED16",
+                "DefaultValue": "00 h"
+            }
+        ]
+    },
+    {
+        "Index": "1A03",
+        "Object": "Record",
+        "Name": "TPDO 4 mapping parameter",
+        "Datatype": "PDO mapping parameter record",
+        "Access": "rw",
+        "Category": "Mandatory",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "01 h to 04 h"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "1 st application object",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "6401 09 10 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "2 nd application object",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "6401 0A 10 h"
+            },
+            {
+                "SubIndex": "04",
+                "Description": "4 th application object",
+                "EntryCategory": "Mandatory,",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "INTEGER32",
+                "DefaultValue": "6401 0C 10 h"
+            }
+        ]
+    },
+    {
+        "Index": "6000",
+        "Object": "Array",
+        "Name": "Read input 8 bit",
+        "Datatype": "Unsigned8",
+        "Access": "ro",
+        "Category": "Conditional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of inputs 8-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "Device-specific"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Read input 01 h to 08 h",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "Default",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Read input 09 h to 10 h",
+                "EntryCategory": "Optional",
+                "Access": "ro",
+                "PDOMapping": "Default",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "08",
+                "Description": "Read input 39 h to 40 h",
+                "EntryCategory": "Optional,",
+                "Access": "ro",
+                "PDOMapping": "Default",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "09",
+                "Description": "Read input 41 h to 48 h",
+                "EntryCategory": "Optional,",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Read input 7E8 h to 7F0 h",
+                "EntryCategory": "Optional,",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "NO"
+            }
+        ]
+    },
+    {
+        "Index": "6002",
+        "Object": "Array",
+        "Name": "Polarity input 8-bit",
+        "Datatype": "Unsigned8",
+        "Access": "ro",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of inputs 8-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Polarity input 01 h to 08 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Possible",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "00"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Polarity input 09 h to 10 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Possible",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "00 h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Read input 7E8 h to 7F0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "00 h"
+            }
+        ]
+    },
+    {
+        "Index": "6003",
+        "Object": "Array",
+        "Name": "Filter constant input 8-bit",
+        "Datatype": "Unsigned8",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of inputs 8-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Filter constant input 01 h to 08 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "unsigned8",
+                "DefaultValue": "00 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Filter constant input 09 h to 10 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "00 h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Filter constant input 7E8 h to 7F0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "unsigned8",
+                "DefaultValue": "00 h"
+            }
+        ]
+    },
+    {
+        "Index": "6005",
+        "Object": "Variable",
+        "Name": "Global interrupt enable digital 8-bit",
+        "Datatype": "Boolean",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of inputs 8-bit",
+                "EntryCategory": "",
+                "Access": "",
+                "PDOMapping": "NO",
+                "valueRange": "BOOLEAN",
+                "DefaultValue": "TRUE"
+            }
+        ]
+    },
+    {
+        "Index": "6006",
+        "Object": "Array",
+        "Name": "Interrupt mask any change 8-bit",
+        "Datatype": "Unsigned8",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of inputs 8-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Interrupt any change 01 h to 08 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "FF h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Interrupt any change 09 h to 10 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "FF h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Interrupt any change 7E8 h to 7F0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "FF h"
+            }
+        ]
+    },
+    {
+        "Index": "6007",
+        "Object": "Array",
+        "Name": "Interrupt mask low-to-high 8-bit",
+        "Datatype": "Unsigned8",
+        "Access": "rw",
+        "Category": "Mandatory",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of inputs 8-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Interrupt low-to-high 01 h to 08 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "00 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Interrupt low-to-high 09 h to 10 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "00 h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Interrupt low-to-high 7E8 h to 7F0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "00 h"
+            }
+        ]
+    },
+    {
+        "Index": "6008",
+        "Object": "Array",
+        "Name": "Interrupt mask high-to-low 8-bit",
+        "Datatype": "Unsigned8",
+        "Access": "rw",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of inputs 8-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Interrupt high-to-low 01 h to 08 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "00 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Interrupt high-to-low 09 h to 10 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "00 h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Interrupt high-to-low 7F1 h to 7F8 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "00 h"
+            }
+        ]
+    },
+    {
+        "Index": "6020",
+        "Object": "Array",
+        "Name": "Read input bit 01 h to 80 h",
+        "Datatype": "Boolean",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of inputs 1-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Read single input 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Read single input 02 h",
+                "EntryCategory": "Optional",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "80",
+                "Description": "Read single input 80 h",
+                "EntryCategory": "Optional,",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "NO"
+            }
+        ]
+    },
+    {
+        "Index": "6030",
+        "Object": "Array",
+        "Name": "Polarity input bit 01 h to 80 h",
+        "Datatype": "Boolean",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of inputs 1-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Polarity input bit 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "FALSE"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Polarity input bit 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "FALSE"
+            },
+            {
+                "SubIndex": "80",
+                "Description": "Polarity input bit 80 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "FALSE"
+            }
+        ]
+    },
+    {
+        "Index": "6038",
+        "Object": "Array",
+        "Name": "Filter constant input bit 01 h to 80 h",
+        "Datatype": "Boolean",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of inputs 1-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Filter constant input bit 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "FALSE"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Filter constant input bit 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "FALSE"
+            },
+            {
+                "SubIndex": "80",
+                "Description": "Filter constant input bit 80 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "FALSE"
+            }
+        ]
+    },
+    {
+        "Index": "6050",
+        "Object": "Array",
+        "Name": "Interrupt mask input bit any change 01 h to 80 h",
+        "Datatype": "Boolean",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of inputs 1-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Interrupt mask any change input bit 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "TRUE"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Interrupt mask any change input bit 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "TRUE"
+            },
+            {
+                "SubIndex": "80",
+                "Description": "Interrupt mask any change input bit 80 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "TRUE"
+            }
+        ]
+    },
+    {
+        "Index": "6060",
+        "Object": "Array",
+        "Name": "Interrupt mask input low-to-high bit 01 h to 80 h",
+        "Datatype": "Boolean",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of inputs 1-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Interrupt mask low-to-high input 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "FALSE"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Interrupt mask low-to-high input 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "FALSE"
+            },
+            {
+                "SubIndex": "80",
+                "Description": "Interrupt mask low-to-high input 80 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "FALSE"
+            }
+        ]
+    },
+    {
+        "Index": "6070",
+        "Object": "Array",
+        "Name": "Interrupt mask input high-to-low bit 01 h to 80 h",
+        "Datatype": "Boolean",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of inputs 1-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Interrupt mask high-to-low input 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "FALSE"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Interrupt mask high-to-low input 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "FALSE"
+            },
+            {
+                "SubIndex": "80",
+                "Description": "Interrupt mask high-to-low input 80 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "FALSE"
+            }
+        ]
+    },
+    {
+        "Index": "6100",
+        "Object": "Array",
+        "Name": "Read input 16-bit",
+        "Datatype": "Unsigned16",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of inputs 16-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Read input 01 h to 10 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Read input 11 h to 20 h",
+                "EntryCategory": "Optional",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Read input FD0 h to FE0 h",
+                "EntryCategory": "Optional,",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "NO"
+            }
+        ]
+    },
+    {
+        "Index": "6102",
+        "Object": "Array",
+        "Name": "Polarity input 16-bit",
+        "Datatype": "Unsigned16",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of inputs 16-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Polarity input 01 h to 10 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Polarity input 11 h to 20 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "0000 h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Polarity input FD1 h to FF0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6103",
+        "Object": "Array",
+        "Name": "Filter constant input 16-bit",
+        "Datatype": "Unsigned16",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of inputs 1-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Filter constant input 01 h to 10 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Filter constant input 11 h to 20 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "0000 h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Filter constant input FD1 h to FE0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6106",
+        "Object": "Array",
+        "Name": "Interrupt mask input any change 16-bit",
+        "Datatype": "Unsigned16",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of inputs 16-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Interrupt any change inputs 01 h to 10 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "FFFF h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Interrupt any change inputs 11 h to 20 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "FFFF h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Interrupt any change inputs FD1 h to FE0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "FFFF h"
+            }
+        ]
+    },
+    {
+        "Index": "6107",
+        "Object": "Array",
+        "Name": "Interrupt mask input low-to-high 16-bit",
+        "Datatype": "Unsigned16",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of inputs 16-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Interrupt low-to-high inputs 01 h to 10 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Interrupt low-to-high inputs 11 h to 20 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "0000 h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Interrupt low-to-high inputs FD1 h to FE0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6108",
+        "Object": "Array",
+        "Name": "Interrupt mask input high-to-low 16-bit",
+        "Datatype": "Unsigned16",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of inputs 16-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Interrupt high-to-low inputs 01 h to 10 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Interrupt high-to-low inputs 11 h to 20 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "0000 h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Interrupt high-to-low inputs FD1 h to FE0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6120",
+        "Object": "Array",
+        "Name": "Read input 4 Byte",
+        "Datatype": "Unsigned32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of inputs 32-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Read inputs 01 h to 20 h",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Read inputs 21 h to 40 h",
+                "EntryCategory": "Optional",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Read inputs 1FA0 h to 1FC0 h",
+                "EntryCategory": "Optional,",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            }
+        ]
+    },
+    {
+        "Index": "6122",
+        "Object": "Array",
+        "Name": "Polarity input 32-bit",
+        "Datatype": "Unsigned32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of inputs 32-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Polarity inputs 01 h to 20 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Polarity inputs 21 h to 40 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Polarity inputs 1FA0 h to 1FC0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6123",
+        "Object": "Array",
+        "Name": "Filter constant input 32-bit",
+        "Datatype": "Unsigned32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of inputs 32-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Filter constant inputs 01 h to 20 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Filter constant inputs 21 h to 40 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Filter constant inputs 1FA1 h to 1FC0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6126",
+        "Object": "Array",
+        "Name": "Interrupt mask input any change 32-bit",
+        "Datatype": "Unsigned16",
+        "Access": "",
+        "Category": "Unsigned32",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of inputs 32-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Interrupt any change input 01 h to 20 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "FFFF FFFF h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Interrupt any change input 21 h to 40 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "FFFF FFFF h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Interrupt high-to-low inputs FD1 h to FE0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "FFFF FFFF h"
+            }
+        ]
+    },
+    {
+        "Index": "6127",
+        "Object": "Array",
+        "Name": "Interrupt mask input low-to-high 32-bit",
+        "Datatype": "Unsigned32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of inputs 32-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Interrupt low-to-high input 01 h to 20 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Interrupt low-to-high input 21 h to 40 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Interrupt low-to-high input 1FA1 h to 1FC0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6128",
+        "Object": "Array",
+        "Name": "Interrupt mask input high-to-low 32-bit",
+        "Datatype": "Unsigned32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of inputs 32-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Interrupt high-to-low input 01 h to 20 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Interrupt high-to-low input 21 h to 40 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Interrupt high-to-low input 1FA1 h to 1FC0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6200",
+        "Object": "Array",
+        "Name": "Write output 8-bit",
+        "Datatype": "Unsigned8",
+        "Access": "",
+        "Category": "Conditional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of outputs 8-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Write output 01 h to 08 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Default",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "00 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Write output 09 h to 10 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Default",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "00 h"
+            },
+            {
+                "SubIndex": "08",
+                "Description": "Write output 39 h to 40 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Default",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "00 h"
+            },
+            {
+                "SubIndex": "09",
+                "Description": "Write output 41 h to 48 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "00 h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Write output 7E9 h to 7F0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "0000 0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6202",
+        "Object": "Array",
+        "Name": "Change polarity output 8-bit",
+        "Datatype": "Unsigned8",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of outputs 8-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Change polarity output 01 h to 08 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "00 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Change polarity output 09 h to 10 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "00 h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Change polarity output 7E9 h to 7F0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6206",
+        "Object": "Array",
+        "Name": "Error mode output 8-bit",
+        "Datatype": "Unsigned8",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of outputs 8-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Error mode output 01 h to 08 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "FF h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Error mode output 09 h to 10 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "FF h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Error mode output 7E9 h to 7F0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "FF h"
+            }
+        ]
+    },
+    {
+        "Index": "6207",
+        "Object": "Array",
+        "Name": "Error value output 8-bit",
+        "Datatype": "Unsigned8",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of outputs 8-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Error value output 01 h to 08 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "00 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Error value output 09 h to 10 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "00 h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Error value output 7E9 h to 7F0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "00 h"
+            }
+        ]
+    },
+    {
+        "Index": "6208",
+        "Object": "Array",
+        "Name": "Filter mask output 8-bit",
+        "Datatype": "Unsigned8",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of outputs 8-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Filter mask output 01 h to 08 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "FF h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Filter mask output 09 h to 10 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "FF h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Filter mask output 7E9 h to 7F0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "FF h"
+            }
+        ]
+    },
+    {
+        "Index": "6220",
+        "Object": "Array",
+        "Name": "Write output bit 01 h to 80 h",
+        "Datatype": "Boolean",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of outputs 1-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Boolean",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Write output 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "FALSE"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Write output 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "FALSE"
+            },
+            {
+                "SubIndex": "80",
+                "Description": "Write output 80 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "FALSE"
+            }
+        ]
+    },
+    {
+        "Index": "6240",
+        "Object": "Array",
+        "Name": "Change polarity output bit 01 h to 80 h",
+        "Datatype": "Boolean",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of outputs 1-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Boolean",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Change polarity output 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "FALSE"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Change polarity output 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "FALSE"
+            },
+            {
+                "SubIndex": "80",
+                "Description": "Change polarity output 80 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "FALSE"
+            }
+        ]
+    },
+    {
+        "Index": "6250",
+        "Object": "Array",
+        "Name": "Error mode output lines 01 h to 80 h",
+        "Datatype": "Boolean",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of outputs 1-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Boolean",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Error mode output 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "TRUE"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Error mode output 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "TRUE"
+            },
+            {
+                "SubIndex": "80",
+                "Description": "Error mode output 80 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "TRUE"
+            }
+        ]
+    },
+    {
+        "Index": "6260",
+        "Object": "Array",
+        "Name": "Error value output bit 01 h to 80 h",
+        "Datatype": "Boolean",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of outputs 1-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Boolean",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Error value output 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "FALSE"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Error value output 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "FALSE"
+            },
+            {
+                "SubIndex": "80",
+                "Description": "Error value output 80 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "FALSE"
+            }
+        ]
+    },
+    {
+        "Index": "6270",
+        "Object": "Array",
+        "Name": "Filter mask output bit 01 h to 80 h",
+        "Datatype": "Boolean",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of outputs 1-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Boolean",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Filter mask output 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "TRUE"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Filter mask output 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "TRUE"
+            },
+            {
+                "SubIndex": "80",
+                "Description": "Filter mask output 80 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Boolean",
+                "DefaultValue": "TRUE"
+            }
+        ]
+    },
+    {
+        "Index": "6300",
+        "Object": "Array",
+        "Name": "Write output 16-bit",
+        "Datatype": "Unsigned16",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of outputs 16-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Filter mask output 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Write output 11 h to 20 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "0000 h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Write output FE0 h to FF0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6302",
+        "Object": "Array",
+        "Name": "Change polarity output 16-bit",
+        "Datatype": "Unsigned16",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of outputs 16-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Polarity output 01 h to 10 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Polarity output 11 h to 20 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "0000 h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Polarity output FE0 h to FF0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6306",
+        "Object": "Array",
+        "Name": "Error mode output 16-bit",
+        "Datatype": "Unsigned16",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of outputs 16-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Error mode output 01 h to 10 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "FFFF h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Error mode output 11 h to 20 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "FFFF h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Error mode output FE0 h to FF0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "FFFF h"
+            }
+        ]
+    },
+    {
+        "Index": "6307",
+        "Object": "Array",
+        "Name": "Error mode output 16-bit",
+        "Datatype": "Unsigned16",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of outputs 16-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Error value output 01 h to 10 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Error mode output 11 h to 20 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "0000 h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Error mode output FE0 h to FF0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6308",
+        "Object": "Array",
+        "Name": "Filter mask output 16-bit",
+        "Datatype": "Unsigned16",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of outputs 16-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "01 h to FE h",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Filter mask output 01 h to 10 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "FFFF h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Filter mask output 11 h to 20 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "FFFF h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Filter mask output FE0 h to FF0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned16",
+                "DefaultValue": "FFFF h"
+            }
+        ]
+    },
+    {
+        "Index": "6320",
+        "Object": "Array",
+        "Name": "Write output 32-bit",
+        "Datatype": "Unsigned32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of outputs 32-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Write output 01 h to 20 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Write output 21 h to 40 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Write output 1FC0 h to 1FE0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6322",
+        "Object": "Array",
+        "Name": "Change polarity output 32-bit",
+        "Datatype": "Unsigned32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of outputs 32-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Polarity output 01 h to 20 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Polarity output 21 h to 40 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Polarity output 1FC0 h to 1FE0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6326",
+        "Object": "Array",
+        "Name": "Error mode output 32-bit",
+        "Datatype": "Unsigned32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of outputs 32-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Error mode output 01 h to 20 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "FFFF FFFF h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Error mode output 21 h to 40 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "FFFF FFFF h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Error mode output 1FC0 h to 1FE0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "FFFF FFFF h"
+            }
+        ]
+    },
+    {
+        "Index": "6327",
+        "Object": "Array",
+        "Name": "Error value output 32-bit",
+        "Datatype": "Unsigned32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of outputs 32-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Error value output 01 h to 20 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Error value output 21 h to 40 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Error value output 1FC0 h to 1FE0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6328",
+        "Object": "Array",
+        "Name": "Filter mask output 32-bit",
+        "Datatype": "Unsigned32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of outputs 32-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Filter mask output 01 h to 20 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "FFFF FFFF h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Filter mask output 21 h to 40 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "FFFF FFFF h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Filter mask output 1FC0 h to 1FE0 h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "FFFF FFFF h"
+            }
+        ]
+    },
+    {
+        "Index": "6400",
+        "Object": "Array",
+        "Name": "Read analogue input 8-bit",
+        "Datatype": "Integer8",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of outputs 32-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Integer8",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue input 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer8",
+                "DefaultValue": "No"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Filter mask output 21 h to 40 h",
+                "EntryCategory": "Optional",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer8",
+                "DefaultValue": "No"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Filter mask output 1FC0 h to 1FE0 h",
+                "EntryCategory": "Optional,",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer8",
+                "DefaultValue": "No"
+            }
+        ]
+    },
+    {
+        "Index": "6401",
+        "Object": "Array",
+        "Name": "Read analogue input 16-bit",
+        "Datatype": "Integer16",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue inputs 16-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Integer16",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue input 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "Default",
+                "valueRange": "Integer16",
+                "DefaultValue": "No"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue input 02 h",
+                "EntryCategory": "Optional",
+                "Access": "ro",
+                "PDOMapping": "Default",
+                "valueRange": "Integer16",
+                "DefaultValue": "No"
+            },
+            {
+                "SubIndex": "0C",
+                "Description": "Analogue input 0C h",
+                "EntryCategory": "Optional,",
+                "Access": "ro",
+                "PDOMapping": "Default",
+                "valueRange": "Integer",
+                "DefaultValue": "No"
+            }
+        ]
+    },
+    {
+        "Index": "6402",
+        "Object": "Array",
+        "Name": "Read analogue input 32-bit",
+        "Datatype": "Integer32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue inputs 16-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Integer32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue input 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "No"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue input 02 h",
+                "EntryCategory": "Optional",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "No"
+            },
+            {
+                "SubIndex": "0C",
+                "Description": "Analogue input 0C h",
+                "EntryCategory": "Optional,",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "No"
+            }
+        ]
+    },
+    {
+        "Index": "6403",
+        "Object": "Array",
+        "Name": "Read analogue input float",
+        "Datatype": "Real32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue inputs 16-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Real32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue input 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "No"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue input 02 h",
+                "EntryCategory": "Optional",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "No"
+            },
+            {
+                "SubIndex": "0C",
+                "Description": "Analogue input 0C h",
+                "EntryCategory": "Optional,",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "No"
+            }
+        ]
+    },
+    {
+        "Index": "6404",
+        "Object": "Array",
+        "Name": "Read manufacturer specific analogue input",
+        "Datatype": "Manufacturer-specific",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue inputs 16-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Integer16",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue input 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "Manufacturer-specific",
+                "DefaultValue": "No"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue input 02 h",
+                "EntryCategory": "Optional",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "Manufacturer-specific",
+                "DefaultValue": "No"
+            },
+            {
+                "SubIndex": "0C",
+                "Description": "Analogue input 0C h",
+                "EntryCategory": "Optional,",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "Manufacturer-specific",
+                "DefaultValue": "No"
+            }
+        ]
+    },
+    {
+        "Index": "6410",
+        "Object": "Array",
+        "Name": "Write analogue output 8-bit",
+        "Datatype": "Integer8",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue inputs 8-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Integer8",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue output 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer8",
+                "DefaultValue": "00 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue output 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer8",
+                "DefaultValue": "00 h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Analogue output FE h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer8",
+                "DefaultValue": "00 h"
+            }
+        ]
+    },
+    {
+        "Index": "6411",
+        "Object": "Array",
+        "Name": "Write analogue output 16-bit",
+        "Datatype": "Integer16",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue outputs 16-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Integer16",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue output 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Default",
+                "valueRange": "Integer16",
+                "DefaultValue": "0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue output 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Default",
+                "valueRange": "Integer",
+                "DefaultValue": "0000 h"
+            },
+            {
+                "SubIndex": "0C",
+                "Description": "Analogue output 0C h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Default",
+                "valueRange": "Integer16",
+                "DefaultValue": "0000 h"
+            },
+            {
+                "SubIndex": "0D",
+                "Description": "Analogue output 0D h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer16",
+                "DefaultValue": "0000 h"
+            },
+            {
+                "SubIndex": "0C",
+                "Description": "Analogue output FE h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer16",
+                "DefaultValue": "0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6412",
+        "Object": "Array",
+        "Name": "Write analogue output 32-bit",
+        "Datatype": "Integer32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue outputs 32-bit",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Integer32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue output 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue output 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Analogue output FE h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6413",
+        "Object": "Array",
+        "Name": "Write analogue output float",
+        "Datatype": "Real32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue outputs float",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Real32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue output 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue output 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Analogue output FE h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            }
+        ]
+    },
+    {
+        "Index": "6421",
+        "Object": "Array",
+        "Name": "Interrupt trigger selection",
+        "Datatype": "Unsigned8",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue inputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue output 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "0,0"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue output 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "0,0"
+            },
+            {
+                "SubIndex": "FE",
+                "Description": "Analogue output FE h",
+                "EntryCategory": "Optional,",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "0,0"
+            }
+        ]
+    },
+    {
+        "Index": "6422",
+        "Object": "Array",
+        "Name": "Interrupt trigger selection",
+        "Datatype": "Unsigned32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of interrupt source banks",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Interrupt source bank 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Interrupt source bank 02 h",
+                "EntryCategory": "Optional",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "08",
+                "Description": "Interrupt source bank 08 h",
+                "EntryCategory": "Optional,",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            }
+        ]
+    },
+    {
+        "Index": "6423",
+        "Object": "Variable",
+        "Name": "Analogue input global interrupt enable",
+        "Datatype": "Boolean",
+        "Access": "",
+        "Category": "Conditional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "",
+                "EntryCategory": "",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "Boolean",
+                "DefaultValue": "FALSE"
+            }
+        ]
+    },
+    {
+        "Index": "6424",
+        "Object": "Array",
+        "Name": "Analogue input Interrupt upper limit integer",
+        "Datatype": "Integer32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue inputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Integer32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue input 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue input 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "EF",
+                "Description": "Analogue input FE h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6425",
+        "Object": "Array",
+        "Name": "Analogue input interrupt lower limit integer",
+        "Datatype": "Integer32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue inputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Integer32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue input 01 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue input 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "EF",
+                "Description": "Analogue input FE h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6426",
+        "Object": "Array",
+        "Name": "Analogue input interrupt delta unsigned",
+        "Datatype": "Integer32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue inputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Integer32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue input 01 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue input 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "EF",
+                "Description": "Analogue input FE h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6427",
+        "Object": "Array",
+        "Name": "Analogue input interrupt negative delta unsigned",
+        "Datatype": "Integer32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue inputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Integer32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue input 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue input 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "EF",
+                "Description": "Analogue input FE h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6428",
+        "Object": "Array",
+        "Name": "Analogue input interrupt positive delta unsigned",
+        "Datatype": "Integer32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue inputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Integer32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue input 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue input 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "EF",
+                "Description": "Analogue input FE h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6429",
+        "Object": "Array",
+        "Name": "Analogue input interrupt upper limit float",
+        "Datatype": "Real32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue inputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Real32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue input 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue input 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            },
+            {
+                "SubIndex": "EF",
+                "Description": "Analogue input FE h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            }
+        ]
+    },
+    {
+        "Index": "642A",
+        "Object": "Array",
+        "Name": "Analogue input interrupt lower limit float",
+        "Datatype": "Real32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue inputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Real32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue input 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue input 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            },
+            {
+                "SubIndex": "EF",
+                "Description": "Analogue input FE h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            }
+        ]
+    },
+    {
+        "Index": "642B",
+        "Object": "Array",
+        "Name": "Analogue input interrupt delta float",
+        "Datatype": "Real32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue inputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Real32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue input 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue input 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            },
+            {
+                "SubIndex": "EF",
+                "Description": "Analogue input FE h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            }
+        ]
+    },
+    {
+        "Index": "642C",
+        "Object": "Array",
+        "Name": "Analogue input interrupt negative delta float",
+        "Datatype": "Real32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue inputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Real32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue input 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue input 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            },
+            {
+                "SubIndex": "EF",
+                "Description": "Analogue input FE h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            }
+        ]
+    },
+    {
+        "Index": "642D",
+        "Object": "Array",
+        "Name": "Analogue input interrupt positive delta float",
+        "Datatype": "Real32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue inputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Real32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue input 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue input 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            },
+            {
+                "SubIndex": "EF",
+                "Description": "Analogue input FE h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            }
+        ]
+    },
+    {
+        "Index": "642E",
+        "Object": "Array",
+        "Name": "Analogue input offset float",
+        "Datatype": "Real32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue inputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Real32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue input 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue input 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            },
+            {
+                "SubIndex": "EF",
+                "Description": "Analogue input FE h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            }
+        ]
+    },
+    {
+        "Index": "642F",
+        "Object": "Array",
+        "Name": "Analogue input pre-scaling float",
+        "Datatype": "Real32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue inputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Real32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue input 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "1,0"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue input 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "1,0"
+            },
+            {
+                "SubIndex": "EF",
+                "Description": "Analogue input FE h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "1,0"
+            }
+        ]
+    },
+    {
+        "Index": "6430",
+        "Object": "Array",
+        "Name": "Analogue input SI unit",
+        "Datatype": "Unsigned32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue inputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue input 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue input 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "EF",
+                "Description": "Analogue input FE h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            }
+        ]
+    },
+    {
+        "Index": "6431",
+        "Object": "Array",
+        "Name": "Analogue input offset integer",
+        "Datatype": "Unsigned32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue inputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue input 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue input 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "EF",
+                "Description": "Analogue input FE h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6432",
+        "Object": "Array",
+        "Name": "Analogue input pre-scaling integer",
+        "Datatype": "Unsigned32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue inputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue input 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue input 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "EF",
+                "Description": "Analogue input FE h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6441",
+        "Object": "Array",
+        "Name": "Analogue output offset float",
+        "Datatype": "Real32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue outputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Real32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue output 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue output 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            },
+            {
+                "SubIndex": "EF",
+                "Description": "Analogue output FE h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            }
+        ]
+    },
+    {
+        "Index": "6442",
+        "Object": "Array",
+        "Name": "Analogue output scaling float",
+        "Datatype": "Real32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue outputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Real32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue output 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "1,0"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue output 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "1,0"
+            },
+            {
+                "SubIndex": "EF",
+                "Description": "Analogue output FE h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "1,0"
+            }
+        ]
+    },
+    {
+        "Index": "6443",
+        "Object": "Array",
+        "Name": "Analogue output error mode",
+        "Datatype": "Unsigned8",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue outputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Error mode analogue output 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "01 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Error mode analogue output 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "01 h"
+            },
+            {
+                "SubIndex": "EF",
+                "Description": "Error mode analogue output FE h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned8",
+                "DefaultValue": "01 h"
+            }
+        ]
+    },
+    {
+        "Index": "6444",
+        "Object": "Array",
+        "Name": "Analogue output error value integer",
+        "Datatype": "Integer32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue outputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Integer32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue output 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue output 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "EF",
+                "Description": "Analogue output FE h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6445",
+        "Object": "Array",
+        "Name": "Analogue output error value float",
+        "Datatype": "Real32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue outputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Real32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue output 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue output 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            },
+            {
+                "SubIndex": "EF",
+                "Description": "Analogue output FE h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            }
+        ]
+    },
+    {
+        "Index": "6446",
+        "Object": "Array",
+        "Name": "Analogue output offset integer",
+        "Datatype": "Integer32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue outputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Integer32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue output 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue output 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "EF",
+                "Description": "Analogue output FE h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6447",
+        "Object": "Array",
+        "Name": "Analogue output offset integer",
+        "Datatype": "Integer32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue outputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Integer32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue output 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0001 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue output 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0001 h"
+            },
+            {
+                "SubIndex": "EF",
+                "Description": "Analogue output FE h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Integer32",
+                "DefaultValue": "0000 0001 h"
+            }
+        ]
+    },
+    {
+        "Index": "6450",
+        "Object": "Array",
+        "Name": "Analogue output SI unit",
+        "Datatype": "Unsigned32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue outputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue output 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue output 02 h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "EF",
+                "Description": "Analogue output FE h",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            }
+        ]
+    },
+    {
+        "Index": "6460",
+        "Object": "Array",
+        "Name": "Analogue input dead-band unsigned",
+        "Datatype": "Unsigned32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue outputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue input 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue input 02 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "03",
+                "Description": "Analogue input 03 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "642A",
+        "Object": "Array",
+        "Name": "Analogue input dead-band float",
+        "Datatype": "Real32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number analogue inputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Real32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue input 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue input 02 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            },
+            {
+                "SubIndex": "03",
+                "Description": "Analogue input 03 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            }
+        ]
+    },
+    {
+        "Index": "6462",
+        "Object": "Array",
+        "Name": "Analogue input post-scaling unsigned",
+        "Datatype": "Unsigned32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue inputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue input 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue input 02 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            },
+            {
+                "SubIndex": "03",
+                "Description": "Analogue input 03 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Unsigned32",
+                "DefaultValue": "0000 0000 h"
+            }
+        ]
+    },
+    {
+        "Index": "6463",
+        "Object": "Array",
+        "Name": "Analogue input post-scaling float",
+        "Datatype": "Real32",
+        "Access": "",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of analogue inputs",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Real32",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Analogue input 01 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Analogue input 02 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            },
+            {
+                "SubIndex": "03",
+                "Description": "Analogue input 03 h",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "Real32",
+                "DefaultValue": "0,0"
+            }
+        ]
+    }
+]

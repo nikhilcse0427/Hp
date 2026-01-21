@@ -1,0 +1,782 @@
+[
+    {
+        "Index": "6007",
+        "Object": "VAR",
+        "Name": "abort_connection_option_code",
+        "Datatype": "Integer16"
+    },
+    {
+        "Index": "603F",
+        "Object": "VAR",
+        "Name": "error_code",
+        "Datatype": "Unsigned16"
+    },
+    {
+        "Index": "6402",
+        "Object": "VAR",
+        "Name": "motor_type",
+        "Datatype": "Unsigned16"
+    },
+    {
+        "Index": "6403",
+        "Object": "VAR",
+        "Name": "motor_catalogue_number",
+        "Datatype": "String"
+    },
+    {
+        "Index": "6404",
+        "Object": "VAR",
+        "Name": "motor_manufacturer",
+        "Datatype": "String"
+    },
+    {
+        "Index": "6405",
+        "Object": "VAR",
+        "Name": "http_motor_catalog_address",
+        "Datatype": "String"
+    },
+    {
+        "Index": "6406",
+        "Object": "VAR",
+        "Name": "motor_calibration_date",
+        "Datatype": "Date"
+    },
+    {
+        "Index": "6407",
+        "Object": "VAR",
+        "Name": "motor_service_period",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6410",
+        "Object": "RECORD",
+        "Name": "motor_data",
+        "Datatype": ""
+    },
+    {
+        "Index": "6502",
+        "Object": "VAR",
+        "Name": "supported_drive_modes",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6503",
+        "Object": "VAR",
+        "Name": "drive_catalogue_number",
+        "Datatype": "String"
+    },
+    {
+        "Index": "6504",
+        "Object": "VAR",
+        "Name": "drive_manufacturer",
+        "Datatype": "String"
+    },
+    {
+        "Index": "6505",
+        "Object": "VAR",
+        "Name": "http_motor_catalog_address",
+        "Datatype": "String"
+    },
+    {
+        "Index": "6510",
+        "Object": "RECORD",
+        "Name": "drive_data",
+        "Datatype": ""
+    },
+    {
+        "Index": "60FD",
+        "Object": "VAR",
+        "Name": "hdigital_inputs",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "60FE",
+        "Object": "RECORD",
+        "Name": "digital_outputs",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6040",
+        "Object": "VAR",
+        "Name": "controlword",
+        "Datatype": "Unsigned16"
+    },
+    {
+        "Index": "6041",
+        "Object": "VAR",
+        "Name": "statusword",
+        "Datatype": "Unsigned16"
+    },
+    {
+        "Index": "605B",
+        "Object": "VAR",
+        "Name": "shutdown_option_code",
+        "Datatype": "Integer16"
+    },
+    {
+        "Index": "605C",
+        "Object": "VAR",
+        "Name": "disable_operation_option_code",
+        "Datatype": "Integer16"
+    },
+    {
+        "Index": "605A",
+        "Object": "VAR",
+        "Name": "quick_stop_option_code",
+        "Datatype": "Integer8"
+    },
+    {
+        "Index": "605D",
+        "Object": "VAR",
+        "Name": "stop_option_code",
+        "Datatype": "Integer16"
+    },
+    {
+        "Index": "605E",
+        "Object": "VAR",
+        "Name": "fault_reaction_option_code",
+        "Datatype": "Integer16"
+    },
+    {
+        "Index": "6060",
+        "Object": "VAR",
+        "Name": "modes_of_operation",
+        "Datatype": "Integer8"
+    },
+    {
+        "Index": "6061",
+        "Object": "VAR",
+        "Name": "modes_of_operation_display",
+        "Datatype": "Integer8"
+    },
+    {
+        "Index": "6089",
+        "Object": "VAR",
+        "Name": "position_notation_index",
+        "Datatype": "Integer8"
+    },
+    {
+        "Index": "608A",
+        "Object": "VAR",
+        "Name": "position_dimension_index",
+        "Datatype": "Integer8"
+    },
+    {
+        "Index": "608B",
+        "Object": "VAR",
+        "Name": "velocity_notation_index",
+        "Datatype": "Integer8"
+    },
+    {
+        "Index": "608C",
+        "Object": "VAR",
+        "Name": "velocity_dimension_index",
+        "Datatype": "Unsigned8"
+    },
+    {
+        "Index": "608D",
+        "Object": "VAR",
+        "Name": "acceleration_notation_index",
+        "Datatype": "Integer8"
+    },
+    {
+        "Index": "608E",
+        "Object": "VAR",
+        "Name": "acceleration_dimension_index",
+        "Datatype": "Unsigned8"
+    },
+    {
+        "Index": "608F",
+        "Object": "ARRAY",
+        "Name": "position_encoder_resolution",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6090",
+        "Object": "ARRAY",
+        "Name": "velocity_encoder_resolution",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6091",
+        "Object": "ARRAY",
+        "Name": "gear_ratio",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6092",
+        "Object": "ARRAY",
+        "Name": "feed_constant",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6093",
+        "Object": "ARRAY",
+        "Name": "position_factor",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6094",
+        "Object": "ARRAY",
+        "Name": "velocity_encoder_factor",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6095",
+        "Object": "ARRAY",
+        "Name": "velocity_factor_1",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6096",
+        "Object": "ARRAY",
+        "Name": "velocity_factor_2",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6097",
+        "Object": "ARRAY",
+        "Name": "acceleration_factor",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "607E",
+        "Object": "ARRAY",
+        "Name": "polarity",
+        "Datatype": "Unsigned8"
+    },
+    {
+        "Index": "607A",
+        "Object": "VAR",
+        "Name": "target_position",
+        "Datatype": "Integer32"
+    },
+    {
+        "Index": "607B",
+        "Object": "ARRAY",
+        "Name": "position_range_limit",
+        "Datatype": "Integer32"
+    },
+    {
+        "Index": "607D",
+        "Object": "ARRAY",
+        "Name": "acceleration_factor",
+        "Datatype": "Integer32"
+    },
+    {
+        "Index": "607F",
+        "Object": "VAR",
+        "Name": "max_profile_velocity",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6080",
+        "Object": "VAR",
+        "Name": "max_motor_speed",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6081",
+        "Object": "VAR",
+        "Name": "profile_velocity",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6082",
+        "Object": "VAR",
+        "Name": "profile_velocity",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6083",
+        "Object": "VAR",
+        "Name": "profile_acceleration",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6084",
+        "Object": "VAR",
+        "Name": "profile_deceleration",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6085",
+        "Object": "VAR",
+        "Name": "quick_stop_deceleration",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6086",
+        "Object": "VAR",
+        "Name": "motion_profile_type",
+        "Datatype": "Integer16"
+    },
+    {
+        "Index": "60C5",
+        "Object": "VAR",
+        "Name": "max_acceleration",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "60C6",
+        "Object": "VAR",
+        "Name": "max_deceleration",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "607C",
+        "Object": "VAR",
+        "Name": "home_offset",
+        "Datatype": "Integer32"
+    },
+    {
+        "Index": "6098",
+        "Object": "VAR",
+        "Name": "homing_method",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6099",
+        "Object": "ARRAY",
+        "Name": "homing_speeds",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "609A",
+        "Object": "VAR",
+        "Name": "homing_acceleration",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6062",
+        "Object": "VAR",
+        "Name": "position_demand_value",
+        "Datatype": "Integer32"
+    },
+    {
+        "Index": "60623",
+        "Object": "VAR",
+        "Name": "position_actual_value*",
+        "Datatype": "Integer32"
+    },
+    {
+        "Index": "6064",
+        "Object": "VAR",
+        "Name": "position_actual_value",
+        "Datatype": "Integer32"
+    },
+    {
+        "Index": "6065",
+        "Object": "VAR",
+        "Name": "following_error_window",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6066",
+        "Object": "VAR",
+        "Name": "following_error_time_out",
+        "Datatype": "Unsigned16"
+    },
+    {
+        "Index": "6067",
+        "Object": "VAR",
+        "Name": "position_window",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6068",
+        "Object": "VAR",
+        "Name": "position_window_time",
+        "Datatype": "Unsigned16"
+    },
+    {
+        "Index": "60F4",
+        "Object": "VAR",
+        "Name": "following_error_actual_value",
+        "Datatype": "Integer32"
+    },
+    {
+        "Index": "60FA",
+        "Object": "VAR",
+        "Name": "control_effort",
+        "Datatype": "Integer32"
+    },
+    {
+        "Index": "60FB",
+        "Object": "RECORD",
+        "Name": "position_control_parameter_set",
+        "Datatype": ""
+    },
+    {
+        "Index": "60FC",
+        "Object": "VAR",
+        "Name": "position_demand_value*",
+        "Datatype": "Integer32"
+    },
+    {
+        "Index": "60C0",
+        "Object": "VAR",
+        "Name": "interpolation_submode_select",
+        "Datatype": "Integer16"
+    },
+    {
+        "Index": "60C1",
+        "Object": "RECORD",
+        "Name": "interpolation_data_record",
+        "Datatype": ""
+    },
+    {
+        "Index": "60C2",
+        "Object": "RECORD",
+        "Name": "interpolation_time_period",
+        "Datatype": ""
+    },
+    {
+        "Index": "60C3",
+        "Object": "ARRAY",
+        "Name": "interpolation_sync_definition",
+        "Datatype": "Unsigned8"
+    },
+    {
+        "Index": "60C4",
+        "Object": "RECORD",
+        "Name": "interpolation_data_configuration",
+        "Datatype": "Unsigned8"
+    },
+    {
+        "Index": "6069",
+        "Object": "VAR",
+        "Name": "velocity_sensor_actual_value",
+        "Datatype": "Integer32"
+    },
+    {
+        "Index": "606A",
+        "Object": "VAR",
+        "Name": "sensor_selection_code",
+        "Datatype": "Integer16"
+    },
+    {
+        "Index": "606B",
+        "Object": "VAR",
+        "Name": "velocity_demand_value",
+        "Datatype": "Integer32"
+    },
+    {
+        "Index": "606C",
+        "Object": "VAR",
+        "Name": "velocity_actual_value",
+        "Datatype": "Integer32"
+    },
+    {
+        "Index": "606D",
+        "Object": "VAR",
+        "Name": "velocity_window",
+        "Datatype": "Unsigned16"
+    },
+    {
+        "Index": "606E",
+        "Object": "VAR",
+        "Name": "velocity_window_time",
+        "Datatype": "Unsigned16"
+    },
+    {
+        "Index": "606F",
+        "Object": "VAR",
+        "Name": "velocity_window_time",
+        "Datatype": "Unsigned16"
+    },
+    {
+        "Index": "6070",
+        "Object": "VAR",
+        "Name": "velocity_threshold_time",
+        "Datatype": "Unsigned16"
+    },
+    {
+        "Index": "60FF",
+        "Object": "VAR",
+        "Name": "target_velocity",
+        "Datatype": "Integer32"
+    },
+    {
+        "Index": "60F8",
+        "Object": "VAR",
+        "Name": "max_slippage",
+        "Datatype": "Integer32"
+    },
+    {
+        "Index": "60F9",
+        "Object": "RECORD",
+        "Name": "velocity_control_parameter_set",
+        "Datatype": ""
+    },
+    {
+        "Index": "6071",
+        "Object": "VAR",
+        "Name": "target_torque",
+        "Datatype": "Integer16"
+    },
+    {
+        "Index": "6072",
+        "Object": "VAR",
+        "Name": "max_torque",
+        "Datatype": "Unsigned16"
+    },
+    {
+        "Index": "6073",
+        "Object": "VAR",
+        "Name": "max_current",
+        "Datatype": "Unsigned16"
+    },
+    {
+        "Index": "6074",
+        "Object": "VAR",
+        "Name": "torque_demand_value",
+        "Datatype": "Integer16"
+    },
+    {
+        "Index": "6075",
+        "Object": "VAR",
+        "Name": "motor_rated_current",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6076",
+        "Object": "VAR",
+        "Name": "motor_rated_current",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6077",
+        "Object": "VAR",
+        "Name": "torque_actual_value",
+        "Datatype": "Integer16"
+    },
+    {
+        "Index": "6078",
+        "Object": "VAR",
+        "Name": "torque_actual_value",
+        "Datatype": "Integer16"
+    },
+    {
+        "Index": "6079",
+        "Object": "VAR",
+        "Name": "DC_link_circuit_voltage",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6087",
+        "Object": "VAR",
+        "Name": "torque_slope",
+        "Datatype": "Integer16"
+    },
+    {
+        "Index": "6088",
+        "Object": "VAR",
+        "Name": "torque_profile_type",
+        "Datatype": "Integer16"
+    },
+    {
+        "Index": "60F7",
+        "Object": "RECORD",
+        "Name": "power_stage_parameters",
+        "Datatype": ""
+    },
+    {
+        "Index": "60F6",
+        "Object": "RECORD",
+        "Name": "torque_control_parameters",
+        "Datatype": ""
+    },
+    {
+        "Index": "6042",
+        "Object": "VAR",
+        "Name": "vl_target_velocity",
+        "Datatype": "Integer16"
+    },
+    {
+        "Index": "6043",
+        "Object": "VAR",
+        "Name": "vl_velocity_demand",
+        "Datatype": "Integer16"
+    },
+    {
+        "Index": "6053",
+        "Object": "VAR",
+        "Name": "vl_percentage_demand",
+        "Datatype": "Integer16"
+    },
+    {
+        "Index": "6054",
+        "Object": "VAR",
+        "Name": "vl_actual_percentage",
+        "Datatype": "Integer16"
+    },
+    {
+        "Index": "6055",
+        "Object": "VAR",
+        "Name": "vl_manipulated_percentage",
+        "Datatype": "Integer16"
+    },
+    {
+        "Index": "604E",
+        "Object": "VAR",
+        "Name": "vl_velocity_reference",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "604C",
+        "Object": "ARRAY",
+        "Name": "vl_dimension_factor",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "604B",
+        "Object": "ARRAY",
+        "Name": "vl_setpoint_factor",
+        "Datatype": "Integer16"
+    },
+    {
+        "Index": "604D",
+        "Object": "VAR",
+        "Name": "vl_pole_number",
+        "Datatype": "Unsigned8"
+    },
+    {
+        "Index": "6046",
+        "Object": "ARRAY",
+        "Name": "vl_velocity_min_max_amount",
+        "Datatype": "Integer16"
+    },
+    {
+        "Index": "6047",
+        "Object": "ARRAY",
+        "Name": "vl_velocity_min_max",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6058",
+        "Object": "ARRAY",
+        "Name": "vl_frequency_motor_min_max_a",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6059",
+        "Object": "ARRAY",
+        "Name": "vl_frequency_motor_min_max",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6056",
+        "Object": "ARRAY",
+        "Name": "vl_velocity_motor_min_max_amo",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6057",
+        "Object": "ARRAY",
+        "Name": "vl_velocity_motor_min_max",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6048",
+        "Object": "RECORD",
+        "Name": "vl_velocity_acceleration",
+        "Datatype": ""
+    },
+    {
+        "Index": "6049",
+        "Object": "RECORD",
+        "Name": "vl_velocity_deceleration",
+        "Datatype": ""
+    },
+    {
+        "Index": "604A",
+        "Object": "RECORD",
+        "Name": "vl_velocity_quick_stop",
+        "Datatype": ""
+    },
+    {
+        "Index": "604F",
+        "Object": "VAR",
+        "Name": "vl_ramp_function_time",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6050",
+        "Object": "VAR",
+        "Name": "vl_slow_down_time",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6051",
+        "Object": "VAR",
+        "Name": "vl_quick_stop_time",
+        "Datatype": "Unsigned32"
+    },
+    {
+        "Index": "6044",
+        "Object": "VAR",
+        "Name": "vl_control_effort",
+        "Datatype": "Integer16"
+    },
+    {
+        "Index": "6045",
+        "Object": "VAR",
+        "Name": "vl_manipulated_velocity",
+        "Datatype": "Integer16"
+    },
+    {
+        "Index": "6052",
+        "Object": "VAR",
+        "Name": "vl_nominal_percentage",
+        "Datatype": "Integer16"
+    },
+    {
+        "Index": "60B8",
+        "Object": "VAR",
+        "Name": "touch_probe_function",
+        "Datatype": "Unsigned16"
+    },
+    {
+        "Index": "60B9",
+        "Object": "VAR",
+        "Name": "touch_probe_status",
+        "Datatype": "Unsigned16"
+    },
+    {
+        "Index": "60BA",
+        "Object": "VAR",
+        "Name": "touch_probe_pos1_pos_value",
+        "Datatype": "Integer32"
+    },
+    {
+        "Index": "60BB",
+        "Object": "VAR",
+        "Name": "touch_probe_pos1_neg_value",
+        "Datatype": "Integer32"
+    },
+    {
+        "Index": "60BC",
+        "Object": "VAR",
+        "Name": "Touch_Probe2_Pos1_Pos_Value",
+        "Datatype": "Integer32"
+    },
+    {
+        "Index": "213F",
+        "Object": "VAR",
+        "Name": "Servo_Error",
+        "Datatype": "Unsigned16"
+    },
+    {
+        "Index": "60E0",
+        "Object": "VAR",
+        "Name": "Positive_torque_limit",
+        "Datatype": "Unsigned16"
+    },
+    {
+        "Index": "60E1",
+        "Object": "VAR",
+        "Name": "Negative_torque_limit",
+        "Datatype": "Unsigned16"
+    }
+]

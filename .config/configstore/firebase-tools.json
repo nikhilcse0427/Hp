@@ -1,0 +1,46 @@
+{
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1743511297003
+	},
+	"activeProjects": {
+		"C:\\Users\\Hp\\Desktop\\a1\\DoctorAppointment\\frontened": "appappointment-75586",
+		"C:\\Users\\Hp\\Desktop\\DoctorAppointment\\DoctorAppointment -App": "appappointment-75586",
+		"C:\\Users\\Hp\\Desktop\\DoctorAppointment\\DoctorAppointment-App": "appappointment-75586",
+		"C:\\Users\\Hp\\Desktop\\DoctorAppointment\\DoctorAppointment-App\\Frontened": "appappointment-75586",
+		"C:\\Users\\Hp\\Desktop\\DoctorAppointment\\DoctorAppointment-App1\\Frontened": "appappointment-75586",
+		"C:\\Users\\Hp\\Desktop\\Portpolio\\NikhilVermaPortpolio": "portpolio88"
+	},
+	"additionalAccounts": [],
+	"activeAccounts": {},
+	"usage": true,
+	"analytics-uuid": "13404b8d-0202-4741-ae77-823c9af5c9d3",
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "112253099574576768556",
+		"email": "nikhilverma0427@gmail.com",
+		"email_verified": true,
+		"at_hash": "wDMJJ26vixxZqrERJVWG7Q",
+		"iat": 1740399831,
+		"exp": 1740403431
+	},
+	"tokens": {
+		"expires_at": 1743514966241,
+		"refresh_token": "1//0g3rYshZKY0GRCgYIARAAGBASNwF-L9IrpgIF8NxWkVn13mN6sdX9G4grEKPHEWM0_pSOBhM-469krG2dgAAER2s0JRzgSIkEoy4",
+		"scopes": [],
+		"access_token": "ya29.a0AeXRPp5-qFgLf57k66piXTE4cM5hXUZtUlv2XbatfAxUhMyfjIhp7tBrMi2iwFBVvUGG9BnMr-ZreKXddPHWsoNrPeHLOs4MHr00fLvhwUg5up8YhGAWg2_ejSY6H4LcNjmSHlT9uoxFUWE6NEJZPpvbBd1BmJx-vnaUZcv3QA0xun8maCgYKAWYSARASFQHGX2MizCUi910ZoBFBowbm6qwMZg0183",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/userinfo.email openid https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyMWYzYmM2NmYwNzUxZjc4NDA2MDY3OTliMWFkZjllOWZiNjBkZmIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTEyMjUzMDk5NTc0NTc2NzY4NTU2IiwiZW1haWwiOiJuaWtoaWx2ZXJtYTA0MjdAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJmSnlhS1V4M0VvbUk1a1ZwV3hxZmZBIiwiaWF0IjoxNzQzNTExMzY3LCJleHAiOjE3NDM1MTQ5Njd9.BjTlMaDINJjTScW_EDuJgEEi1yWPAlG7njgvupzkhCqed8RLh8w52q9_mI0LxafH_kQslSWo19ZO5r68C2Bqq2w5MBRxG2Mc2A9QMyrqm6gr1ShFOTnwzDAoMVnW-_MRWO7rjvjCe3tex9L_HLsz-trezMePcV-K4mAMyk01F4y1rasSITwj7e9_UWS5ICJJHr8VWpxOR7uy99Tsd-gAnpl0NIFQ4NTst3ZsCZvF7bhkPV-j3g-Zy8GUCCClDs8StH1T0ZkDriJNbHuGmMJYFoklGAbO_euJvscKpEL0U8NotXfPNzKLv7P0pp5nVpC-AzOam4fr_38rQTR7BMM7dA"
+	},
+	"lastError": 1743512253604
+}

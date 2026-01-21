@@ -1,0 +1,1006 @@
+16:09:47.025 info extension 
+16:09:47.236 info host client connected: extension { address: '127.0.0.1', family: 'IPv4', port: 50575 }
+16:09:47.274 info host worker Starting Host Worker...
+16:09:47.429 info host starting host: {"extensionFolder":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.405","runtimeHookFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.405\\out\\runtimeHook\\tracer.js","globalErrorHandlerFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.405\\out\\runtimeHook\\errorHandler.js","networkLoggingHandlerFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.405\\out\\runtimeHook\\networkLoggingHandler.js","filesToInstrument":[],"debug":false,"config":{"dateTimeFormat":"HH:mm:ss.SSS","dateTimeDisplayMode":"Absolute","installBinToPath":true,"openLinksInEditor":true,"maxLogViewerEntries":15000,"showWelcomeMessageInTools":true,"fontSize":10,"autoClearLogViewerOnFileChanges":true,"outputMode":"Beside File","captureFunctions":false,"searchUrl":"https://www.google.com/search?q={query}","enableProFeatures":false,"toolsToAutoPatch":["vite","angular","jest","webpack","next.js","nest.js","cypress","http-server","serve","live-server","nuxt","remix","qwik","hydrogen","serverless","astro"],"showErrors":true,"showLogsOnlyFromOpenedFiles":false,"showLogsFromLogPointsOnly":false,"showLogsFromMultipleRunningToolsTogether":false,"predictiveLoggingEnabled":true,"allowConsoleLogToTriggerPredictions":false,"showNetworkRequests":true},"allowedHosts":["localhost","127.0.0.1","example.cypress.io","LAPTOP-VT749JAH","192.168.174.1","192.168.26.1","172.21.128.163"],"host":"127.0.0.1","forcedStart":false,"startTime":1742207986557}
+16:09:47.459 info host starting tools discovery and integration
+16:09:47.527 info host looking for tools to patch
+16:09:47.541 info host found 0 tool file(s) to patch
+16:09:47.561 info host completed tools discovery and integration
+16:17:08.087 WARN host No clients connected
+16:25:54.340 WARN host No clients connected
+16:34:13.069 info host scheduling tools patching
+16:34:15.074 info host looking for tools to patch
+16:34:15.163 info host found 0 tool file(s) to patch
+16:44:27.000 WARN host No clients connected
+16:44:29.013 WARN host No clients connected
+16:51:23.725 WARN host No clients connected
+17:23:16.742 info extension stopping host
+17:23:16.776 info host removing cache folder: aa60431070b9698aee174780535b43d9
+17:38:58.367 info extension stopping host
+17:41:09.239 info extension stopping host
+20:23:37.862 info extension stopping host
+20:23:38.281 info extension Console Ninja extension version: 1.0.406
+20:23:38.668 info host ------------ starting ------------
+20:23:38.707 info extension host process output: port:[59549]
+20:23:38.707 info extension 
+20:23:38.735 info host client connected: extension { address: '127.0.0.1', family: 'IPv4', port: 59549 }
+20:23:38.942 info host worker Starting Host Worker...
+20:23:39.054 info host starting host: {"extensionFolder":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406","runtimeHookFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\tracer.js","globalErrorHandlerFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\errorHandler.js","networkLoggingHandlerFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\networkLoggingHandler.js","filesToInstrument":[],"debug":false,"config":{"dateTimeFormat":"HH:mm:ss.SSS","dateTimeDisplayMode":"Absolute","installBinToPath":true,"openLinksInEditor":true,"maxLogViewerEntries":15000,"showWelcomeMessageInTools":true,"fontSize":10,"autoClearLogViewerOnFileChanges":true,"outputMode":"Beside File","captureFunctions":false,"searchUrl":"https://www.google.com/search?q={query}","enableProFeatures":false,"toolsToAutoPatch":["vite","angular","jest","webpack","next.js","nest.js","cypress","http-server","serve","live-server","nuxt","remix","qwik","hydrogen","serverless","astro"],"showErrors":true,"showLogsOnlyFromOpenedFiles":false,"showLogsFromLogPointsOnly":false,"showLogsFromMultipleRunningToolsTogether":false,"predictiveLoggingEnabled":true,"allowConsoleLogToTriggerPredictions":false,"showNetworkRequests":true},"allowedHosts":["localhost","127.0.0.1","example.cypress.io","LAPTOP-VT749JAH","192.168.174.1","192.168.26.1","172.21.128.163"],"host":"127.0.0.1","forcedStart":false,"startTime":1742223218280}
+20:23:39.081 info host starting tools discovery and integration
+20:23:39.112 info host updating C:\Users\Hp\.console-ninja\.bin\loader.js
+20:23:39.165 info host looking for tools to patch
+20:23:39.180 info host found 0 tool file(s) to patch
+20:23:39.205 info host completed tools discovery and integration
+22:50:45.251 info extension stopping host
+22:50:45.295 info host removing cache folder: fbc875b789ce27cbc6ea1576c95a3f6b
+22:50:45.457 info extension client disconnected: 1006 
+12:33:13.488 info extension stopping host
+12:33:13.814 info extension Console Ninja extension version: 1.0.406
+12:33:14.199 info host ------------ starting ------------
+12:33:14.241 info extension host process output: port:[62235]
+12:33:14.241 info extension 
+12:33:14.272 info host client connected: extension { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+12:33:14.470 info host worker Starting Host Worker...
+12:33:14.624 info host starting host: {"extensionFolder":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406","runtimeHookFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\tracer.js","globalErrorHandlerFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\errorHandler.js","networkLoggingHandlerFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\networkLoggingHandler.js","filesToInstrument":[{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\server\\server.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\server\\controllers\\shop\\search-controller.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\server\\controllers\\shop\\products-controller.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\server\\controllers\\shop\\product-review-controller.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\server\\controllers\\shop\\cart-controller.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\server\\controllers\\shop\\order-controller.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\server\\controllers\\shop\\address-controller.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\server\\controllers\\common\\feature-controller.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\server\\controllers\\auth\\auth-controller.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\server\\controllers\\admin\\products-controller.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\server\\controllers\\admin\\order-controller.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\client\\src\\store\\shop\\products-slice\\index.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\client\\src\\store\\auth-slice\\index.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\client\\src\\store\\admin\\order-slice\\index.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\client\\src\\pages\\shopping-view\\search.jsx","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\client\\src\\pages\\shopping-view\\listing.jsx","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\client\\src\\pages\\shopping-view\\home.jsx","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\client\\src\\pages\\shopping-view\\checkout.jsx","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\client\\src\\pages\\admin-view\\products.jsx","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\client\\src\\pages\\auth\\register.jsx","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\client\\src\\pages\\admin-view\\dashboard.jsx","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\client\\src\\components\\admin-view\\orders.jsx","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\client\\src\\components\\admin-view\\order-details.jsx","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\client\\src\\components\\admin-view\\image-upload.jsx","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\client\\src\\components\\shopping-view\\header.jsx","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\client\\src\\components\\shopping-view\\product-details.jsx","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\client\\src\\components\\shopping-view\\orders.jsx","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\client\\src\\components\\common\\star-rating.jsx","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\client\\src\\components\\common\\check-auth.jsx","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\client\\src\\components\\shopping-view\\cart-items-content.jsx","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\client\\src\\components\\shopping-view\\address.jsx","reason":"search"},{"path":"c:\\users\\hp\\desktop\\ecommerce-merns-main\\ecommerce-merns-main\\client\\src\\app.jsx","reason":"search"}],"debug":false,"config":{"dateTimeFormat":"HH:mm:ss.SSS","dateTimeDisplayMode":"Absolute","installBinToPath":true,"openLinksInEditor":true,"maxLogViewerEntries":15000,"showWelcomeMessageInTools":true,"fontSize":10,"autoClearLogViewerOnFileChanges":true,"outputMode":"Beside File","captureFunctions":false,"searchUrl":"https://www.google.com/search?q={query}","enableProFeatures":false,"toolsToAutoPatch":["vite","angular","jest","webpack","next.js","nest.js","cypress","http-server","serve","live-server","nuxt","remix","qwik","hydrogen","serverless","astro"],"showErrors":true,"showLogsOnlyFromOpenedFiles":false,"showLogsFromLogPointsOnly":false,"showLogsFromMultipleRunningToolsTogether":false,"predictiveLoggingEnabled":true,"allowConsoleLogToTriggerPredictions":false,"showNetworkRequests":true},"allowedHosts":["localhost","127.0.0.1","example.cypress.io","LAPTOP-VT749JAH","192.168.174.1","192.168.26.1","192.168.43.54"],"host":"127.0.0.1","forcedStart":false,"startTime":1742281393813}
+12:33:14.653 info host starting tools discovery and integration
+12:33:14.712 info host looking for tools to patch
+12:33:14.743 info host found 0 tool file(s) to patch
+12:33:14.762 info host completed tools discovery and integration
+12:34:59.054 info host scheduling tools patching
+12:35:01.059 info host looking for tools to patch
+12:35:01.458 info host found 0 tool file(s) to patch
+12:35:18.342 info host scheduling tools patching
+12:35:20.352 info host looking for tools to patch
+12:35:20.638 info host found 2 tool file(s) to patch
+12:35:20.652 info host patching c:\users\hp\desktop\ecommerce-merns-main\ecommerce-merns-main\client\node_modules\vite\bin\vite.js
+12:35:20.736 info host Host's startup and patch time: 126923 ms
+12:35:24.734 info buildHook-16848 installing build hook for vite at c:\users\hp\desktop\ecommerce-merns-main\ecommerce-merns-main\client, node v20.10.0
+12:35:24.765 info buildHook-16848 allowed tools: vite, angular, jest, webpack, next.js, nest.js, cypress, http-server, serve, live-server, nuxt, remix, qwik, hydrogen, serverless, astro, node
+12:35:24.765 info buildHook-16848 running tools: vite
+12:35:24.769 info buildHook-16848 installing fs interceptor
+12:35:24.883 info host client connected: buildHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+12:35:24.953 info buildHook-16848 file processed (stat): 3 log points, error handler: false, network logging handler: false
+12:35:24.968 info buildHook-16848 file processed (stat): 1 log points, error handler: false, network logging handler: false
+12:35:24.986 info buildHook-16848 file processed (stat): 2 log points, error handler: false, network logging handler: false
+12:35:25.001 info buildHook-16848 file processed (stat): 2 log points, error handler: false, network logging handler: false
+12:35:25.066 info buildHook-16848 file processed (stat): 4 log points, error handler: false, network logging handler: false
+12:35:25.095 info buildHook-16848 file processed (stat): 5 log points, error handler: false, network logging handler: false
+12:35:25.111 info buildHook-16848 file processed (stat): 4 log points, error handler: false, network logging handler: false
+12:35:25.119 info buildHook-16848 file processed (stat): 3 log points, error handler: false, network logging handler: false
+12:35:25.134 info buildHook-16848 file processed (stat): 2 log points, error handler: false, network logging handler: false
+12:35:25.152 info buildHook-16848 file processed (stat): 6 log points, error handler: false, network logging handler: false
+12:35:25.164 info buildHook-16848 file processed (stat): 3 log points, error handler: false, network logging handler: false
+12:35:25.181 info buildHook-16848 file processed (stat): 2 log points, error handler: false, network logging handler: false
+12:35:25.199 info buildHook-16848 file processed (stat): 1 log points, error handler: false, network logging handler: false
+12:35:25.213 info buildHook-16848 file processed (stat): 1 log points, error handler: false, network logging handler: false
+12:35:25.242 info buildHook-16848 file processed (stat): 3 log points, error handler: false, network logging handler: false
+12:35:25.271 info buildHook-16848 file processed (stat): 4 log points, error handler: false, network logging handler: false
+12:35:25.307 info buildHook-16848 file processed (stat): 1 log points, error handler: false, network logging handler: false
+12:35:25.322 info buildHook-16848 file processed (stat): 2 log points, error handler: false, network logging handler: false
+12:35:25.339 info buildHook-16848 file processed (stat): 2 log points, error handler: false, network logging handler: false
+12:35:25.345 info buildHook-16848 file processed (stat): 1 log points, error handler: false, network logging handler: false
+12:35:25.356 info buildHook-16848 file processed (stat): 2 log points, error handler: false, network logging handler: false
+12:35:25.369 info buildHook-16848 file processed (stat): 1 log points, error handler: false, network logging handler: false
+12:35:25.387 info buildHook-16848 file processed (stat): 1 log points, error handler: false, network logging handler: false
+12:35:25.402 info buildHook-16848 file processed (stat): 4 log points, error handler: false, network logging handler: false
+12:35:25.419 info buildHook-16848 file processed (stat): 1 log points, error handler: false, network logging handler: false
+12:35:25.443 info buildHook-16848 file processed (stat): 2 log points, error handler: false, network logging handler: false
+12:35:25.458 info buildHook-16848 file processed (stat): 1 log points, error handler: false, network logging handler: false
+12:35:25.464 info buildHook-16848 file processed (stat): 1 log points, error handler: false, network logging handler: false
+12:35:25.472 info buildHook-16848 file processed (stat): 1 log points, error handler: false, network logging handler: false
+12:35:25.489 info buildHook-16848 file processed (stat): 1 log points, error handler: false, network logging handler: false
+12:35:25.502 info buildHook-16848 file processed (stat): 1 log points, error handler: false, network logging handler: false
+12:35:25.514 info buildHook-16848 file processed (stat): 1 log points, error handler: false, network logging handler: false
+12:35:25.515 info buildHook-16848 allowed tools: vite, angular, jest, webpack, next.js, nest.js, cypress, http-server, serve, live-server, nuxt, remix, qwik, hydrogen, serverless, astro, node
+12:35:25.515 info buildHook-16848 running tools: vite
+12:35:25.705 info buildHook-16848 file processed (stat): 0 log points, error handler: true, network logging handler: true
+12:35:28.016 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+12:35:28.037 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+12:35:40.340 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+12:36:35.288 info host scheduling tools patching
+12:36:37.297 info host looking for tools to patch
+12:36:37.537 info host found 2 tool file(s) to patch
+12:36:37.539 info host patching c:\users\hp\desktop\ecommerce-merns-main\ecommerce-merns-main\client\node_modules\vite\bin\vite.js
+12:36:37.626 info host Host's startup and patch time: 203813 ms
+12:39:15.708 info buildHook-16848 file processed (stat): 0 log points, error handler: false, network logging handler: false
+12:39:34.883 info buildHook-16848 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:03:29.357 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:03:29.376 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:03:32.194 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:06:24.894 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:06:24.909 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:06:27.638 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:09:28.301 info buildHook-16848 file processed (stat): 3 log points, error handler: false, network logging handler: false
+13:09:28.400 info buildHook-16848 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:09:42.821 info buildHook-16848 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:11:25.930 info buildHook-16848 file processed (stat): 1 log points, error handler: false, network logging handler: false
+13:11:27.106 info host client disconnected: runtimeHook 1001
+13:11:27.107 info host client disconnected: runtimeHook
+13:11:27.109 info host client disconnected: runtimeHook 1001
+13:11:27.109 info host client disconnected: runtimeHook
+13:11:27.109 info host client disconnected: runtimeHook 1001
+13:11:27.110 info host client disconnected: runtimeHook
+13:11:27.126 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:11:27.139 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:11:27.154 info buildHook-16848 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:11:27.228 info host client disconnected: runtimeHook 1001
+13:11:27.229 info host client disconnected: runtimeHook
+13:11:27.231 info host client disconnected: runtimeHook 1001
+13:11:27.231 info host client disconnected: runtimeHook
+13:11:27.231 info host client disconnected: runtimeHook 1001
+13:11:27.232 info host client disconnected: runtimeHook
+13:11:27.251 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:11:27.265 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:11:27.412 info host client disconnected: runtimeHook 1001
+13:11:27.412 info host client disconnected: runtimeHook
+13:11:27.413 info host client disconnected: runtimeHook 1001
+13:11:27.413 info host client disconnected: runtimeHook
+13:11:27.414 info host client disconnected: runtimeHook 1001
+13:11:27.414 info host client disconnected: runtimeHook
+13:11:27.440 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:11:27.457 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:11:30.506 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:11:30.622 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:11:30.769 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:11:38.152 info host client disconnected: runtimeHook 1001
+13:11:38.152 info host client disconnected: runtimeHook
+13:11:38.156 info host client disconnected: runtimeHook 1001
+13:11:38.157 info host client disconnected: runtimeHook
+13:11:38.157 info host client disconnected: runtimeHook 1001
+13:11:38.157 info host client disconnected: runtimeHook
+13:11:38.182 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:11:38.203 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:11:40.758 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:12:14.418 info buildHook-16848 file processed (stat): 1 log points, error handler: false, network logging handler: false
+13:12:15.113 info host client disconnected: runtimeHook 1001
+13:12:15.113 info host client disconnected: runtimeHook
+13:12:15.117 info host client disconnected: runtimeHook 1001
+13:12:15.117 info host client disconnected: runtimeHook
+13:12:15.117 info host client disconnected: runtimeHook 1001
+13:12:15.117 info host client disconnected: runtimeHook
+13:12:15.153 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:12:15.168 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:12:15.226 info buildHook-16848 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:12:15.276 info host client disconnected: runtimeHook 1001
+13:12:15.276 info host client disconnected: runtimeHook
+13:12:15.278 info host client disconnected: runtimeHook 1001
+13:12:15.278 info host client disconnected: runtimeHook
+13:12:15.278 info host client disconnected: runtimeHook 1001
+13:12:15.278 info host client disconnected: runtimeHook
+13:12:15.318 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:12:15.332 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:12:15.483 info host client disconnected: runtimeHook 1001
+13:12:15.483 info host client disconnected: runtimeHook
+13:12:15.484 info host client disconnected: runtimeHook 1001
+13:12:15.484 info host client disconnected: runtimeHook
+13:12:15.485 info host client disconnected: runtimeHook 1001
+13:12:15.486 info host client disconnected: runtimeHook
+13:12:15.518 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:12:15.534 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:12:18.372 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:12:18.408 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:12:18.450 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:12:28.343 info host client disconnected: runtimeHook 1001
+13:12:28.343 info host client disconnected: runtimeHook
+13:12:28.344 info host client disconnected: runtimeHook 1001
+13:12:28.344 info host client disconnected: runtimeHook
+13:12:28.345 info host client disconnected: runtimeHook 1001
+13:12:28.345 info host client disconnected: runtimeHook
+13:12:28.367 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:12:28.385 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:12:30.938 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:13:15.166 info host client disconnected: runtimeHook 1001
+13:13:15.167 info host client disconnected: runtimeHook
+13:13:15.170 info host client disconnected: runtimeHook 1001
+13:13:15.170 info host client disconnected: runtimeHook
+13:13:15.171 info host client disconnected: runtimeHook 1001
+13:13:15.171 info host client disconnected: runtimeHook
+13:18:27.890 info host client disconnected: runtimeHook 1001
+13:18:27.890 info host client disconnected: runtimeHook
+13:18:27.892 info host client disconnected: runtimeHook 1001
+13:18:27.892 info host client disconnected: runtimeHook
+13:18:27.892 info host client disconnected: runtimeHook 1001
+13:18:27.892 info host client disconnected: runtimeHook
+13:18:27.916 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:18:27.934 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:18:30.556 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:20:28.858 info buildHook-16848 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:21:08.786 info buildHook-16848 file processed (stat): 1 log points, error handler: false, network logging handler: false
+13:21:09.087 info host client disconnected: runtimeHook 1001
+13:21:09.087 info host client disconnected: runtimeHook
+13:21:09.090 info host client disconnected: runtimeHook 1001
+13:21:09.090 info host client disconnected: runtimeHook
+13:21:09.090 info host client disconnected: runtimeHook 1001
+13:21:09.090 info host client disconnected: runtimeHook
+13:21:09.110 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:21:09.122 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:21:09.204 info host client disconnected: runtimeHook 1001
+13:21:09.204 info host client disconnected: runtimeHook
+13:21:09.205 info host client disconnected: runtimeHook 1001
+13:21:09.205 info host client disconnected: runtimeHook
+13:21:09.206 info host client disconnected: runtimeHook 1001
+13:21:09.207 info host client disconnected: runtimeHook
+13:21:09.229 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:21:09.243 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:21:12.110 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:21:12.171 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:21:23.232 info buildHook-16848 file processed (stat): 1 log points, error handler: false, network logging handler: false
+13:21:24.121 info host client disconnected: runtimeHook 1001
+13:21:24.122 info host client disconnected: runtimeHook
+13:21:24.123 info host client disconnected: runtimeHook 1001
+13:21:24.124 info host client disconnected: runtimeHook
+13:21:24.124 info host client disconnected: runtimeHook 1001
+13:21:24.124 info host client disconnected: runtimeHook
+13:21:24.130 info host client disconnected: runtimeHook 1001
+13:21:24.130 info host client disconnected: runtimeHook
+13:21:24.132 info host client disconnected: runtimeHook 1001
+13:21:24.133 info host client disconnected: runtimeHook
+13:21:24.137 info host client disconnected: runtimeHook 1001
+13:21:24.137 info host client disconnected: runtimeHook
+13:21:24.168 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:21:24.182 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:21:24.259 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:21:24.273 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:21:27.122 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:21:27.249 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:21:36.988 info buildHook-16848 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:21:46.204 info buildHook-16848 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:21:48.430 info buildHook-16848 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:21:54.020 info buildHook-16848 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:23:37.601 info buildHook-16848 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:25:31.329 info buildHook-16848 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:25:31.438 info buildHook-16848 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:26:09.118 info buildHook-16848 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:26:31.405 info buildHook-16848 file processed (stat): 1 log points, error handler: false, network logging handler: false
+13:27:02.836 info buildHook-16848 file processed (stat): 1 log points, error handler: false, network logging handler: false
+13:27:12.869 info buildHook-16848 file processed (stat): 1 log points, error handler: false, network logging handler: false
+13:27:23.306 info buildHook-16848 file processed (stat): 1 log points, error handler: false, network logging handler: false
+13:28:02.512 info host client disconnected: buildHook 1006
+13:28:02.513 info host client disconnected: buildHook 1006, has clients false
+13:28:10.581 info buildHook-16408 installing build hook for vite at c:\users\hp\desktop\ecommerce-merns-main\ecommerce-merns-main\client, node v20.10.0
+13:28:10.623 info buildHook-16408 allowed tools: vite, angular, jest, webpack, next.js, nest.js, cypress, http-server, serve, live-server, nuxt, remix, qwik, hydrogen, serverless, astro, node
+13:28:10.623 info buildHook-16408 running tools: vite
+13:28:10.639 info buildHook-16408 installing fs interceptor
+13:28:10.649 info host client connected: buildHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:28:10.720 info buildHook-16408 file processed (stat): 3 log points, error handler: false, network logging handler: false
+13:28:10.738 info buildHook-16408 file processed (stat): 1 log points, error handler: false, network logging handler: false
+13:28:10.760 info buildHook-16408 file processed (stat): 2 log points, error handler: false, network logging handler: false
+13:28:10.778 info buildHook-16408 file processed (stat): 2 log points, error handler: false, network logging handler: false
+13:28:10.849 info buildHook-16408 file processed (stat): 4 log points, error handler: false, network logging handler: false
+13:28:10.888 info buildHook-16408 file processed (stat): 5 log points, error handler: false, network logging handler: false
+13:28:10.917 info buildHook-16408 file processed (stat): 4 log points, error handler: false, network logging handler: false
+13:28:10.932 info buildHook-16408 file processed (stat): 3 log points, error handler: false, network logging handler: false
+13:28:10.953 info buildHook-16408 file processed (stat): 2 log points, error handler: false, network logging handler: false
+13:28:10.980 info buildHook-16408 file processed (stat): 6 log points, error handler: false, network logging handler: false
+13:28:10.995 info buildHook-16408 file processed (stat): 3 log points, error handler: false, network logging handler: false
+13:28:11.016 info buildHook-16408 file processed (stat): 2 log points, error handler: false, network logging handler: false
+13:28:11.036 info buildHook-16408 file processed (stat): 1 log points, error handler: false, network logging handler: false
+13:28:11.049 info buildHook-16408 file processed (stat): 1 log points, error handler: false, network logging handler: false
+13:28:11.084 info buildHook-16408 file processed (stat): 3 log points, error handler: false, network logging handler: false
+13:28:11.132 info buildHook-16408 file processed (stat): 4 log points, error handler: false, network logging handler: false
+13:28:11.174 info buildHook-16408 file processed (stat): 1 log points, error handler: false, network logging handler: false
+13:28:11.193 info buildHook-16408 file processed (stat): 2 log points, error handler: false, network logging handler: false
+13:28:11.213 info buildHook-16408 file processed (stat): 2 log points, error handler: false, network logging handler: false
+13:28:11.221 info buildHook-16408 file processed (stat): 1 log points, error handler: false, network logging handler: false
+13:28:11.233 info buildHook-16408 file processed (stat): 2 log points, error handler: false, network logging handler: false
+13:28:11.250 info buildHook-16408 file processed (stat): 1 log points, error handler: false, network logging handler: false
+13:28:11.277 info buildHook-16408 file processed (stat): 1 log points, error handler: false, network logging handler: false
+13:28:11.294 info buildHook-16408 file processed (stat): 4 log points, error handler: false, network logging handler: false
+13:28:11.315 info buildHook-16408 file processed (stat): 1 log points, error handler: false, network logging handler: false
+13:28:11.343 info buildHook-16408 file processed (stat): 2 log points, error handler: false, network logging handler: false
+13:28:11.360 info buildHook-16408 file processed (stat): 1 log points, error handler: false, network logging handler: false
+13:28:11.367 info buildHook-16408 file processed (stat): 1 log points, error handler: false, network logging handler: false
+13:28:11.375 info buildHook-16408 file processed (stat): 1 log points, error handler: false, network logging handler: false
+13:28:11.392 info buildHook-16408 file processed (stat): 1 log points, error handler: false, network logging handler: false
+13:28:11.409 info buildHook-16408 file processed (stat): 1 log points, error handler: false, network logging handler: false
+13:28:11.423 info buildHook-16408 file processed (stat): 1 log points, error handler: false, network logging handler: false
+13:28:11.428 info buildHook-16408 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:28:11.432 info buildHook-16408 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:28:11.439 info buildHook-16408 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:28:11.449 info buildHook-16408 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:28:11.463 info buildHook-16408 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:28:11.476 info buildHook-16408 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:28:11.484 info buildHook-16408 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:28:11.491 info buildHook-16408 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:28:11.495 info buildHook-16408 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:28:11.500 info buildHook-16408 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:28:11.503 info buildHook-16408 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:28:11.503 info buildHook-16408 allowed tools: vite, angular, jest, webpack, next.js, nest.js, cypress, http-server, serve, live-server, nuxt, remix, qwik, hydrogen, serverless, astro, node
+13:28:11.504 info buildHook-16408 running tools: vite
+13:28:11.661 info buildHook-16408 file processed (stat): 0 log points, error handler: true, network logging handler: true
+13:28:13.681 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:28:13.697 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:28:19.169 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:34:21.149 info buildHook-16408 file processed (stat): 2 log points, error handler: false, network logging handler: false
+13:34:21.484 info buildHook-16408 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:34:45.517 info buildHook-16408 file processed (stat): 2 log points, error handler: false, network logging handler: false
+13:35:05.093 info host client disconnected: runtimeHook 1001
+13:35:05.093 info host client disconnected: runtimeHook
+13:35:05.095 info host client disconnected: runtimeHook 1001
+13:35:05.095 info host client disconnected: runtimeHook
+13:35:05.095 info host client disconnected: runtimeHook 1001
+13:35:05.096 info host client disconnected: runtimeHook
+13:35:05.130 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:35:05.146 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:35:07.910 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:35:47.167 info buildHook-16408 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:35:58.067 info buildHook-16408 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:36:04.988 info buildHook-16408 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:36:32.372 info buildHook-16408 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:36:33.138 info host client disconnected: runtimeHook 1001
+13:36:33.139 info host client disconnected: runtimeHook
+13:36:33.140 info host client disconnected: runtimeHook 1001
+13:36:33.140 info host client disconnected: runtimeHook
+13:36:33.140 info host client disconnected: runtimeHook 1001
+13:36:33.140 info host client disconnected: runtimeHook
+13:36:33.165 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:36:33.186 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:36:33.189 info host client disconnected: runtimeHook 1001
+13:36:33.189 info host client disconnected: runtimeHook
+13:36:33.191 info host client disconnected: runtimeHook 1001
+13:36:33.191 info host client disconnected: runtimeHook
+13:36:33.192 info host client disconnected: runtimeHook 1001
+13:36:33.192 info host client disconnected: runtimeHook
+13:36:33.212 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:36:33.227 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:36:36.273 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:36:36.556 info host client connected: runtimeHook { address: '127.0.0.1', family: 'IPv4', port: 62235 }
+13:40:27.598 info host client disconnected: runtimeHook 1001
+13:40:27.598 info host client disconnected: runtimeHook
+13:40:27.599 info host client disconnected: runtimeHook 1001
+13:40:27.600 info host client disconnected: runtimeHook
+13:40:27.600 info host client disconnected: runtimeHook 1001
+13:40:27.600 info host client disconnected: runtimeHook
+13:43:26.790 info extension stopping host
+13:43:27.389 info extension Console Ninja extension version: 1.0.406
+13:43:27.866 info host ------------ starting ------------
+13:43:27.915 info extension host process output: port:[51834]
+13:43:27.915 info extension 
+13:43:27.947 info host client connected: extension { address: '127.0.0.1', family: 'IPv4', port: 51834 }
+13:43:28.156 info host worker Starting Host Worker...
+13:43:28.305 info host starting host: {"extensionFolder":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406","runtimeHookFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\tracer.js","globalErrorHandlerFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\errorHandler.js","networkLoggingHandlerFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\networkLoggingHandler.js","filesToInstrument":[{"path":"c:\\users\\hp\\desktop\\e-commerce-store-master\\e-commerce-store-master\\e-comerce-frontend\\src\\utils\\hooks\\uselogin.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\e-commerce-store-master\\e-commerce-store-master\\e-comerce-frontend\\src\\utils\\api.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\e-commerce-store-master\\e-commerce-store-master\\e-comerce-frontend\\src\\index.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\e-commerce-store-master\\e-commerce-store-master\\e-comerce-frontend\\src\\components\\sidedrawer.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\e-commerce-store-master\\e-commerce-store-master\\e-comerce-frontend\\src\\components\\navbar.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\e-commerce-store-master\\e-commerce-store-master\\e-comerce-frontend\\src\\redux\\actions\\useraction.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\e-commerce-store-master\\e-commerce-store-master\\e-comerce-frontend\\src\\redux\\actions\\cartactions.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\e-commerce-store-master\\e-commerce-store-master\\e-comerce-backend\\backend\\server.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\e-commerce-store-master\\e-commerce-store-master\\e-comerce-backend\\backend\\seederscript.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\e-commerce-store-master\\e-commerce-store-master\\e-comerce-backend\\backend\\middleware\\middleware.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\e-commerce-store-master\\e-commerce-store-master\\e-comerce-backend\\backend\\controller\\user.controller.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\e-commerce-store-master\\e-commerce-store-master\\e-comerce-backend\\backend\\controller\\productcontrollers.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\e-commerce-store-master\\e-commerce-store-master\\e-comerce-backend\\backend\\controller\\cart.controller.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\e-commerce-store-master\\e-commerce-store-master\\e-comerce-backend\\backend\\config\\db.js","reason":"search"}],"debug":false,"config":{"dateTimeFormat":"HH:mm:ss.SSS","dateTimeDisplayMode":"Absolute","installBinToPath":true,"openLinksInEditor":true,"maxLogViewerEntries":15000,"showWelcomeMessageInTools":true,"fontSize":10,"autoClearLogViewerOnFileChanges":true,"outputMode":"Beside File","captureFunctions":false,"searchUrl":"https://www.google.com/search?q={query}","enableProFeatures":false,"toolsToAutoPatch":["vite","angular","jest","webpack","next.js","nest.js","cypress","http-server","serve","live-server","nuxt","remix","qwik","hydrogen","serverless","astro"],"showErrors":true,"showLogsOnlyFromOpenedFiles":false,"showLogsFromLogPointsOnly":false,"showLogsFromMultipleRunningToolsTogether":false,"predictiveLoggingEnabled":true,"allowConsoleLogToTriggerPredictions":false,"showNetworkRequests":true},"allowedHosts":["localhost","127.0.0.1","example.cypress.io","LAPTOP-VT749JAH","192.168.174.1","192.168.26.1","192.168.43.54"],"host":"127.0.0.1","forcedStart":false,"startTime":1742285607387}
+13:43:28.337 info host starting tools discovery and integration
+13:43:28.409 info host looking for tools to patch
+13:43:28.432 info host found 0 tool file(s) to patch
+13:43:28.455 info host completed tools discovery and integration
+13:44:02.731 WARN host No clients connected
+13:45:24.484 WARN host No clients connected
+13:46:37.005 info host scheduling tools patching
+13:46:39.014 info host looking for tools to patch
+13:46:39.076 info host found 0 tool file(s) to patch
+13:54:19.097 info host client disconnected: runtimeHook 1001
+13:54:19.098 info host client disconnected: runtimeHook
+13:54:19.099 info host client disconnected: runtimeHook 1001
+13:54:19.099 info host client disconnected: runtimeHook
+13:54:19.099 info host client disconnected: runtimeHook 1001
+13:54:19.099 info host client disconnected: runtimeHook
+13:55:19.236 info host client disconnected: runtimeHook 1001
+13:55:19.236 info host client disconnected: runtimeHook
+13:55:19.245 info host client disconnected: runtimeHook 1001
+13:55:19.245 info host client disconnected: runtimeHook
+13:55:19.245 info host client disconnected: runtimeHook 1001
+13:55:19.245 info host client disconnected: runtimeHook
+13:55:29.928 info host scheduling tools patching
+13:55:31.933 info host looking for tools to patch
+13:55:32.726 info host found 6 tool file(s) to patch
+13:55:32.753 info host patching c:\users\hp\desktop\e-commerce-store-master\e-commerce-store-master\e-comerce-frontend\node_modules\webpack\lib\webpack.js
+13:55:32.754 info host patching c:\users\hp\desktop\e-commerce-store-master\e-commerce-store-master\e-comerce-frontend\node_modules\webpack\lib\WebpackOptionsApply.js
+13:55:32.755 info host patching c:\users\hp\desktop\e-commerce-store-master\e-commerce-store-master\e-comerce-frontend\node_modules\jest\bin\jest.js
+13:55:32.755 info host patching c:\users\hp\desktop\e-commerce-store-master\e-commerce-store-master\e-comerce-frontend\node_modules\jest-runner\build\testWorker.js
+13:55:32.857 info host Host's startup and patch time: 725470 ms
+13:56:04.610 info buildHook-23556 installing build hook for webpack at c:\users\hp\desktop\e-commerce-store-master\e-commerce-store-master\e-comerce-frontend, node v20.10.0
+13:56:04.630 info buildHook-23556 allowed tools: vite, angular, jest, webpack, next.js, nest.js, cypress, http-server, serve, live-server, nuxt, remix, qwik, hydrogen, serverless, astro, node
+13:56:04.630 info buildHook-23556 running tools: webpack
+13:56:04.638 info buildHook-23556 installing fs interceptor
+13:56:08.745 info host client connected: buildHook { address: '127.0.0.1', family: 'IPv4', port: 51834 }
+13:56:08.779 info buildHook-23556 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:56:08.800 info buildHook-23556 file processed (stat): 5 log points, error handler: false, network logging handler: false
+13:56:08.806 info buildHook-23556 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:56:08.821 info buildHook-23556 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:56:08.832 info buildHook-23556 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:56:08.843 info buildHook-23556 file processed (stat): 0 log points, error handler: false, network logging handler: false
+13:56:08.856 info buildHook-23556 file processed (stat): 1 log points, error handler: false, network logging handler: false
+13:56:08.865 info buildHook-23556 file processed (stat): 1 log points, error handler: false, network logging handler: false
+13:56:08.874 info buildHook-23556 file processed (stat): 2 log points, error handler: false, network logging handler: false
+13:56:08.882 info buildHook-23556 file processed (stat): 2 log points, error handler: false, network logging handler: false
+13:56:08.890 info buildHook-23556 file processed (stat): 3 log points, error handler: false, network logging handler: false
+13:56:08.898 info buildHook-23556 file processed (stat): 2 log points, error handler: false, network logging handler: false
+13:56:08.905 info buildHook-23556 file processed (stat): 3 log points, error handler: false, network logging handler: false
+13:56:08.911 info buildHook-23556 file processed (stat): 2 log points, error handler: false, network logging handler: false
+13:56:08.912 info buildHook-23556 allowed tools: vite, angular, jest, webpack, next.js, nest.js, cypress, http-server, serve, live-server, nuxt, remix, qwik, hydrogen, serverless, astro, node
+13:56:08.912 info buildHook-23556 running tools: webpack
+13:56:14.725 info buildHook-23556 build hook already installed
+13:56:15.291 info buildHook-23556 file processed (stat): 0 log points, error handler: true, network logging handler: true
+13:56:15.474 info host client disconnected: buildHook 4100
+13:56:15.475 info host client disconnected: buildHook 4100, has clients false
+13:56:27.629 WARN buildHook-13732 not running build hook for webpack: process.env.NODE_ENV = "production" var is used
+13:56:29.875 WARN buildHook-13732 not running build hook for webpack: process.env.NODE_ENV = "production" var is used
+14:05:11.053 info extension stopping host
+14:05:11.345 info extension Console Ninja extension version: 1.0.406
+14:05:11.763 info host ------------ starting ------------
+14:05:11.829 info extension host process output: port:[52839]
+14:05:11.829 info extension 
+14:05:11.860 info host client connected: extension { address: '127.0.0.1', family: 'IPv4', port: 52839 }
+14:05:12.008 info host worker Starting Host Worker...
+14:05:12.128 info host starting host: {"extensionFolder":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406","runtimeHookFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\tracer.js","globalErrorHandlerFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\errorHandler.js","networkLoggingHandlerFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\networkLoggingHandler.js","filesToInstrument":[],"debug":false,"config":{"dateTimeFormat":"HH:mm:ss.SSS","dateTimeDisplayMode":"Absolute","installBinToPath":true,"openLinksInEditor":true,"maxLogViewerEntries":15000,"showWelcomeMessageInTools":true,"fontSize":10,"autoClearLogViewerOnFileChanges":true,"outputMode":"Beside File","captureFunctions":false,"searchUrl":"https://www.google.com/search?q={query}","enableProFeatures":false,"toolsToAutoPatch":["vite","angular","jest","webpack","next.js","nest.js","cypress","http-server","serve","live-server","nuxt","remix","qwik","hydrogen","serverless","astro"],"showErrors":true,"showLogsOnlyFromOpenedFiles":false,"showLogsFromLogPointsOnly":false,"showLogsFromMultipleRunningToolsTogether":false,"predictiveLoggingEnabled":true,"allowConsoleLogToTriggerPredictions":false,"showNetworkRequests":true},"allowedHosts":["localhost","127.0.0.1","example.cypress.io","LAPTOP-VT749JAH","192.168.174.1","192.168.26.1","192.168.43.54"],"host":"127.0.0.1","forcedStart":false,"startTime":1742286911343}
+14:05:12.153 info host starting tools discovery and integration
+14:05:12.167 info host looking for tools to patch
+14:05:12.178 info host found 0 tool file(s) to patch
+14:05:12.195 info host completed tools discovery and integration
+14:07:05.850 info host scheduling tools patching
+14:07:07.855 info host looking for tools to patch
+14:07:07.917 info host found 2 tool file(s) to patch
+14:07:07.948 info host patching c:\users\hp\desktop\hackathon\E-commerse\node_modules\vite\bin\vite.js
+14:07:08.075 info host Host's startup and patch time: 116731 ms
+14:07:18.757 info buildHook-22656 installing build hook for vite at c:\users\hp\desktop\hackathon\e-commerse, node v20.10.0
+14:07:18.775 info host client connected: buildHook { address: '127.0.0.1', family: 'IPv4', port: 52839 }
+14:07:18.796 WARN host ✘ vite v6.2.2 is not yet supported in the Community edition of Console Ninja.
+14:07:18.796 WARN host We are working hard on it for you https://tinyurl.com/3h9mtwra.
+14:07:18.796 WARN host 
+14:07:18.796 WARN host Estimated release dates:
+14:07:18.796 WARN host   - Community users: around 14th May, 2025 (subject to team availability)
+14:07:18.796 WARN host   - PRO users:       priority access is available now
+14:07:27.619 WARN host No clients connected
+14:08:09.456 info extension stopping host
+14:08:09.502 info host removing cache folder: d99172fdf8b3460c66441fb279edcdc6
+14:08:10.910 info extension stopping host
+14:08:10.960 info host removing cache folder: 51d7375d198309e289b20f44b3e55f08
+14:08:11.012 ERR! host failed to delete cache folder ENOTEMPTY: directory not empty, rmdir 'C:\Users\Hp\.console-ninja\.cache\51d7375d198309e289b20f44b3e55f08'
+14:08:11.016 WARN host unable to revert access and modified time for file c:\users\hp\desktop\ecommerce-merns-main\ecommerce-merns-main\server\server.js
+14:08:11.033 WARN host unable to revert access and modified time for file c:\users\hp\desktop\ecommerce-merns-main\ecommerce-merns-main\client\src\store\auth-slice\index.js
+14:08:11.039 WARN host unable to revert access and modified time for file c:\users\hp\desktop\ecommerce-merns-main\ecommerce-merns-main\client\src\pages\shopping-view\home.jsx
+14:09:11.857 info host removing cache folder: 51d7375d198309e289b20f44b3e55f08
+14:16:18.953 WARN host No clients connected
+14:16:24.959 WARN host No clients connected
+14:16:28.955 WARN host No clients connected
+14:17:03.443 info host scheduling tools patching
+14:17:05.455 info host looking for tools to patch
+14:17:05.514 info host found 2 tool file(s) to patch
+14:17:05.516 info host patching c:\users\hp\desktop\hackathon\E-commerse\node_modules\vite\bin\vite.js
+14:17:05.595 info host Host's startup and patch time: 714252 ms
+14:17:32.106 info buildHook-4240 installing build hook for vite at c:\users\hp\desktop\hackathon\e-commerse, node v20.10.0
+14:17:32.123 info host client connected: buildHook { address: '127.0.0.1', family: 'IPv4', port: 52839 }
+14:17:32.147 WARN host ✘ vite v6.2.2 is not yet supported in the Community edition of Console Ninja.
+14:17:32.147 WARN host We are working hard on it for you https://tinyurl.com/3h9mtwra.
+14:17:32.147 WARN host 
+14:17:32.147 WARN host Estimated release dates:
+14:17:32.147 WARN host   - Community users: around 14th May, 2025 (subject to team availability)
+14:17:32.147 WARN host   - PRO users:       priority access is available now
+14:49:34.997 WARN host No clients connected
+15:21:56.143 info extension stopping host
+15:21:56.181 info host removing cache folder: 4d55189dc6d03af5690675fad034f3fe
+15:21:56.323 info buildHook-4240 client disconnected: 1006 
+15:21:56.326 info buildHook-4240 disconnected from host: 52839
+15:21:56.327 info buildHook-4240 disconnected from all hosts
+15:30:55.361 info extension stopping host
+15:30:55.721 info extension Console Ninja extension version: 1.0.406
+15:30:56.352 info host ------------ starting ------------
+15:30:56.533 info extension host process output: port:[52839]
+15:30:56.533 info extension 
+15:30:56.587 info host client connected: extension { address: '127.0.0.1', family: 'IPv4', port: 52839 }
+15:30:56.797 info host worker Starting Host Worker...
+15:30:57.167 info host starting host: {"extensionFolder":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406","runtimeHookFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\tracer.js","globalErrorHandlerFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\errorHandler.js","networkLoggingHandlerFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\networkLoggingHandler.js","filesToInstrument":[{"path":"c:\\Users\\Hp\\Desktop\\Hackathon\\E-commerse\\eslint.config.js","reason":"open"},{"path":"c:\\Users\\Hp\\Desktop\\Hackathon\\E-commerse\\src\\main.jsx","reason":"open"},{"path":"c:\\Users\\Hp\\Desktop\\Hackathon\\E-commerse\\index.html","reason":"open"},{"path":"c:\\Users\\Hp\\Desktop\\Hackathon\\E-commerse\\src\\App.jsx","reason":"open"},{"path":"c:\\Users\\Hp\\Desktop\\Hackathon\\E-commerse\\src\\components\\Helper.jsx","reason":"open"}],"debug":false,"config":{"dateTimeFormat":"HH:mm:ss.SSS","dateTimeDisplayMode":"Absolute","installBinToPath":true,"openLinksInEditor":true,"maxLogViewerEntries":15000,"showWelcomeMessageInTools":true,"fontSize":10,"autoClearLogViewerOnFileChanges":true,"outputMode":"Beside File","captureFunctions":false,"searchUrl":"https://www.google.com/search?q={query}","enableProFeatures":false,"toolsToAutoPatch":["vite","angular","jest","webpack","next.js","nest.js","cypress","http-server","serve","live-server","nuxt","remix","qwik","hydrogen","serverless","astro"],"showErrors":true,"showLogsOnlyFromOpenedFiles":false,"showLogsFromLogPointsOnly":false,"showLogsFromMultipleRunningToolsTogether":false,"predictiveLoggingEnabled":true,"allowConsoleLogToTriggerPredictions":false,"showNetworkRequests":true},"allowedHosts":["localhost","127.0.0.1","example.cypress.io","LAPTOP-VT749JAH","192.168.174.1","192.168.26.1","192.168.43.54"],"host":"127.0.0.1","forcedStart":false,"startTime":1742292055719}
+15:30:57.204 info host starting tools discovery and integration
+15:30:57.236 info host looking for tools to patch
+15:30:57.379 info host found 2 tool file(s) to patch
+15:30:57.383 info host patching c:\users\hp\desktop\hackathon\E-commerse\node_modules\vite\bin\vite.js
+15:30:57.498 info host Host's startup and patch time: 1779 ms
+15:30:57.498 info host completed tools discovery and integration
+15:30:57.521 WARN host No clients connected
+15:37:34.734 info buildHook-11728 installing build hook for vite at c:\users\hp\desktop\hackathon\e-commerse, node v20.10.0
+15:37:34.805 info host client connected: buildHook { address: '127.0.0.1', family: 'IPv4', port: 52839 }
+15:37:34.868 WARN host ✘ vite v6.2.2 is not yet supported in the Community edition of Console Ninja.
+15:37:34.868 WARN host We are working hard on it for you https://tinyurl.com/3h9mtwra.
+15:37:34.868 WARN host 
+15:37:34.868 WARN host Estimated release dates:
+15:37:34.869 WARN host   - Community users: around 14th May, 2025 (subject to team availability)
+15:37:34.869 WARN host   - PRO users:       priority access is available now
+15:45:55.374 WARN host No clients connected
+15:49:08.867 info buildHook-3704 installing build hook for vite at c:\users\hp\desktop\hackathon\e-commerse, node v20.10.0
+15:49:08.885 info host client connected: buildHook { address: '127.0.0.1', family: 'IPv4', port: 52839 }
+15:49:08.889 WARN host ✘ vite v6.2.2 is not yet supported in the Community edition of Console Ninja.
+15:49:08.889 WARN host We are working hard on it for you https://tinyurl.com/3h9mtwra.
+15:49:08.889 WARN host 
+15:49:08.889 WARN host Estimated release dates:
+15:49:08.889 WARN host   - Community users: around 14th May, 2025 (subject to team availability)
+15:49:08.889 WARN host   - PRO users:       priority access is available now
+16:28:41.252 info buildHook-24480 installing build hook for vite at c:\users\hp\desktop\hackathon\e-commerse, node v20.10.0
+16:28:41.275 info host client connected: buildHook { address: '127.0.0.1', family: 'IPv4', port: 52839 }
+16:28:41.345 WARN host ✘ vite v6.2.2 is not yet supported in the Community edition of Console Ninja.
+16:28:41.345 WARN host We are working hard on it for you https://tinyurl.com/3h9mtwra.
+16:28:41.345 WARN host 
+16:28:41.345 WARN host Estimated release dates:
+16:28:41.345 WARN host   - Community users: around 14th May, 2025 (subject to team availability)
+16:28:41.345 WARN host   - PRO users:       priority access is available now
+17:25:17.180 info extension stopping host
+17:25:17.539 info extension Console Ninja extension version: 1.0.406
+17:25:17.881 info host ------------ starting ------------
+17:25:17.938 info extension host process output: port:[60288]
+17:25:17.938 info extension 
+17:25:17.966 info host client connected: extension { address: '127.0.0.1', family: 'IPv4', port: 60288 }
+17:25:18.123 info host worker Starting Host Worker...
+17:25:18.204 info host starting host: {"extensionFolder":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406","runtimeHookFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\tracer.js","globalErrorHandlerFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\errorHandler.js","networkLoggingHandlerFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\networkLoggingHandler.js","filesToInstrument":[{"path":"c:\\users\\hp\\desktop\\drcode-main\\drcode-main\\frontend\\src\\app.jsx","reason":"search"},{"path":"c:\\users\\hp\\desktop\\drcode-main\\drcode-main\\backend\\app\\server.js","reason":"search"}],"debug":false,"config":{"dateTimeFormat":"HH:mm:ss.SSS","dateTimeDisplayMode":"Absolute","installBinToPath":true,"openLinksInEditor":true,"maxLogViewerEntries":15000,"showWelcomeMessageInTools":true,"fontSize":10,"autoClearLogViewerOnFileChanges":true,"outputMode":"Beside File","captureFunctions":false,"searchUrl":"https://www.google.com/search?q={query}","enableProFeatures":false,"toolsToAutoPatch":["vite","angular","jest","webpack","next.js","nest.js","cypress","http-server","serve","live-server","nuxt","remix","qwik","hydrogen","serverless","astro"],"showErrors":true,"showLogsOnlyFromOpenedFiles":false,"showLogsFromLogPointsOnly":false,"showLogsFromMultipleRunningToolsTogether":false,"predictiveLoggingEnabled":true,"allowConsoleLogToTriggerPredictions":false,"showNetworkRequests":true},"allowedHosts":["localhost","127.0.0.1","example.cypress.io","LAPTOP-VT749JAH","192.168.174.1","192.168.26.1","192.168.43.54"],"host":"127.0.0.1","forcedStart":false,"startTime":1742298917538}
+17:25:18.229 info host starting tools discovery and integration
+17:25:18.304 info host looking for tools to patch
+17:25:18.327 info host found 0 tool file(s) to patch
+17:25:18.347 info host completed tools discovery and integration
+17:25:41.830 info extension stopping host
+17:25:42.218 info extension Console Ninja extension version: 1.0.406
+17:25:42.548 info host ------------ starting ------------
+17:25:42.586 info extension host process output: port:[60333]
+17:25:42.587 info extension 
+17:25:42.614 info host client connected: extension { address: '127.0.0.1', family: 'IPv4', port: 60333 }
+17:25:42.786 info host worker Starting Host Worker...
+17:25:42.901 info host starting host: {"extensionFolder":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406","runtimeHookFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\tracer.js","globalErrorHandlerFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\errorHandler.js","networkLoggingHandlerFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\networkLoggingHandler.js","filesToInstrument":[{"path":"c:\\users\\hp\\desktop\\drcode-main\\drcode-main\\frontend\\src\\app.jsx","reason":"search"},{"path":"c:\\users\\hp\\desktop\\drcode-main\\drcode-main\\backend\\app\\server.js","reason":"search"}],"debug":false,"config":{"dateTimeFormat":"HH:mm:ss.SSS","dateTimeDisplayMode":"Absolute","installBinToPath":true,"openLinksInEditor":true,"maxLogViewerEntries":15000,"showWelcomeMessageInTools":true,"fontSize":10,"autoClearLogViewerOnFileChanges":true,"outputMode":"Beside File","captureFunctions":false,"searchUrl":"https://www.google.com/search?q={query}","enableProFeatures":false,"toolsToAutoPatch":["vite","angular","jest","webpack","next.js","nest.js","cypress","http-server","serve","live-server","nuxt","remix","qwik","hydrogen","serverless","astro"],"showErrors":true,"showLogsOnlyFromOpenedFiles":false,"showLogsFromLogPointsOnly":false,"showLogsFromMultipleRunningToolsTogether":false,"predictiveLoggingEnabled":true,"allowConsoleLogToTriggerPredictions":false,"showNetworkRequests":true},"allowedHosts":["localhost","127.0.0.1","example.cypress.io","LAPTOP-VT749JAH","192.168.174.1","192.168.26.1","192.168.43.54"],"host":"127.0.0.1","forcedStart":false,"startTime":1742298942216}
+17:25:42.924 info host starting tools discovery and integration
+17:25:42.936 info host looking for tools to patch
+17:25:42.953 info host found 0 tool file(s) to patch
+17:25:42.977 info host completed tools discovery and integration
+17:38:31.532 ERR! host could not obtain lock; retrying Lock file is already being held
+17:38:31.534 ERR! host could not obtain lock; retrying Lock file is already being held
+17:38:31.581 info host removing cache folder: 6cfa3b63653b8cf33d1c425fcf5fb6fa
+17:38:31.637 info host removing cache folder: cce5e54cd07d7db697b9de65de939999
+17:38:31.648 ERR! host could not obtain lock; retrying Lock file is already being held
+17:39:31.542 ERR! host could not obtain lock; retrying Lock file is already being held
+17:39:31.542 ERR! host could not obtain lock; retrying Lock file is already being held
+17:39:31.651 ERR! host could not obtain lock; retrying Lock file is already being held
+17:40:31.551 ERR! host could not obtain lock; retrying Lock file is already being held
+17:40:31.551 ERR! host could not obtain lock; retrying Lock file is already being held
+17:40:31.658 ERR! host could not obtain lock; retrying Lock file is already being held
+17:41:31.561 ERR! host could not obtain lock; retrying Lock file is already being held
+17:41:31.561 ERR! host could not obtain lock; retrying EPERM: operation not permitted, stat 'C:\Users\Hp\.console-ninja\hostRegister.json.lock'
+17:41:31.671 ERR! host could not obtain lock; retrying Lock file is already being held
+17:42:31.565 ERR! host could not obtain lock; retrying Lock file is already being held
+17:42:31.566 ERR! host could not obtain lock; retrying Lock file is already being held
+17:42:31.675 ERR! host could not obtain lock; retrying Lock file is already being held
+17:43:31.577 ERR! host could not obtain lock; retrying Lock file is already being held
+17:43:31.577 ERR! host could not obtain lock; retrying Lock file is already being held
+17:43:31.687 ERR! host could not obtain lock; retrying Lock file is already being held
+17:44:31.584 ERR! host could not obtain lock; retrying Lock file is already being held
+17:44:31.584 ERR! host could not obtain lock; retrying Lock file is already being held
+17:44:31.692 ERR! host could not obtain lock; retrying Lock file is already being held
+17:45:31.593 ERR! host could not obtain lock; retrying Lock file is already being held
+17:45:31.593 ERR! host could not obtain lock; retrying Lock file is already being held
+17:45:31.702 ERR! host could not obtain lock; retrying Lock file is already being held
+17:45:35.057 WARN host No clients connected
+17:46:31.596 ERR! host could not obtain lock; retrying Lock file is already being held
+17:46:31.596 ERR! host could not obtain lock; retrying Lock file is already being held
+17:46:31.706 ERR! host could not obtain lock; retrying Lock file is already being held
+17:47:31.599 ERR! host could not obtain lock; retrying Lock file is already being held
+17:47:31.599 ERR! host could not obtain lock; retrying Lock file is already being held
+17:47:31.709 ERR! host could not obtain lock; retrying Lock file is already being held
+17:48:31.605 ERR! host could not obtain lock; retrying Lock file is already being held
+17:48:31.604 ERR! host could not obtain lock; retrying Lock file is already being held
+17:48:31.713 ERR! host could not obtain lock; retrying Lock file is already being held
+17:54:34.939 ERR! host could not obtain lock; retrying Lock file is already being held
+17:54:35.009 ERR! host could not obtain lock; retrying Lock file is already being held
+17:54:35.054 ERR! host failed to save host register file EPERM: operation not permitted, rename 'C:\Users\Hp\.console-ninja\hostRegister.json.1115577133' -> 'C:\Users\Hp\.console-ninja\hostRegister.json'
+17:54:35.068 info host removing cache folder: 271e3a08abcf2c9626f8774c7c7b85f7
+17:55:11.350 WARN host No clients connected
+17:55:34.930 ERR! host could not obtain lock; retrying Lock file is already being held
+17:55:34.944 ERR! host could not obtain lock; retrying Lock file is already being held
+17:55:35.051 ERR! host could not obtain lock; retrying Lock file is already being held
+17:56:49.703 ERR! host could not obtain lock; retrying Lock file is already being held
+17:56:49.716 ERR! host could not obtain lock; retrying Lock file is already being held
+17:56:49.830 ERR! host could not obtain lock; retrying Lock file is already being held
+17:57:49.711 ERR! host could not obtain lock; retrying Lock file is already being held
+17:58:49.719 ERR! host could not obtain lock; retrying Lock file is already being held
+17:59:49.730 ERR! host could not obtain lock; retrying Lock file is already being held
+18:00:49.741 ERR! host could not obtain lock; retrying Lock file is already being held
+18:01:49.754 ERR! host could not obtain lock; retrying Lock file is already being held
+18:01:49.767 ERR! host could not obtain lock; retrying Lock file is already being held
+18:01:49.875 ERR! host could not obtain lock; retrying Lock file is already being held
+18:02:49.761 ERR! host could not obtain lock; retrying Lock file is already being held
+18:02:49.777 ERR! host could not obtain lock; retrying Lock file is already being held
+18:02:49.886 ERR! host could not obtain lock; retrying Lock file is already being held
+18:03:49.768 ERR! host could not obtain lock; retrying Lock file is already being held
+18:03:49.784 ERR! host could not obtain lock; retrying Lock file is already being held
+18:03:49.894 ERR! host could not obtain lock; retrying Lock file is already being held
+18:05:04.955 ERR! host could not obtain lock; retrying Lock file is already being held
+18:05:04.955 ERR! host could not obtain lock; retrying Lock file is already being held
+18:05:05.074 ERR! host could not obtain lock; retrying Lock file is already being held
+22:05:19.053 ERR! host could not obtain lock; retrying Lock file is already being held
+22:05:19.217 ERR! host could not obtain lock; retrying Lock file is already being held
+22:16:39.509 ERR! host could not obtain lock; retrying Lock file is already being held
+22:16:39.528 ERR! host could not obtain lock; retrying Lock file is already being held
+22:17:39.504 ERR! host could not obtain lock; retrying Lock file is already being held
+22:17:39.504 ERR! host could not obtain lock; retrying Lock file is already being held
+22:17:39.612 ERR! host could not obtain lock; retrying Lock file is already being held
+22:18:39.511 ERR! host could not obtain lock; retrying Lock file is already being held
+22:18:39.513 ERR! host could not obtain lock; retrying Lock file is already being held
+22:18:39.617 ERR! host could not obtain lock; retrying Lock file is already being held
+22:19:39.518 ERR! host could not obtain lock; retrying Lock file is already being held
+22:19:39.518 ERR! host could not obtain lock; retrying Lock file is already being held
+22:19:39.628 ERR! host could not obtain lock; retrying Lock file is already being held
+22:20:39.519 ERR! host could not obtain lock; retrying Lock file is already being held
+22:20:39.520 ERR! host could not obtain lock; retrying Lock file is already being held
+22:20:39.627 ERR! host could not obtain lock; retrying Lock file is already being held
+22:21:39.530 ERR! host could not obtain lock; retrying Lock file is already being held
+22:21:39.531 ERR! host could not obtain lock; retrying Lock file is already being held
+22:21:39.641 ERR! host could not obtain lock; retrying Lock file is already being held
+22:22:39.540 ERR! host could not obtain lock; retrying Lock file is already being held
+22:22:39.540 ERR! host could not obtain lock; retrying Lock file is already being held
+22:22:39.648 ERR! host could not obtain lock; retrying Lock file is already being held
+22:23:39.549 ERR! host could not obtain lock; retrying Lock file is already being held
+22:23:39.550 ERR! host could not obtain lock; retrying Lock file is already being held
+22:23:39.657 ERR! host could not obtain lock; retrying Lock file is already being held
+22:24:39.563 ERR! host could not obtain lock; retrying Lock file is already being held
+22:24:39.569 ERR! host could not obtain lock; retrying Lock file is already being held
+22:24:39.684 ERR! host could not obtain lock; retrying Lock file is already being held
+22:25:39.575 ERR! host could not obtain lock; retrying Lock file is already being held
+22:25:39.575 ERR! host could not obtain lock; retrying Lock file is already being held
+22:25:39.684 ERR! host could not obtain lock; retrying Lock file is already being held
+22:26:39.587 ERR! host could not obtain lock; retrying Lock file is already being held
+22:26:39.587 ERR! host could not obtain lock; retrying Lock file is already being held
+22:26:39.694 ERR! host could not obtain lock; retrying Lock file is already being held
+22:27:39.602 ERR! host could not obtain lock; retrying Lock file is already being held
+22:27:39.602 ERR! host could not obtain lock; retrying Lock file is already being held
+22:27:39.709 ERR! host could not obtain lock; retrying Lock file is already being held
+22:28:39.617 ERR! host could not obtain lock; retrying Lock file is already being held
+22:28:39.617 ERR! host could not obtain lock; retrying Lock file is already being held
+22:28:39.724 ERR! host could not obtain lock; retrying Lock file is already being held
+22:29:39.626 ERR! host could not obtain lock; retrying Lock file is already being held
+22:29:39.627 ERR! host could not obtain lock; retrying Lock file is already being held
+22:29:39.736 ERR! host could not obtain lock; retrying Lock file is already being held
+22:30:39.637 ERR! host could not obtain lock; retrying Lock file is already being held
+22:30:39.637 ERR! host could not obtain lock; retrying Lock file is already being held
+22:30:39.747 ERR! host could not obtain lock; retrying Lock file is already being held
+22:31:39.641 ERR! host could not obtain lock; retrying Lock file is already being held
+22:31:39.653 ERR! host could not obtain lock; retrying Lock file is already being held
+22:31:39.760 ERR! host could not obtain lock; retrying Lock file is already being held
+22:32:39.661 ERR! host could not obtain lock; retrying Lock file is already being held
+22:32:39.665 ERR! host could not obtain lock; retrying Lock file is already being held
+22:32:39.779 ERR! host could not obtain lock; retrying Lock file is already being held
+22:33:39.656 ERR! host could not obtain lock; retrying Lock file is already being held
+22:33:39.656 ERR! host could not obtain lock; retrying Lock file is already being held
+22:33:39.766 ERR! host could not obtain lock; retrying Lock file is already being held
+22:34:39.659 ERR! host could not obtain lock; retrying Lock file is already being held
+22:34:39.659 ERR! host could not obtain lock; retrying Lock file is already being held
+22:34:39.767 ERR! host could not obtain lock; retrying Lock file is already being held
+22:35:39.662 ERR! host could not obtain lock; retrying Lock file is already being held
+22:35:39.663 ERR! host could not obtain lock; retrying Lock file is already being held
+22:35:39.771 ERR! host could not obtain lock; retrying Lock file is already being held
+22:36:39.666 ERR! host could not obtain lock; retrying Lock file is already being held
+22:36:39.676 ERR! host could not obtain lock; retrying Lock file is already being held
+22:36:39.788 ERR! host could not obtain lock; retrying Lock file is already being held
+22:37:39.673 ERR! host could not obtain lock; retrying Lock file is already being held
+22:37:39.688 ERR! host could not obtain lock; retrying Lock file is already being held
+22:37:39.796 ERR! host could not obtain lock; retrying Lock file is already being held
+22:37:46.466 info host scheduling tools patching
+22:37:46.486 info host scheduling tools patching
+22:37:47.972 info host scheduling tools patching
+22:37:48.501 info host looking for tools to patch
+22:37:48.637 info host found 2 tool file(s) to patch
+22:37:48.647 info host patching c:\users\hp\desktop\drcode-main\drcode-main\frontend\node_modules\vite\bin\vite.js
+22:37:48.707 info host Host's startup and patch time: 18751169 ms
+22:37:49.981 info host looking for tools to patch
+22:37:50.135 info host found 2 tool file(s) to patch
+22:37:50.148 info host patching c:\users\hp\desktop\drcode-main\drcode-main\frontend\node_modules\vite\bin\vite.js
+22:37:50.250 info host Host's startup and patch time: 18728034 ms
+22:37:51.223 info host scheduling tools patching
+22:37:53.239 info host looking for tools to patch
+22:37:53.316 info host found 2 tool file(s) to patch
+22:37:53.318 info host patching c:\users\hp\desktop\drcode-main\drcode-main\frontend\node_modules\vite\bin\vite.js
+22:37:53.398 info host Host's startup and patch time: 18755860 ms
+22:38:39.686 ERR! host could not obtain lock; retrying Lock file is already being held
+22:38:39.701 ERR! host could not obtain lock; retrying Lock file is already being held
+22:38:39.810 ERR! host could not obtain lock; retrying Lock file is already being held
+22:39:39.688 ERR! host could not obtain lock; retrying Lock file is already being held
+22:39:39.702 ERR! host could not obtain lock; retrying Lock file is already being held
+22:39:39.812 ERR! host could not obtain lock; retrying Lock file is already being held
+22:40:02.382 info host scheduling tools patching
+22:40:02.382 info host scheduling tools patching
+22:40:04.387 info host looking for tools to patch
+22:40:04.387 info host looking for tools to patch
+22:40:04.491 info host found 2 tool file(s) to patch
+22:40:04.494 info host patching c:\users\hp\desktop\drcode-main\drcode-main\frontend\node_modules\vite\bin\vite.js
+22:40:04.513 info host found 2 tool file(s) to patch
+22:40:04.517 info host patching c:\users\hp\desktop\drcode-main\drcode-main\frontend\node_modules\vite\bin\vite.js
+22:40:04.593 info host Host's startup and patch time: 18887055 ms
+22:40:04.593 info host Host's startup and patch time: 18862377 ms
+22:40:04.595 ERR! host could not obtain lock; retrying Lock file is already being held
+22:40:14.708 info buildHook-26764 installing build hook for vite at c:\users\hp\desktop\drcode-main\drcode-main\frontend, node v20.10.0
+22:40:39.691 ERR! host could not obtain lock; retrying Lock file is already being held
+22:40:39.705 ERR! host could not obtain lock; retrying Lock file is already being held
+22:40:39.815 ERR! host could not obtain lock; retrying Lock file is already being held
+22:41:39.698 ERR! host could not obtain lock; retrying Lock file is already being held
+22:41:39.714 ERR! host could not obtain lock; retrying Lock file is already being held
+22:41:39.821 ERR! host could not obtain lock; retrying Lock file is already being held
+22:42:39.713 ERR! host could not obtain lock; retrying Lock file is already being held
+22:43:39.722 ERR! host could not obtain lock; retrying Lock file is already being held
+22:44:39.726 ERR! host could not obtain lock; retrying Lock file is already being held
+22:45:39.733 ERR! host could not obtain lock; retrying Lock file is already being held
+22:45:39.749 ERR! host could not obtain lock; retrying Lock file is already being held
+22:45:39.857 ERR! host could not obtain lock; retrying Lock file is already being held
+22:46:39.763 ERR! host could not obtain lock; retrying Lock file is already being held
+22:47:39.763 ERR! host could not obtain lock; retrying Lock file is already being held
+22:48:39.756 ERR! host could not obtain lock; retrying Lock file is already being held
+22:49:39.758 ERR! host could not obtain lock; retrying Lock file is already being held
+22:50:39.777 ERR! host could not obtain lock; retrying Lock file is already being held
+22:51:39.781 ERR! host could not obtain lock; retrying Lock file is already being held
+22:52:39.795 ERR! host could not obtain lock; retrying Lock file is already being held
+22:53:39.782 ERR! host could not obtain lock; retrying Lock file is already being held
+23:06:02.694 ERR! host could not obtain lock; retrying Lock file is already being held
+23:06:02.722 ERR! host could not obtain lock; retrying Lock file is already being held
+23:06:02.808 ERR! host could not obtain lock; retrying Lock file is already being held
+23:06:02.860 ERR! host could not obtain lock; retrying Lock file is already being held
+23:06:02.942 ERR! host could not obtain lock; retrying Lock file is already being held
+23:06:03.045 ERR! host could not obtain lock; retrying Lock file is already being held
+23:07:02.703 ERR! host could not obtain lock; retrying Lock file is already being held
+23:08:02.714 ERR! host could not obtain lock; retrying Lock file is already being held
+23:09:02.723 ERR! host could not obtain lock; retrying Lock file is already being held
+23:09:02.753 ERR! host could not obtain lock; retrying Lock file is already being held
+23:11:25.998 ERR! host could not obtain lock; retrying Lock file is already being held
+23:11:25.996 ERR! host could not obtain lock; retrying Lock file is already being held
+23:11:26.115 ERR! host could not obtain lock; retrying Lock file is already being held
+23:11:26.232 ERR! host could not obtain lock; retrying Lock file is already being held
+23:12:26.007 ERR! host could not obtain lock; retrying Lock file is already being held
+23:12:26.009 ERR! host could not obtain lock; retrying Lock file is already being held
+23:12:26.117 ERR! host could not obtain lock; retrying Lock file is already being held
+23:13:26.008 ERR! host could not obtain lock; retrying Lock file is already being held
+23:13:26.024 ERR! host could not obtain lock; retrying Lock file is already being held
+23:13:26.133 ERR! host could not obtain lock; retrying Lock file is already being held
+23:14:26.020 ERR! host could not obtain lock; retrying Lock file is already being held
+23:14:26.034 ERR! host could not obtain lock; retrying Lock file is already being held
+23:14:26.142 ERR! host could not obtain lock; retrying Lock file is already being held
+23:15:26.031 ERR! host could not obtain lock; retrying Lock file is already being held
+23:15:26.046 ERR! host could not obtain lock; retrying Lock file is already being held
+23:15:26.155 ERR! host could not obtain lock; retrying Lock file is already being held
+23:16:26.040 ERR! host could not obtain lock; retrying Lock file is already being held
+23:16:26.055 ERR! host could not obtain lock; retrying Lock file is already being held
+23:16:26.163 ERR! host could not obtain lock; retrying Lock file is already being held
+23:17:26.051 ERR! host could not obtain lock; retrying Lock file is already being held
+23:17:26.066 ERR! host could not obtain lock; retrying Lock file is already being held
+23:18:26.067 ERR! host could not obtain lock; retrying Lock file is already being held
+23:18:26.078 ERR! host could not obtain lock; retrying Lock file is already being held
+23:18:26.191 ERR! host could not obtain lock; retrying Lock file is already being held
+23:19:26.082 ERR! host could not obtain lock; retrying Lock file is already being held
+23:19:26.096 ERR! host could not obtain lock; retrying Lock file is already being held
+23:19:26.204 ERR! host could not obtain lock; retrying Lock file is already being held
+23:20:26.096 ERR! host could not obtain lock; retrying Lock file is already being held
+23:20:26.095 ERR! host could not obtain lock; retrying Lock file is already being held
+23:20:26.200 ERR! host could not obtain lock; retrying Lock file is already being held
+23:21:26.108 ERR! host could not obtain lock; retrying Lock file is already being held
+23:22:26.114 ERR! host could not obtain lock; retrying Lock file is already being held
+23:22:26.115 ERR! host could not obtain lock; retrying Lock file is already being held
+23:22:26.223 ERR! host could not obtain lock; retrying Lock file is already being held
+23:23:26.128 ERR! host could not obtain lock; retrying Lock file is already being held
+23:24:26.142 ERR! host could not obtain lock; retrying Lock file is already being held
+23:24:26.142 ERR! host could not obtain lock; retrying Lock file is already being held
+23:24:26.249 ERR! host could not obtain lock; retrying Lock file is already being held
+23:25:26.150 ERR! host could not obtain lock; retrying Lock file is already being held
+23:26:26.151 ERR! host could not obtain lock; retrying Lock file is already being held
+23:27:26.167 ERR! host could not obtain lock; retrying Lock file is already being held
+23:28:26.173 ERR! host could not obtain lock; retrying Lock file is already being held
+23:29:26.174 ERR! host could not obtain lock; retrying Lock file is already being held
+23:30:26.202 ERR! host could not obtain lock; retrying Lock file is already being held
+23:31:26.209 ERR! host could not obtain lock; retrying Lock file is already being held
+23:32:26.198 ERR! host could not obtain lock; retrying Lock file is already being held
+23:33:26.204 ERR! host could not obtain lock; retrying Lock file is already being held
+23:34:26.217 ERR! host could not obtain lock; retrying Lock file is already being held
+23:35:26.221 ERR! host could not obtain lock; retrying Lock file is already being held
+23:36:26.240 ERR! host could not obtain lock; retrying Lock file is already being held
+23:37:26.227 ERR! host could not obtain lock; retrying Lock file is already being held
+23:38:26.232 ERR! host could not obtain lock; retrying Lock file is already being held
+23:39:26.236 ERR! host could not obtain lock; retrying Lock file is already being held
+23:40:26.246 ERR! host could not obtain lock; retrying Lock file is already being held
+23:41:26.271 ERR! host could not obtain lock; retrying Lock file is already being held
+23:42:26.262 ERR! host could not obtain lock; retrying Lock file is already being held
+23:43:26.275 ERR! host could not obtain lock; retrying Lock file is already being held
+23:44:26.277 ERR! host could not obtain lock; retrying Lock file is already being held
+23:45:26.279 ERR! host could not obtain lock; retrying Lock file is already being held
+23:46:26.303 ERR! host could not obtain lock; retrying Lock file is already being held
+23:47:26.310 ERR! host could not obtain lock; retrying Lock file is already being held
+23:48:26.298 ERR! host could not obtain lock; retrying Lock file is already being held
+23:49:26.316 ERR! host could not obtain lock; retrying Lock file is already being held
+23:50:26.301 ERR! host could not obtain lock; retrying Lock file is already being held
+23:51:26.306 ERR! host could not obtain lock; retrying Lock file is already being held
+23:52:26.320 ERR! host could not obtain lock; retrying Lock file is already being held
+23:53:26.335 ERR! host could not obtain lock; retrying Lock file is already being held
+23:54:26.345 ERR! host could not obtain lock; retrying Lock file is already being held
+23:55:26.353 ERR! host could not obtain lock; retrying Lock file is already being held
+23:56:26.378 ERR! host could not obtain lock; retrying Lock file is already being held
+23:57:26.380 ERR! host could not obtain lock; retrying Lock file is already being held
+23:58:26.389 ERR! host could not obtain lock; retrying Lock file is already being held
+23:58:26.390 ERR! host could not obtain lock; retrying Lock file is already being held
+23:58:26.496 ERR! host could not obtain lock; retrying Lock file is already being held
+23:59:26.398 ERR! host could not obtain lock; retrying Lock file is already being held
+23:59:26.397 ERR! host could not obtain lock; retrying Lock file is already being held
+23:59:26.507 ERR! host could not obtain lock; retrying Lock file is already being held
+00:00:26.413 ERR! host could not obtain lock; retrying Lock file is already being held
+00:01:26.427 ERR! host could not obtain lock; retrying Lock file is already being held
+00:02:26.428 ERR! host could not obtain lock; retrying Lock file is already being held
+00:03:26.447 ERR! host could not obtain lock; retrying Lock file is already being held
+00:04:26.453 ERR! host could not obtain lock; retrying Lock file is already being held
+00:05:26.467 ERR! host could not obtain lock; retrying Lock file is already being held
+00:06:26.478 ERR! host could not obtain lock; retrying Lock file is already being held
+00:07:26.486 ERR! host could not obtain lock; retrying Lock file is already being held
+00:08:26.499 ERR! host could not obtain lock; retrying Lock file is already being held
+00:09:26.512 ERR! host could not obtain lock; retrying Lock file is already being held
+00:10:26.514 ERR! host could not obtain lock; retrying Lock file is already being held
+00:11:26.526 ERR! host could not obtain lock; retrying Lock file is already being held
+00:12:26.536 ERR! host could not obtain lock; retrying Lock file is already being held
+00:13:26.551 ERR! host could not obtain lock; retrying Lock file is already being held
+00:14:26.553 ERR! host could not obtain lock; retrying Lock file is already being held
+00:15:26.560 ERR! host could not obtain lock; retrying Lock file is already being held
+00:16:26.571 ERR! host could not obtain lock; retrying Lock file is already being held
+00:17:26.577 ERR! host could not obtain lock; retrying Lock file is already being held
+00:18:26.589 ERR! host could not obtain lock; retrying Lock file is already being held
+00:19:26.585 ERR! host could not obtain lock; retrying Lock file is already being held
+00:19:26.597 ERR! host could not obtain lock; retrying Lock file is already being held
+00:19:26.705 ERR! host could not obtain lock; retrying Lock file is already being held
+00:20:26.606 ERR! host could not obtain lock; retrying Lock file is already being held
+00:21:26.613 ERR! host could not obtain lock; retrying Lock file is already being held
+00:22:26.621 ERR! host could not obtain lock; retrying Lock file is already being held
+00:23:26.622 ERR! host could not obtain lock; retrying Lock file is already being held
+00:24:26.629 ERR! host could not obtain lock; retrying Lock file is already being held
+00:25:26.643 ERR! host could not obtain lock; retrying Lock file is already being held
+00:26:26.651 ERR! host could not obtain lock; retrying Lock file is already being held
+00:27:26.660 ERR! host could not obtain lock; retrying Lock file is already being held
+00:28:26.665 ERR! host could not obtain lock; retrying Lock file is already being held
+00:29:26.674 ERR! host could not obtain lock; retrying Lock file is already being held
+00:30:26.683 ERR! host could not obtain lock; retrying Lock file is already being held
+00:31:26.694 ERR! host could not obtain lock; retrying Lock file is already being held
+00:32:26.696 ERR! host could not obtain lock; retrying Lock file is already being held
+00:34:27.739 ERR! host could not obtain lock; retrying Lock file is already being held
+00:34:27.751 ERR! host could not obtain lock; retrying Lock file is already being held
+00:34:27.908 ERR! host could not obtain lock; retrying Lock file is already being held
+00:35:27.698 ERR! host could not obtain lock; retrying Lock file is already being held
+00:35:27.708 ERR! host could not obtain lock; retrying Lock file is already being held
+00:35:27.815 ERR! host could not obtain lock; retrying Lock file is already being held
+00:35:28.413 info extension stopping host
+00:36:27.710 ERR! host could not obtain lock; retrying Lock file is already being held
+00:37:27.724 ERR! host could not obtain lock; retrying Lock file is already being held
+00:38:27.743 ERR! host could not obtain lock; retrying Lock file is already being held
+00:39:27.739 ERR! host could not obtain lock; retrying Lock file is already being held
+00:40:27.740 ERR! host could not obtain lock; retrying Lock file is already being held
+00:41:27.746 ERR! host could not obtain lock; retrying Lock file is already being held
+00:42:27.753 ERR! host could not obtain lock; retrying Lock file is already being held
+00:43:27.768 ERR! host could not obtain lock; retrying Lock file is already being held
+00:44:27.777 ERR! host could not obtain lock; retrying Lock file is already being held
+00:45:27.782 ERR! host could not obtain lock; retrying Lock file is already being held
+00:46:27.793 ERR! host could not obtain lock; retrying Lock file is already being held
+00:47:27.804 ERR! host could not obtain lock; retrying Lock file is already being held
+00:48:27.808 ERR! host could not obtain lock; retrying Lock file is already being held
+00:49:27.810 ERR! host could not obtain lock; retrying Lock file is already being held
+00:50:27.818 ERR! host could not obtain lock; retrying Lock file is already being held
+00:51:27.822 ERR! host could not obtain lock; retrying Lock file is already being held
+00:52:27.826 ERR! host could not obtain lock; retrying Lock file is already being held
+00:53:27.833 ERR! host could not obtain lock; retrying Lock file is already being held
+00:54:27.835 ERR! host could not obtain lock; retrying Lock file is already being held
+00:55:27.839 ERR! host could not obtain lock; retrying Lock file is already being held
+00:56:27.843 ERR! host could not obtain lock; retrying Lock file is already being held
+00:57:27.858 ERR! host could not obtain lock; retrying Lock file is already being held
+00:58:27.882 ERR! host could not obtain lock; retrying Lock file is already being held
+00:59:27.884 ERR! host could not obtain lock; retrying Lock file is already being held
+01:00:27.891 ERR! host could not obtain lock; retrying Lock file is already being held
+01:01:27.895 ERR! host could not obtain lock; retrying Lock file is already being held
+01:02:27.910 ERR! host could not obtain lock; retrying Lock file is already being held
+01:03:27.912 ERR! host could not obtain lock; retrying Lock file is already being held
+01:04:27.927 ERR! host could not obtain lock; retrying Lock file is already being held
+01:05:27.945 ERR! host could not obtain lock; retrying Lock file is already being held
+01:06:27.946 ERR! host could not obtain lock; retrying Lock file is already being held
+01:07:27.950 ERR! host could not obtain lock; retrying Lock file is already being held
+01:08:27.955 ERR! host could not obtain lock; retrying Lock file is already being held
+01:09:33.272 ERR! host could not obtain lock; retrying Lock file is already being held
+01:10:33.279 ERR! host could not obtain lock; retrying Lock file is already being held
+01:11:33.293 ERR! host could not obtain lock; retrying Lock file is already being held
+02:17:33.890 ERR! host could not obtain lock; retrying Lock file is already being held
+02:22:33.930 ERR! host failed to save host register file EPERM: operation not permitted, rename 'C:\Users\Hp\.console-ninja\hostRegister.json.3735629334' -> 'C:\Users\Hp\.console-ninja\hostRegister.json'
+02:33:38.805 ERR! host could not obtain lock; retrying Lock file is already being held
+02:49:23.432 ERR! host could not obtain lock; retrying Lock file is already being held
+09:13:51.457 ERR! host could not obtain lock; retrying Lock file is already being held
+09:14:25.597 info extension stopping host
+09:14:29.490 info extension stopping host
+09:14:29.673 info buildHook-3704 client disconnected: 1006 
+09:14:29.673 info buildHook-24480 client disconnected: 1006 
+09:14:29.684 info buildHook-3704 disconnected from host: 52839
+09:14:29.684 info buildHook-24480 disconnected from host: 52839
+09:14:29.685 info buildHook-24480 disconnected from all hosts
+09:14:29.685 info buildHook-3704 disconnected from all hosts
+09:19:53.852 info extension stopping host
+09:19:54.326 info extension Console Ninja extension version: 1.0.406
+09:19:54.969 info host ------------ starting ------------
+09:19:55.040 info extension host process output: port:[60333]
+09:19:55.041 info extension 
+09:19:55.093 info host client connected: extension { address: '127.0.0.1', family: 'IPv4', port: 60333 }
+09:19:55.354 info host worker Starting Host Worker...
+09:19:55.439 info host starting host: {"extensionFolder":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406","runtimeHookFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\tracer.js","globalErrorHandlerFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\errorHandler.js","networkLoggingHandlerFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\networkLoggingHandler.js","filesToInstrument":[{"path":"c:\\users\\hp\\desktop\\drcode-main\\drcode-main\\backend\\app\\server.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\drcode-main\\drcode-main\\frontend\\src\\app.jsx","reason":"search"},{"path":"c:\\Users\\Hp\\Desktop\\drcode-main\\drcode-main\\frontend\\src\\App.jsx","reason":"open"},{"path":"c:\\Users\\Hp\\Desktop\\drcode-main\\drcode-main\\backend\\app\\server.js","reason":"open"}],"debug":false,"config":{"dateTimeFormat":"HH:mm:ss.SSS","dateTimeDisplayMode":"Absolute","installBinToPath":true,"openLinksInEditor":true,"maxLogViewerEntries":15000,"showWelcomeMessageInTools":true,"fontSize":10,"autoClearLogViewerOnFileChanges":true,"outputMode":"Beside File","captureFunctions":false,"searchUrl":"https://www.google.com/search?q={query}","enableProFeatures":false,"toolsToAutoPatch":["vite","angular","jest","webpack","next.js","nest.js","cypress","http-server","serve","live-server","nuxt","remix","qwik","hydrogen","serverless","astro"],"showErrors":true,"showLogsOnlyFromOpenedFiles":false,"showLogsFromLogPointsOnly":false,"showLogsFromMultipleRunningToolsTogether":false,"predictiveLoggingEnabled":true,"allowConsoleLogToTriggerPredictions":false,"showNetworkRequests":true},"allowedHosts":["localhost","127.0.0.1","example.cypress.io","LAPTOP-VT749JAH","192.168.174.1","192.168.26.1"],"host":"127.0.0.1","forcedStart":false,"startTime":1742356194325}
+09:19:55.466 info host starting tools discovery and integration
+09:19:55.516 info host looking for tools to patch
+09:19:55.612 info host found 2 tool file(s) to patch
+09:19:55.630 info host patching c:\users\hp\desktop\drcode-main\drcode-main\frontend\node_modules\vite\bin\vite.js
+09:19:55.719 info host Host's startup and patch time: 1394 ms
+09:19:55.720 info host completed tools discovery and integration
+09:19:55.739 WARN host No clients connected
+09:20:14.266 info buildHook-27232 installing build hook for vite at c:\users\hp\desktop\drcode-main\drcode-main\frontend, node v20.10.0
+09:20:14.395 info host client connected: buildHook { address: '127.0.0.1', family: 'IPv4', port: 60333 }
+09:20:14.407 WARN host ✘ vite v6.2.2 is not yet supported in the Community edition of Console Ninja.
+09:20:14.407 WARN host We are working hard on it for you https://tinyurl.com/3h9mtwra.
+09:20:14.407 WARN host 
+09:20:14.407 WARN host Estimated release dates:
+09:20:14.407 WARN host   - Community users: around 14th May, 2025 (subject to team availability)
+09:20:14.407 WARN host   - PRO users:       priority access is available now
+09:43:34.997 info extension stopping host
+09:43:35.046 info host removing cache folder: f90c9a7141d460a0860c1e925dcbc685
+09:43:35.152 info buildHook-27232 client disconnected: 1006 
+09:43:35.164 info buildHook-27232 disconnected from host: 60333
+09:43:35.165 info buildHook-27232 disconnected from all hosts
+19:31:23.822 info extension stopping host
+19:31:24.586 info extension Console Ninja extension version: 1.0.406
+19:31:25.440 info host ------------ starting ------------
+19:31:25.526 info extension host process output: port:[60333]
+19:31:25.526 info extension 
+19:31:25.603 info host client connected: extension { address: '127.0.0.1', family: 'IPv4', port: 60333 }
+19:31:25.981 info host worker Starting Host Worker...
+19:31:26.491 info host starting host: {"extensionFolder":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406","runtimeHookFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\tracer.js","globalErrorHandlerFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\errorHandler.js","networkLoggingHandlerFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\networkLoggingHandler.js","filesToInstrument":[{"path":"c:\\users\\hp\\desktop\\drcode-main\\drcode-main\\frontend\\src\\app.jsx","reason":"search"},{"path":"c:\\Users\\Hp\\Desktop\\drcode-main\\drcode-main\\frontend\\src\\App.jsx","reason":"open"},{"path":"c:\\Users\\Hp\\Desktop\\drcode-main\\drcode-main\\backend\\app\\server.js","reason":"open"}],"debug":false,"config":{"dateTimeFormat":"HH:mm:ss.SSS","dateTimeDisplayMode":"Absolute","installBinToPath":true,"openLinksInEditor":true,"maxLogViewerEntries":15000,"showWelcomeMessageInTools":true,"fontSize":10,"autoClearLogViewerOnFileChanges":true,"outputMode":"Beside File","captureFunctions":false,"searchUrl":"https://www.google.com/search?q={query}","enableProFeatures":false,"toolsToAutoPatch":["vite","angular","jest","webpack","next.js","nest.js","cypress","http-server","serve","live-server","nuxt","remix","qwik","hydrogen","serverless","astro"],"showErrors":true,"showLogsOnlyFromOpenedFiles":false,"showLogsFromLogPointsOnly":false,"showLogsFromMultipleRunningToolsTogether":false,"predictiveLoggingEnabled":true,"allowConsoleLogToTriggerPredictions":false,"showNetworkRequests":true},"allowedHosts":["localhost","127.0.0.1","example.cypress.io","LAPTOP-VT749JAH","192.168.174.1","192.168.26.1","172.21.128.254"],"host":"127.0.0.1","forcedStart":false,"startTime":1742392884585}
+19:31:26.535 info host starting tools discovery and integration
+19:31:26.634 info host looking for tools to patch
+19:31:27.021 info host found 2 tool file(s) to patch
+19:31:27.040 info host patching c:\users\hp\desktop\drcode-main\drcode-main\frontend\node_modules\vite\bin\vite.js
+19:31:27.134 info host Host's startup and patch time: 2549 ms
+19:31:27.135 info host completed tools discovery and integration
+19:31:27.165 WARN host No clients connected
+19:31:58.134 info extension stopping host
+22:37:46.766 info extension stopping host
+22:37:47.268 info extension Console Ninja extension version: 1.0.406
+22:37:48.188 info host ------------ starting ------------
+22:37:48.249 info host removing cache folder: eaaacce66a8df62290c70244c018cd06
+22:37:48.291 info extension host process output: port:[60333]
+22:37:48.292 info extension 
+22:37:48.392 info host client connected: extension { address: '127.0.0.1', family: 'IPv4', port: 60333 }
+22:37:48.746 info host worker Starting Host Worker...
+22:37:49.087 info host starting host: {"extensionFolder":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406","runtimeHookFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\tracer.js","globalErrorHandlerFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\errorHandler.js","networkLoggingHandlerFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\networkLoggingHandler.js","filesToInstrument":[{"path":"c:\\users\\hp\\desktop\\drcode-main\\drcode-main\\frontend\\src\\app.jsx","reason":"search"},{"path":"c:\\Users\\Hp\\Desktop\\drcode-main\\drcode-main\\frontend\\src\\App.jsx","reason":"open"},{"path":"c:\\Users\\Hp\\Desktop\\drcode-main\\drcode-main\\backend\\app\\server.js","reason":"open"}],"debug":false,"config":{"dateTimeFormat":"HH:mm:ss.SSS","dateTimeDisplayMode":"Absolute","installBinToPath":true,"openLinksInEditor":true,"maxLogViewerEntries":15000,"showWelcomeMessageInTools":true,"fontSize":10,"autoClearLogViewerOnFileChanges":true,"outputMode":"Beside File","captureFunctions":false,"searchUrl":"https://www.google.com/search?q={query}","enableProFeatures":false,"toolsToAutoPatch":["vite","angular","jest","webpack","next.js","nest.js","cypress","http-server","serve","live-server","nuxt","remix","qwik","hydrogen","serverless","astro"],"showErrors":true,"showLogsOnlyFromOpenedFiles":false,"showLogsFromLogPointsOnly":false,"showLogsFromMultipleRunningToolsTogether":false,"predictiveLoggingEnabled":true,"allowConsoleLogToTriggerPredictions":false,"showNetworkRequests":true},"allowedHosts":["localhost","127.0.0.1","example.cypress.io","LAPTOP-VT749JAH","192.168.174.1","192.168.26.1","172.21.128.254"],"host":"127.0.0.1","forcedStart":false,"startTime":1742404067266}
+22:37:49.125 info host starting tools discovery and integration
+22:37:49.192 info host looking for tools to patch
+22:37:49.517 info host found 2 tool file(s) to patch
+22:37:49.525 info host patching c:\users\hp\desktop\drcode-main\drcode-main\frontend\node_modules\vite\bin\vite.js
+22:37:49.620 info host Host's startup and patch time: 2354 ms
+22:37:49.623 info host completed tools discovery and integration
+22:37:49.659 WARN host No clients connected
+22:38:36.035 info extension stopping host
+00:07:10.589 info extension stopping host
+00:07:11.135 info extension Console Ninja extension version: 1.0.406
+00:07:11.648 info host ------------ starting ------------
+00:07:11.687 info host removing cache folder: 0b0e7acfcd0824f428a1eda2d24643b9
+00:07:11.715 info extension host process output: port:[54250]
+00:07:11.716 info extension 
+00:07:11.750 info host client connected: extension { address: '127.0.0.1', family: 'IPv4', port: 54250 }
+00:07:12.046 info host worker Starting Host Worker...
+00:07:12.527 info host starting host: {"extensionFolder":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406","runtimeHookFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\tracer.js","globalErrorHandlerFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\errorHandler.js","networkLoggingHandlerFile":"c:\\Users\\Hp\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.406\\out\\runtimeHook\\networkLoggingHandler.js","filesToInstrument":[{"path":"c:\\users\\hp\\desktop\\dsa\\array1_assignment\\hello.js","reason":"search"},{"path":"c:\\users\\hp\\desktop\\dsa\\operator overloading\\unaryoverloading.cpp","autoLogPoints":[{"range":{"startLine":19,"endLine":19,"startColumn":0,"endColumn":0}}],"reason":"autoLogPoints"}],"debug":false,"config":{"dateTimeFormat":"HH:mm:ss.SSS","dateTimeDisplayMode":"Absolute","installBinToPath":true,"openLinksInEditor":true,"maxLogViewerEntries":15000,"showWelcomeMessageInTools":true,"fontSize":10,"autoClearLogViewerOnFileChanges":true,"outputMode":"Beside File","captureFunctions":false,"searchUrl":"https://www.google.com/search?q={query}","enableProFeatures":false,"toolsToAutoPatch":["vite","angular","jest","webpack","next.js","nest.js","cypress","http-server","serve","live-server","nuxt","remix","qwik","hydrogen","serverless","astro"],"showErrors":true,"showLogsOnlyFromOpenedFiles":false,"showLogsFromLogPointsOnly":false,"showLogsFromMultipleRunningToolsTogether":false,"predictiveLoggingEnabled":true,"allowConsoleLogToTriggerPredictions":false,"showNetworkRequests":true},"allowedHosts":["localhost","127.0.0.1","example.cypress.io","LAPTOP-VT749JAH","192.168.174.1","192.168.26.1","172.21.128.254"],"host":"127.0.0.1","forcedStart":false,"startTime":1742409431134}
+00:07:12.566 info host starting tools discovery and integration
+00:07:12.588 info host looking for tools to patch
+00:07:12.632 info host found 0 tool file(s) to patch
+00:07:12.660 info host completed tools discovery and integration
+00:28:29.901 info extension stopping host
+01:22:42.958 info extension stopping host
+01:22:43.038 info host removing cache folder: 4d251b0a65da7d60e4a2a93ad11f0ef6
+01:22:43.225 info extension client disconnected: 1006 
+01:54:33.290 info extension stopping host
+10:15:40.578 info extension stopping host
+10:34:01.398 info extension stopping host
+13:23:29.797 info extension stopping host
+18:42:01.990 info extension stopping host
+18:42:07.079 info extension stopping host
+18:44:47.603 info extension stopping host
+19:27:28.503 info extension stopping host
+20:09:47.726 info extension stopping host
+11:41:20.065 info extension stopping host
+17:30:05.515 info extension stopping host
+17:42:22.814 info extension stopping host
+00:49:28.507 info extension stopping host
+10:35:42.767 info extension stopping host
+23:49:52.364 info extension stopping host
+23:57:14.016 info extension stopping host
+15:58:31.784 info extension stopping host
+17:30:52.434 info extension stopping host
+17:37:55.021 info extension stopping host
+19:22:30.936 info extension stopping host
+00:52:47.649 info extension stopping host
+17:03:38.038 info extension stopping host
+19:48:17.350 info extension stopping host
+20:09:50.560 info extension stopping host
+10:13:35.338 info extension stopping host
+16:47:14.253 info extension stopping host
+20:02:28.106 info extension stopping host
+19:16:49.848 info uninstalling PATH

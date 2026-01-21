@@ -1,0 +1,20 @@
+[
+    {
+        "Type": "outputs",
+        "StartAddress": 3841,
+        "length": 1,
+        "Enable": "True",
+        "Buffer": 3,
+        "Access": "Write",
+        "Watchdog": "True"
+    },
+    {
+        "Type": "inputs",
+        "StartAddress": 4096,
+        "length": 1,
+        "Enable": "True",
+        "Buffer": 3,
+        "Access": "Read",
+        "Watchdog": "True"
+    }
+]

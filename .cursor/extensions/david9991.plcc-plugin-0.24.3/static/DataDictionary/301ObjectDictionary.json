@@ -1,0 +1,858 @@
+[
+    {
+        "Index": "1000",
+        "Object": "VAR",
+        "Name": "device type",
+        "Datatype": "UNSIGNED32",
+        "Access": "ro",
+        "Category": "Mandatory",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Access": "ro",
+                "PDOMapping": "No",
+                "valueRange": "",
+                "DefaultValue": ""
+            }
+        ]
+    },
+    {
+        "Index": "1001",
+        "Object": "VAR",
+        "Name": "error register",
+        "Datatype": "UNSIGNED8",
+        "Access": "ro",
+        "Category": "Mandatory",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "",
+                "DefaultValue": "NO"
+            }
+        ]
+    },
+    {
+        "Index": "1002",
+        "Object": "VAR",
+        "Name": "manufacturer status register",
+        "Datatype": "UNSIGNED32",
+        "Access": "ro",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "NO"
+            }
+        ]
+    },
+    {
+        "Index": "1003",
+        "Object": "ARRAY",
+        "Name": "pre-defined error field",
+        "Datatype": "UNSIGNED32",
+        "Access": "ro",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Number of errors",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "00h to FEh",
+                "DefaultValue": "00h"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Standard error field",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "00h"
+            }
+        ]
+    },
+    {
+        "Index": "1005",
+        "Object": "VAR",
+        "Name": "COB-ID SYNC",
+        "Datatype": "UNSIGNED32",
+        "Access": "rw",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "",
+                "DefaultValue": "0000 0080h or 8000 0080h"
+            }
+        ]
+    },
+    {
+        "Index": "1006",
+        "Object": "VAR",
+        "Name": "communication cycle period",
+        "Datatype": "UNSIGNED32",
+        "Access": "rw",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "0000 0000h"
+            }
+        ]
+    },
+    {
+        "Index": "1007",
+        "Object": "VAR",
+        "Name": "synchronous window length",
+        "Datatype": "UNSIGNED32",
+        "Access": "rw",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "0000 0000h"
+            }
+        ]
+    },
+    {
+        "Index": "1008",
+        "Object": "VAR",
+        "Name": "manufacturer device name",
+        "Datatype": "VIS-STRING",
+        "Access": "const",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Access": "const",
+                "PDOMapping": "NO",
+                "valueRange": "VISIBLE_STRING",
+                "DefaultValue": "Manufacturer-specific"
+            }
+        ]
+    },
+    {
+        "Index": "1009",
+        "Object": "VAR",
+        "Name": "manufacturer hardware version",
+        "Datatype": "VIS-STRING",
+        "Access": "const",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Access": "const",
+                "PDOMapping": "NO",
+                "valueRange": "VISIBLE_STRING",
+                "DefaultValue": "Manufacturer-specific"
+            }
+        ]
+    },
+    {
+        "Index": "100A",
+        "Object": "VAR",
+        "Name": "manufacturer software version",
+        "Datatype": "VIS-STRING",
+        "Access": "const",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Access": "const",
+                "PDOMapping": "NO",
+                "valueRange": "VISIBLE_STRING",
+                "DefaultValue": "Manufacturer-specific"
+            }
+        ]
+    },
+    {
+        "Index": "100C",
+        "Object": "VAR",
+        "Name": "guard time",
+        "Datatype": "UNSIGNED16",
+        "Access": "rw",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED16",
+                "DefaultValue": "0000h"
+            }
+        ]
+    },
+    {
+        "Index": "100D",
+        "Object": "VAR",
+        "Name": "life time factor",
+        "Datatype": "UNSIGNED8",
+        "Access": "rw",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "00h"
+            }
+        ]
+    },
+    {
+        "Index": "1010",
+        "Object": "ARRAY",
+        "Name": "store parameters",
+        "Datatype": "UNSIGNED32",
+        "Access": "rw",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "const",
+                "PDOMapping": "NO",
+                "valueRange": "01h to 7Fh",
+                "DefaultValue": "profile- or manufacturer-specific"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "save all parameters",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "",
+                "DefaultValue": "profile- or manufacturer specific"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "save communication parameters",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "",
+                "DefaultValue": "profile- or manufacturer-specific"
+            },
+            {
+                "SubIndex": "03",
+                "Description": "save application parameters",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "",
+                "DefaultValue": "profile- or manufacturer-specific"
+            },
+            {
+                "SubIndex": "04",
+                "Description": "save manufacturer defined parameters",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "",
+                "DefaultValue": "profile- or manufacturer-specific"
+            }
+        ]
+    },
+    {
+        "Index": "1011",
+        "Object": "ARRAY",
+        "Name": "restore default parameters",
+        "Datatype": "UNSIGNED32",
+        "Access": "rw",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "const",
+                "PDOMapping": "NO",
+                "valueRange": "01h to 7Fh",
+                "DefaultValue": "profile- or manufacturer-specific"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "restore all default parameters",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "",
+                "DefaultValue": "profile- or manufacturer specific"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "restore communication default parameters",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "",
+                "DefaultValue": "profile- or manufacturer-specific"
+            },
+            {
+                "SubIndex": "03",
+                "Description": "restore application default parameters",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "",
+                "DefaultValue": "profile- or manufacturer-specific"
+            },
+            {
+                "SubIndex": "04",
+                "Description": "restore manufacturer defined default parameters",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "",
+                "DefaultValue": "profile- or manufacturer-specific"
+            }
+        ]
+    },
+    {
+        "Index": "1012",
+        "Object": "VAR",
+        "Name": "COB-ID TIME",
+        "Datatype": "UNSIGNED32",
+        "Access": "rw",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "CAN-ID: 100h"
+            }
+        ]
+    },
+    {
+        "Index": "1013",
+        "Object": "VAR",
+        "Name": "high resolution time stamp",
+        "Datatype": "UNSIGNED32",
+        "Access": "rw",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "0"
+            }
+        ]
+    },
+    {
+        "Index": "1014",
+        "Object": "VAR",
+        "Name": "COB-ID EMCY",
+        "Datatype": "UNSIGNED32",
+        "Access": "rw",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Access": "rw",
+                "PDOMapping": "Optional",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "CAN-ID: 80h + Node-ID"
+            }
+        ]
+    },
+    {
+        "Index": "1015",
+        "Object": "VAR",
+        "Name": "Inhibit Time EMCY",
+        "Datatype": "UNSIGNED16",
+        "Access": "rw",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED16",
+                "DefaultValue": "0"
+            }
+        ]
+    },
+    {
+        "Index": "1016",
+        "Object": "ARRAY",
+        "Name": "Consumer heartbeat time",
+        "Datatype": "UNSIGNED32",
+        "Access": "rw",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "const",
+                "PDOMapping": "NO",
+                "valueRange": "01h to 7Fh",
+                "DefaultValue": "profile- or manufacturer-specific"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Consumer heartbeat time",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32 (Figure 62)",
+                "DefaultValue": "0000 0000h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Consumer heartbeat time",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32 (Figure 62)",
+                "DefaultValue": "0000 0000h"
+            }
+        ]
+    },
+    {
+        "Index": "1017",
+        "Object": "VAR",
+        "Name": "Producer heartbeat time",
+        "Datatype": "UNSIGNED16",
+        "Access": "rw",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED16",
+                "DefaultValue": "0 or profile-specific"
+            }
+        ]
+    },
+    {
+        "Index": "1018",
+        "Object": "RECORD",
+        "Name": "Identity Object",
+        "Datatype": "IDENTITY (23h)",
+        "Access": "ro",
+        "Category": "Mandatory",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "const",
+                "PDOMapping": "NO",
+                "valueRange": "01h to 04h",
+                "DefaultValue": "profile- or manufacturer-specific"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Vendor-ID",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "Assigned uniquely to manufacturers by CiA"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Product code",
+                "EntryCategory": "Optional",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "profile- or manufacturer-specific"
+            },
+            {
+                "SubIndex": "03",
+                "Description": "Revision number",
+                "EntryCategory": "Optional",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "Profile- or manufacturer-specific"
+            },
+            {
+                "SubIndex": "04",
+                "Description": "Serial number",
+                "EntryCategory": "Optional",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "Profile- or manufacturer-specific"
+            }
+        ]
+    },
+    {
+        "Index": "1019",
+        "Object": "VAR",
+        "Name": "Synchronous counter overflow value",
+        "Datatype": "UNSIGNED8",
+        "Access": "rw",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "0 or profile-specific"
+            }
+        ]
+    },
+    {
+        "Index": "1020",
+        "Object": "ARRAY",
+        "Name": "Verify configuration",
+        "Datatype": "UNSIGNED32",
+        "Access": "rw",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "const",
+                "PDOMapping": "NO",
+                "valueRange": "02h",
+                "DefaultValue": "02h"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Configuration date",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "Manufacturer-specific"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Configuration time",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED32",
+                "DefaultValue": "Manufacturer-specific"
+            }
+        ]
+    },
+    {
+        "Index": "1021",
+        "Object": "VAR",
+        "Name": "Store EDS",
+        "Datatype": "DOMAIN",
+        "Access": "rw",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "Manufacturer-specific",
+                "DefaultValue": "NO"
+            }
+        ]
+    },
+    {
+        "Index": "1022",
+        "Object": "VAR",
+        "Name": "Storage format",
+        "Datatype": "UNSIGNED8",
+        "Access": "rw",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "NO"
+            }
+        ]
+    },
+    {
+        "Index": "1023",
+        "Object": "RECORD",
+        "Name": "OS command",
+        "Datatype": "COMMANDPAR (25h)",
+        "Access": "rw",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "const",
+                "PDOMapping": "NO",
+                "valueRange": "03h",
+                "DefaultValue": "03h"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Command",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "NO",
+                "DefaultValue": "Manufacturer-specific"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Status",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "03",
+                "Description": "Reply",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "NO",
+                "DefaultValue": "NO"
+            }
+        ]
+    },
+    {
+        "Index": "1024",
+        "Object": "VAR",
+        "Name": "OS command mode",
+        "Datatype": "UNSIGNED8",
+        "Access": "wo",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Access": "wo",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "Manufacturer-specific"
+            }
+        ]
+    },
+    {
+        "Index": "1025",
+        "Object": "RECORD",
+        "Name": "OS debugger interface",
+        "Datatype": "OS DEBUG (24h)",
+        "Access": "rw",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "const",
+                "PDOMapping": "NO",
+                "valueRange": "03h",
+                "DefaultValue": "03h"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Command",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "NO",
+                "DefaultValue": "Manufacturer-specific"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Status",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "03",
+                "Description": "Reply",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "NO",
+                "DefaultValue": "NO"
+            }
+        ]
+    },
+    {
+        "Index": "1026",
+        "Object": "ARRAY",
+        "Name": "OS prompt",
+        "Datatype": "UNSIGNED8",
+        "Access": "rw",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "const",
+                "PDOMapping": "NO",
+                "valueRange": "02h to 03h",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "StdIn",
+                "EntryCategory": "Mandatory",
+                "Access": "wo",
+                "PDOMapping": "Optional",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "Manufacturer-specific"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "StdOut",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "03",
+                "Description": "StdErr",
+                "EntryCategory": "Optional",
+                "Access": "ro",
+                "PDOMapping": "Optional",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "NO"
+            }
+        ]
+    },
+    {
+        "Index": "1027",
+        "Object": "ARRAY",
+        "Name": "Module list",
+        "Datatype": "UNSIGNED16",
+        "Access": "rw",
+        "Category": "Conditional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "number of connected modules",
+                "EntryCategory": "Mandatory",
+                "Access": "const",
+                "PDOMapping": "NO",
+                "valueRange": "01h to FEh",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Module 1",
+                "EntryCategory": "Mandatory",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED16",
+                "DefaultValue": "NO"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Module 2",
+                "EntryCategory": "Optional",
+                "Access": "ro",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED16",
+                "DefaultValue": "NO"
+            }
+        ]
+    },
+    {
+        "Index": "1028",
+        "Object": "ARRAY",
+        "Name": "Emergency consumer",
+        "Datatype": "UNSIGNED32",
+        "Access": "rw",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "const",
+                "PDOMapping": "NO",
+                "valueRange": "01h to 7Fh",
+                "DefaultValue": "profile- or manufacturer-specific"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Emergency consumer 1",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "",
+                "DefaultValue": "profile- or manufacturer-specific"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "Emergency consumer 2 to 127",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "",
+                "DefaultValue": "profile- or manufacturer-specific"
+            }
+        ]
+    },
+    {
+        "Index": "1029",
+        "Object": "ARRAY",
+        "Name": "Error behavior",
+        "Datatype": "UNSIGNED8",
+        "Access": "rw",
+        "Category": "Optional",
+        "Entry": [
+            {
+                "SubIndex": "00",
+                "Description": "Highest sub-index supported",
+                "EntryCategory": "Mandatory",
+                "Access": "const",
+                "PDOMapping": "NO",
+                "valueRange": "01h to EFh",
+                "DefaultValue": "profile- or manufacturer-specific"
+            },
+            {
+                "SubIndex": "01",
+                "Description": "Communication error",
+                "EntryCategory": "Mandatory",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "UNSIGNED8",
+                "DefaultValue": "00h"
+            },
+            {
+                "SubIndex": "02",
+                "Description": "profile- or manufacturer-specific error",
+                "EntryCategory": "Optional",
+                "Access": "rw",
+                "PDOMapping": "NO",
+                "valueRange": "",
+                "DefaultValue": "profile- or manufacturer-specific"
+            }
+        ]
+    }
+]

@@ -1,0 +1,194 @@
+[
+    {
+        "Index": "1600",
+        "Name": "Channel 9",
+        "Entry": [
+            {
+                "Index": "7000",
+                "SubIndex": 1,
+                "Name": "Output",
+                "DataType": "BIT8"
+            }
+        ]
+    },
+    {
+        "Index": "1609",
+        "Name": "Channel 10",
+        "Entry": [
+            {
+                "Index": "7090",
+                "SubIndex": 1,
+                "Name": "Output",
+                "DataType": "BOOLEAN"
+            }
+        ]
+    },
+    {
+        "Index": "160A",
+        "Name": "Channel 11",
+        "Entry": [
+            {
+                "Index": "70A0",
+                "SubIndex": 1,
+                "Name": "Output",
+                "DataType": "BOOLEAN"
+            }
+        ]
+    },
+    {
+        "Index": "160B",
+        "Name": "Channel 12",
+        "Entry": [
+            {
+                "Index": "70B0",
+                "SubIndex": 1,
+                "Name": "Output",
+                "DataType": "BOOLEAN"
+            }
+        ]
+    },
+    {
+        "Index": "160C",
+        "Name": "Channel 13",
+        "Entry": [
+            {
+                "Index": "70C0",
+                "SubIndex": 1,
+                "Name": "Output",
+                "DataType": "BOOLEAN"
+            }
+        ]
+    },
+    {
+        "Index": "160D",
+        "Name": "Channel 14",
+        "Entry": [
+            {
+                "Index": "70D0",
+                "SubIndex": 1,
+                "Name": "Output",
+                "DataType": "BOOLEAN"
+            }
+        ]
+    },
+    {
+        "Index": "160E",
+        "Name": "Channel 14",
+        "Entry": [
+            {
+                "Index": "70E0",
+                "SubIndex": 1,
+                "Name": "Output",
+                "DataType": "BOOLEAN"
+            }
+        ]
+    },
+    {
+        "Index": "160F",
+        "Name": "Channel 14",
+        "Entry": [
+            {
+                "Index": "70F0",
+                "SubIndex": 1,
+                "Name": "Output",
+                "DataType": "BOOLEAN"
+            }
+        ]
+    },
+    {
+        "Index": "1A00",
+        "Name": "Channel 1",
+        "Entry": [
+            {
+                "Index": "6000",
+                "SubIndex": 1,
+                "Name": "Input",
+                "DataType": "BIT8"
+            }
+        ]
+    },
+    {
+        "Index": "1A01",
+        "Name": "Channel 2",
+        "Entry": [
+            {
+                "Index": "6010",
+                "SubIndex": 1,
+                "Name": "Input",
+                "DataType": "BOOLEAN"
+            }
+        ]
+    },
+    {
+        "Index": "1A02",
+        "Name": "Channel 3",
+        "Entry": [
+            {
+                "Index": "6020",
+                "SubIndex": 1,
+                "Name": "Input",
+                "DataType": "BOOLEAN"
+            }
+        ]
+    },
+    {
+        "Index": "1A03",
+        "Name": "Channel 4",
+        "Entry": [
+            {
+                "Index": "6030",
+                "SubIndex": 1,
+                "Name": "Input",
+                "DataType": "BOOLEAN"
+            }
+        ]
+    },
+    {
+        "Index": "1A04",
+        "Name": "Channel 5",
+        "Entry": [
+            {
+                "Index": "6040",
+                "SubIndex": 1,
+                "Name": "Input",
+                "DataType": "BOOLEAN"
+            }
+        ]
+    },
+    {
+        "Index": "1A05",
+        "Name": "Channel 6",
+        "Entry": [
+            {
+                "Index": "6050",
+                "SubIndex": 1,
+                "Name": "Input",
+                "DataType": "BOOLEAN"
+            }
+        ]
+    },
+    {
+        "Index": "1A06",
+        "Name": "Channel 7",
+        "Entry": [
+            {
+                "Index": "6060",
+                "SubIndex": 1,
+                "Name": "Input",
+                "DataType": "BOOLEAN"
+            }
+        ]
+    },
+    {
+        "Index": "1A07",
+        "Name": "Channel 8",
+        "Entry": [
+            {
+                "Index": "6070",
+                "SubIndex": 1,
+                "Name": "Input",
+                "DataType": "BOOLEAN"
+            }
+        ]
+    }
+]

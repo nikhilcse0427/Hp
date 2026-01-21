@@ -1,0 +1,162 @@
+[
+    {
+        "Transition": [
+            "IP"
+        ],
+        "BeforeSlave": 1,
+        "Comment": "read slave count",
+        "Requires": "cycle",
+        "Cmd": 7,
+        "Adp": 0,
+        "Ado": 304,
+        "Data": "0000",
+        "Retries": 0
+    },
+    {
+        "Transition": [
+            "IP"
+        ],
+        "BeforeSlave": 1,
+        "Comment": "read slave count",
+        "Requires": "cycle",
+        "Cmd": 7,
+        "Adp": 0,
+        "Ado": 304,
+        "Data": "0000",
+        "Retries": 0
+    },
+    {
+        "Transition": [
+            "IP"
+        ],
+        "BeforeSlave": 1,
+        "Comment": "enable ECAT IRQ",
+        "Requires": "cycle",
+        "Cmd": 8,
+        "Adp": 0,
+        "Ado": 512,
+        "Data": "0400",
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "IP"
+        ],
+        "BeforeSlave": 1,
+        "Comment": "clear configured addresses",
+        "Requires": "cycle",
+        "Cmd": 8,
+        "Adp": 0,
+        "Ado": 16,
+        "Data": "0000",
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "IP"
+        ],
+        "BeforeSlave": 1,
+        "Comment": "clear crc register",
+        "Requires": "cycle",
+        "Cmd": 8,
+        "Adp": 0,
+        "Ado": 768,
+        "Data": "0000000000000000",
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "IP",
+            "PI",
+            "BI",
+            "SI",
+            "OI"
+        ],
+        "BeforeSlave": 1,
+        "Comment": "clear fmmu",
+        "Requires": "cycle",
+        "Cmd": 8,
+        "Adp": 0,
+        "Ado": 1536,
+        "DataLength": 256,
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "IP"
+        ],
+        "BeforeSlave": 1,
+        "Comment": "clear sm",
+        "Requires": "cycle",
+        "Cmd": 8,
+        "Adp": 0,
+        "Ado": 2048,
+        "DataLength": 256,
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "IP"
+        ],
+        "BeforeSlave": 1,
+        "Comment": "clear dc system time",
+        "Requires": "cycle",
+        "Cmd": 8,
+        "Adp": 0,
+        "Ado": 2320,
+        "DataLength": 32,
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "IP"
+        ],
+        "BeforeSlave": 1,
+        "Comment": "clear dc cycle cfg",
+        "Requires": "cycle",
+        "Cmd": 8,
+        "Adp": 0,
+        "Ado": 2433,
+        "Data": "00",
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "IP"
+        ],
+        "BeforeSlave": 1,
+        "Comment": "reset dc speed",
+        "Requires": "cycle",
+        "Cmd": 8,
+        "Adp": 0,
+        "Ado": 2352,
+        "Data": "0010",
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "IP"
+        ],
+        "BeforeSlave": 1,
+        "Comment": "configure dc filter",
+        "Requires": "cycle",
+        "Cmd": 8,
+        "Adp": 0,
+        "Ado": 2356,
+        "Data": "000c",
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "IP"
+        ],
+        "BeforeSlave": 1,
+        "Comment": "en/disable second physical address",
+        "Requires": "cycle",
+        "Cmd": 8,
+        "Adp": 0,
+        "Ado": 259,
+        "Data": "00",
+        "Retries": 3
+    }
+]

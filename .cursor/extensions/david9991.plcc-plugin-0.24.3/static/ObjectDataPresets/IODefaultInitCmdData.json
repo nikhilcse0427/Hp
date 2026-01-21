@@ -1,0 +1,411 @@
+[
+    {
+        "Transition": [
+            "PI",
+            "BI",
+            "PI",
+            "PI"
+        ],
+        "Comment": "set device state to INIT",
+        "Requires": "cycle",
+        "Cmd": 2,
+        "Adp": 65531,
+        "Ado": "288",
+        "Data": "0100",
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "PI",
+            "BI",
+            "OI"
+        ],
+        "Comment": "check device state for INIT",
+        "Requires": "cycle",
+        "Cmd": 1,
+        "Adp": 65531,
+        "Ado": "304",
+        "Data": "0000",
+        "Retries": 3,
+        "Validate": {
+            "Data": "0100",
+            "DataMask": "0f00",
+            "Timeout": "5000"
+        }
+    },
+    {
+        "Transition": [
+            "BI"
+        ],
+        "Comment": "check device state for INIT",
+        "Requires": "cycle",
+        "Cmd": 1,
+        "Adp": 65531,
+        "Ado": "304",
+        "Data": "0000",
+        "Retries": 3,
+        "Validate": {
+            "Data": "0100",
+            "DataMask": "0f00",
+            "Timeout": "10000"
+        }
+    },
+    {
+        "Transition": [
+            "IP",
+            "IB"
+        ],
+        "Comment": "set device state to INIT",
+        "Requires": "cycle",
+        "Cmd": 2,
+        "Adp": 65531,
+        "Ado": "288",
+        "Data": "0100",
+        "Cnt": "1",
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "IP",
+            "IB"
+        ],
+        "Comment": "check device state for INIT",
+        "Requires": "cycle",
+        "Cmd": 1,
+        "Adp": 65531,
+        "Ado": "304",
+        "Data": "0000",
+        "Cnt": "1",
+        "Retries": 3,
+        "Validate": {
+            "Data": "0100",
+            "DataMask": "0f00",
+            "Timeout": "3000"
+        }
+    },
+    {
+        "Transition": [
+            "IP",
+            "IB"
+        ],
+        "Comment": "set physical address",
+        "Requires": "cycle",
+        "Cmd": 2,
+        "Adp": 65531,
+        "Ado": "16",
+        "Data": "ee03",
+        "Cnt": "1",
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "SP",
+            "OP"
+        ],
+        "Comment": "set device state to PREOP",
+        "Requires": "cycle",
+        "Cmd": 5,
+        "Adp": 1006,
+        "Ado": "288",
+        "Data": "0200",
+        "Cnt": "1",
+        "Retries": 300
+    },
+    {
+        "Transition": [
+            "OS"
+        ],
+        "Comment": "set device state to SAFEOP",
+        "Requires": "cycle",
+        "Cmd": 5,
+        "Adp": 1006,
+        "Ado": "288",
+        "Data": "0400",
+        "Cnt": "",
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "IP",
+            "SP",
+            "SI",
+            "OP",
+            "OI"
+        ],
+        "Comment": "clear sms",
+        "Cmd": 5,
+        "Adp": 1006,
+        "Ado": "2048",
+        "Data": "00000000000000000000000000000000",
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "OS"
+        ],
+        "Comment": "clear output sm",
+        "Cmd": 5,
+        "Adp": 1006,
+        "Ado": "2048",
+        "Data": "0000000000000000",
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "SO"
+        ],
+        "Comment": "set sm 0 (outputs)",
+        "Cmd": 5,
+        "Adp": 1006,
+        "Ado": "2048",
+        "Data": "010f010044000100",
+        "Cut": "1",
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "PS"
+        ],
+        "Comment": "set sm 1 (inputs)",
+        "Cmd": 5,
+        "Adp": 1006,
+        "Ado": "2056",
+        "Data": "0010010000000100",
+        "Cut": "1",
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "PS"
+        ],
+        "Comment": "set fmmu 0 (outputs)",
+        "Cmd": 5,
+        "Adp": 1006,
+        "Ado": "1536",
+        "Data": "0010010000000100",
+        "Cut": "1",
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "PS"
+        ],
+        "Comment": "set fmmu 1 (inputs)",
+        "Cmd": 5,
+        "Adp": 1006,
+        "Ado": "1552",
+        "Data": "64000001010000070010000101000000",
+        "Cut": "1",
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "SP",
+            "SI",
+            "OP",
+            "OI"
+        ],
+        "Comment": "clear fmmu 0",
+        "Requires": "cycle",
+        "Cmd": 5,
+        "Adp": 1006,
+        "Ado": "1536",
+        "Data": "00000000000000000000000000000000",
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "SP",
+            "SI",
+            "OP",
+            "OI"
+        ],
+        "Comment": "clear fmmu 1",
+        "Requires": "cycle",
+        "Cmd": 5,
+        "Adp": 1006,
+        "Ado": "1552",
+        "Data": "00000000000000000000000000000000",
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "IP",
+            "IB"
+        ],
+        "Comment": "assign EEPROM to PDI",
+        "Requires": "cycle",
+        "Cmd": 5,
+        "Adp": 1006,
+        "Ado": "1280",
+        "Data": "0100",
+        "Cnt": "1",
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "II"
+        ],
+        "Comment": "assign EEPROM back to ECAT",
+        "Requires": "cycle",
+        "Cmd": 2,
+        "Adp": 65531,
+        "Ado": "1280",
+        "Data": "00",
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "IP"
+        ],
+        "Comment": "set device state to PREOP",
+        "Requires": "cycle",
+        "Cmd": 5,
+        "Adp": 1006,
+        "Ado": "288",
+        "Data": "0200",
+        "Cnt": "1",
+        "Retries": 300
+    },
+    {
+        "Transition": [
+            "IP"
+        ],
+        "Comment": "check device state for PREOP",
+        "Requires": "cycle",
+        "Cmd": 4,
+        "Adp": 1006,
+        "Ado": "304",
+        "Data": "000000000000",
+        "Cnt": "1",
+        "Retries": 3,
+        "Validate": {
+            "Data": "020000000000",
+            "DataMask": "1f0000000000",
+            "Timeout": "3000"
+        }
+    },
+    {
+        "Transition": [
+            "IP",
+            "BI"
+        ],
+        "Comment": "assign EEPROM back to ECAT",
+        "Requires": "cycle",
+        "Cmd": 2,
+        "Adp": 65531,
+        "Ado": "1280",
+        "Data": "00",
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "IB"
+        ],
+        "Comment": "set device state to BOOT",
+        "Requires": "cycle",
+        "Cmd": 5,
+        "Adp": 1006,
+        "Ado": "288",
+        "Data": "0300",
+        "Cnt": "1",
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "IB"
+        ],
+        "Comment": "check device state for BOOT",
+        "Requires": "cycle",
+        "Cmd": 4,
+        "Adp": 1006,
+        "Ado": "304",
+        "Data": "000000000000",
+        "Cnt": "1",
+        "Retries": 3,
+        "Validate": {
+            "Data": "030000000000",
+            "DataMask": "1f0000000000",
+            "Timeout": "3000"
+        }
+    },
+    {
+        "Transition": [
+            "PS"
+        ],
+        "Comment": "set device state to SAFEOP",
+        "Requires": "cycle",
+        "Cmd": 5,
+        "Adp": 1006,
+        "Ado": "288",
+        "Data": "0400",
+        "Cnt": "1",
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "PS"
+        ],
+        "Comment": "check device state for SAFEOP",
+        "Requires": "cycle",
+        "Cmd": 4,
+        "Adp": 1006,
+        "Ado": "304",
+        "Data": "000000000000",
+        "Cnt": "1",
+        "Retries": 3,
+        "Validate": {
+            "Data": "040000000000",
+            "DataMask": "1f0000000000",
+            "Timeout": "1000"
+        }
+    },
+    {
+        "Transition": [
+            "OS"
+        ],
+        "Comment": "check device state for SAFEOP",
+        "Requires": "cycle",
+        "Cmd": 4,
+        "Adp": 1006,
+        "Ado": "304",
+        "Data": "000000000000",
+        "Retries": 3,
+        "Validate": {
+            "Data": "040000000000",
+            "DataMask": "0f0000000000",
+            "Timeout": "200"
+        }
+    },
+    {
+        "Transition": [
+            "SO"
+        ],
+        "Comment": "set device state to OP",
+        "Requires": "cycle",
+        "Cmd": 5,
+        "Adp": 1006,
+        "Ado": "288",
+        "Data": "0800",
+        "Cnt": "1",
+        "Retries": 3
+    },
+    {
+        "Transition": [
+            "SO"
+        ],
+        "Comment": "check device state for OP",
+        "Requires": "cycle",
+        "Cmd": 4,
+        "Adp": 1006,
+        "Ado": "304",
+        "Data": "000000000000",
+        "Cnt": "1",
+        "Retries": 3,
+        "Validate": {
+            "Data": "080000000000",
+            "DataMask": "1f0000000000",
+            "Timeout": "10000"
+        }
+    }
+]

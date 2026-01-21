@@ -1,0 +1,45 @@
+{
+    "Type": {
+        "prefix": [
+            "\"type\""
+        ],
+        "body": [
+            "\"type\": \"PLCC-IEC61131-3\""
+        ],
+        "description": "It has to be PLCC-IEC61131-3"
+    },
+    "Target": {
+        "prefix": [
+            "\"target\""
+        ],
+        "body": [
+            "\"target\": \"${1|r8,linux,linux-arm64,wasm|}\""
+        ],
+        "description": "Compile for target"
+    },
+    "Libraries": {
+        "prefix": [
+            "\"libs\""
+        ],
+        "body": [
+            "\"libs\": [\"${1|plcc_motion,oscat|}\"]"
+        ],
+        "description": "Import libraries"
+    },
+    "Mode": {
+        "prefix": [
+            "\"mode\""
+        ],
+        "body": [
+            "\"mode\": \"${1|app,lib|}\""
+        ]
+    },
+    "Configuration": {
+        "prefix": [
+            "\"configuration\""
+        ],
+        "body": [
+            "\"configuration\": \"\""
+        ]
+    }
+}
